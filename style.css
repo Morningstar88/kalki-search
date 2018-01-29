@@ -1,0 +1,228 @@
+/*
+
+TODO
+- Turn all links to teal
+- Make text bigger
+- Add minimal shadows
+- Make big fat search button
+- Move language selector to base
+- 
+-
+LATER
+- Media Queries for ipad
+- 
+-
+
+
+*/
+
+
+html, body, div, p, h1, h2 {font-family: "Raleway", "century gothic", "Lucida Sans", sans-serif; color: rgba(10,10,10,0.87),#a11;}
+body {background-color: #fff;}
+
+h1, h2, h3 {font-weight: bold; color: #087;}
+sup {font-weight: normal;}
+
+html, body, div, p  {font-size: 12px;}
+h1 {font-size: 20px; margin-top: 30px;}
+h2 {font-size: 16px; clear: left;}
+h3 {font-size: 14px; clear: left;}
+
+#sidebar {font-size: 10px; text-align: right; display: flex; padding: 0px 10px; 
+    float: right; margin-left: 15px; margin-right: 0px;}
+#sidebar p {margin-top: 0px; font-size: 10px;}
+#sidebar img {display: inline-block; float: none; padding-right: 0px;}
+#pole p {font-size: 14px;}
+#pole, #mainline, #json, #http, #sidebar, #error, #paging1, #paging2 
+    {display: none;}
+
+#term {width: 820px;height:50px;border-radius:5px;}
+#logo {padding: 15px; float: right;}
+#query {float: left;}
+
+img {vertical-align: top; float: left; margin-right: 10px; margin-bottom: 10px;}
+p.images img {float: none;}
+p.relatedSearches {clear: none;}
+#logo p, p.news, p.webPages, p.images {clear: left;}
+
+a[href="#"]:link {color: #008080 !important}
+a[href="#"]:visited {color: #00ff00;}
+
+h3 a:visited {color: #080 !important;}
+a{color:#330033;} 
+
+#logo{ position:relative; right: 0px; }
+#query{
+  margin-left:21%;
+  margin-top:1%;
+}
+#error{
+  margin-left:32%;
+}
+#paging1{
+  margin-left:32%;
+}
+#_noresults{
+  margin-left:20%;
+  font-size: 4.5em;
+  text-align:center;
+  color: rgba(10,10,10,0.87);
+  margin-left: 10%;
+  
+}
+#mainline{
+	margin-left:20%;
+}
+
+/*search button implementation*/
+.btn {
+    
+    background-color: #008080;
+    color: white;
+     margin-left:35%;
+  width:30%;
+  cursor:pointer;
+}
+
+.btn:hover {
+	background-color: rgba(10,200,100,0.6);
+    
+}
+
+
+.images{
+	display:none;
+}
+/* input searchbar default style */
+.form-control{
+	border-top-right-radius: 0px !important;
+	border-bottom-right-radius: 0px !important;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+/* input searchbox hover */
+.form-control:hover {
+  box-shadow: 0 1px 0px rgba(0,128,126,0.7), 0 1px 0px rgba(0,128,128,0.7);
+}
+
+/* fontawesome search icon */
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .fa {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+
+.right-addon .fa{ right: 0px;top:3px;}
+
+/* add padding  */
+
+.right-addon input { padding-right: 30px; }
+/* margin for checkout boxes */
+.custom-control{
+	margin-left:25px;
+}
+/* margin for safesearch */
+#safe{
+	margin-left:25px;
+	margin-top: 2%
+}
+/* adding container for each search item */
+.webPages{
+	
+	/*border: 1px solid rgba(12,99,200,0.1);*/
+	width:80%;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 8px;
+  font-size: 1.5em;
+  
+}
+/* onhover webpage container item */
+/*.webPages:hover{*/
+/*	box-shadow: 0 1px 1px #222, 0 1px 1px #333;*/
+/*}*/
+/* class for related searches at bottom */
+.related{
+
+}
+/* adding margin for paging info */
+#paging2{
+	margin-top:1%;
+  margin-left:32%;
+}
+/* adding margin for prev/next */
+.prev{
+	margin-left:3%;
+}
+#json{
+  visibility:hidden;
+}
+#http{
+ visibility:hidden;
+}
+
+.kalki-main {
+  position: relative;
+  font-size: 152px;
+  margin-left:25%;
+  
+  /*-webkit-background-clip: text;*/
+
+}
+
+.kalki-k {
+  color:rgba(0,102,102);
+}
+
+.kalki-a {
+  color:rgba(0,128,128);
+ 
+}
+
+.kalki-l {
+  color:rgba(102,178,178);
+}
+
+.kalki-second-k {
+  color:rgba(178,216,216);
+}
+
+.kalki-i {
+color:rgba(178,216,216);
+}
+
+
+input[type="text"]
+{
+    font-size:24px;
+}
+/*url element of the search result*/
+.top-right-link{
+  color:rgba(0, 137, 123, 1);
+  
+}
+
+/*container of just the text part of the search*/
+.text-content{
+   margin-left:2%;
+  font-size:1.5em;
+  margin-top: -2%
+}
+/*total container of each search result*/
+.searchresult{
+  /*font-size:0*/
+  margin-top:1%;
+}
+/*container for all the links on the first element of search result*/
+.base-link{
+  
+  
+}

@@ -1,0 +1,195 @@
+
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+
+
+
+    <!-- FROM THIS TUTOhttps://docs.microsoft.com/en-us/azure/cognitive-services/bing-web-search/tutorial-bing-web-search-single-page-app -->
+    <!DOCTYPE html>
+    <!-- saved from url=(0014)about:internet -->
+    <!-- the above Mark of the Web lets IE run this page in the Internet security zone,
+     avoiding the permission prompt for running active content such as JavaScript -->
+    <html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Bing Web Search API Demo</title>
+        <base target="_blank">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+
+    <body onload="document.forms.bing.query.focus();">
+        <form name="bing" onsubmit="this.offset.value = 0; return bingWebSearch(this.query.value, 
+    bingSearchOptions(this), getSubscriptionKey())">
+            <div id="logo">
+                <!-- logo block including search market/language -->
+                <!--     <I>api</I> -->
+                <p>
+                    <select name="where" class="form-control">
+                        <option value="es-AR">Argentina (Spanish)</option>
+                        <option value="en-AU">Australia (English)</option>
+                        <option value="de-AT">Austria (German)</option>
+                        <option value="nl-BE">Belgium (Dutch)</option>
+                        <option value="fr-BE">Belgium (French)</option>
+                        <option value="pt-BR">Brazil (Portuguese)</option>
+                        <option value="en-CA">Canada (English)</option>
+                        <option value="fr-CA">Canada (French)</option>
+                        <option value="es-CL">Chile (Spanish)</option>
+                        <option value="da-DK">Denmark (Danish)</option>
+                        <option value="fi-FI">Finland (Finnish)</option>
+                        <option value="fr-FR">France (French)</option>
+                        <option value="de-DE">Germany (German)</option>
+                        <option value="zh-HK">Hong Kong (Traditional Chinese)</option>
+                        <option value="en-IN">India (English)</option>
+                        <option value="en-ID">Indonesia (English)</option>
+                        <option value="it-IT">Italy (Italian)</option>
+                        <option value="ja-JP">Japan (Japanese)</option>
+                        <option value="ko-KR">Korea (Korean)</option>
+                        <option value="en-MY">Malaysia (English)</option>
+                        <option value="es-MX">Mexico (Spanish)</option>
+                        <option value="nl-NL">Netherlands (Dutch)</option>
+                        <option value="en-NZ">New Zealand (English)</option>
+                        <option value="no-NO">Norway (Norwegian)</option>
+                        <option value="zh-CN">People's Republic of China (Chinese)</option>
+                        <option value="pl-PL">Poland (Polish)</option>
+                        <option value="pt-PT">Portugal (Portuguese)</option>
+                        <option value="en-PH">Philippines (English)</option>
+                        <option value="ru-RU">Russia (Russian)</option>
+                        <option value="ar-SA">Saudi Arabia (Arabic)</option>
+                        <option value="en-ZA">South Africa (English)</option>
+                        <option value="es-ES">Spain (Spanish)</option>
+                        <option value="sv-SE">Sweden (Swedish)</option>
+                        <option value="fr-CH">Switzerland (French)</option>
+                        <option value="de-CH">Switzerland (German)</option>
+                        <option value="zh-TW">Taiwan (Traditional Chinese)</option>
+                        <option value="tr-TR">Turkey (Turkish)</option>
+                        <option value="en-GB">United Kingdom (English)</option>
+                        <option value="en-US" selected>United States (English)</option>
+                        <option value="es-US">United States (Spanish)</option>
+                    </select>
+                    <p>
+            </div>
+            <div id="query">
+                <!-- query controls including search field and options -->
+                <h1 class="kalki-main"><span class="kalki-k">K</span><span class="kalki-a">a</span><span class="kalki-l">l</span><span class="kalki-second-k">k</span><span class="kalki-i">i</span></h1>   
+  <div style="display:flex;margin-bottom:3%" >
+    <div class="inner-addon right-addon">
+    <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+    <input class="form-control" type="text" name="query" id="term" placeholder="✎" autocomplete=off>
+    </div>
+   
+      <br>  
+ 
+  </div>   
+  <div id="searchbtn"> <button class="btn btn-lg" id="search"><i class="fa fa-arrow-right" aria-hidden="true"></i></button></div>
+        <!--<label class="my-1 mr-2" for="inlineFormCustomSelectPref">Promote</label>-->
+    
+
+<div class="custom-control custom-checkbox my-1 mr-sm-2 checkbox checkbox-primary">
+    <input class="form-check-input " type="checkbox" name="what" id="webpages" value="webpages">
+        <label for="webpages">Net</label>
+    
+</div>
+    <div class="custom-control custom-checkbox my-1 mr-sm-2">
+    <input class="form-check-input" type=checkbox name="what" id="images" value="images">
+        <label for="images">Images</label>
+    </div>
+    <div class="custom-control custom-checkbox my-1 mr-sm-2">
+    <input class="form-check-input" type=checkbox name="what" id="videos" value="videos">
+        <label for="videos">Videos</label>
+    </div>
+    <div class="custom-control custom-checkbox my-1 mr-sm-2">
+<input class="form-check-input" type=checkbox name="what" id="news" value="news">
+        <label for="news">News</label>
+    </div>
+
+        &nbsp;&nbsp;&nbsp;From
+    <select name="when" class="custom-select my-1 mr-sm-2">
+        <option value="" selected>All time</option>
+        <option value="month">Past month</option>
+        <option value="week">Past week</option>
+        <option value="day">Last 24 hours</option>
+    </select>
+
+    &nbsp;&nbsp;&nbsp;<input  type="checkbox" id="safe" name="safe" value="on" checked><label for="safe">SafeSearch</label>
+
+    <!-- these hidden fields control paging -->
+    <input type=hidden name="count" value="25">
+    <input type=hidden name="offset" value="0">
+
+</form>
+
+</div>
+    <div id="error">
+    <h2>Error</h2>
+    <div id="_error">
+    </div>
+</div>
+
+<h2 style="margin-left:20%;margin-top:3%;"></h2>
+<div id="paging1">
+    <div id="_paging1"></div>
+</div>
+
+<div id="noresults">
+    <div id="_noresults"></div>
+</div>
+
+<div id="sidebar">
+    <div id="_sidebar"></div>
+</div>
+
+<div id="pole">
+    <div id="_pole"></div>
+</div>
+
+<div id="mainline">
+    <div id="_mainline"></div>
+</div>
+
+<div id="paging2">
+    <div id="_paging2"></div>
+</div>
+
+<div id="json">
+    <h3><a href="#" onclick="return toggleDisplay('_json')">JSON</a></h3>
+    <div id="_json" style="display: none"></div>
+</div>
+
+<div id="http">
+    <h3><a href="#" onclick="return toggleDisplay('_http')">HTTP</a></h3>
+    <div id="_http" style="display: none"></div>
+</div>
+  
+  
+  
+ <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+ 
+
+   
+  
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    
+    <script type="text/javascript" src="myscript.js"></script>
+</body>
+</html>
