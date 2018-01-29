@@ -1,5 +1,5 @@
 /*
-
+number of results
 TODO
 - Turn all links to teal
 - Make text bigger
@@ -75,19 +75,7 @@ a{color:#330033;}
 }
 
 /*search button implementation*/
-.btn {
-    
-    background-color: #008080;
-    color: white;
-     margin-left:35%;
-  width:30%;
-  cursor:pointer;
-}
 
-.btn:hover {
-	background-color: rgba(10,200,100,0.6);
-    
-}
 
 
 .images{
@@ -95,15 +83,16 @@ a{color:#330033;}
 }
 /* input searchbar default style */
 .form-control{
-	border-top-right-radius: 0px !important;
+
+  border-top-right-radius: 0px !important;
 	border-bottom-right-radius: 0px !important;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  transition: all 0.9s cubic-bezier(.25,.8,.25,1);
 }
 
 /* input searchbox hover */
 .form-control:hover {
-  box-shadow: 0 1px 0px rgba(0,128,126,0.7), 0 1px 0px rgba(0,128,128,0.7);
+  box-shadow: 0 1px 0px rgba(0,80,126,0.7), 0 1px 0px rgba(0,80,128,0.7);
 }
 
 /* fontawesome search icon */
@@ -173,10 +162,9 @@ a{color:#330033;}
   position: relative;
   font-size: 152px;
   margin-left:25%;
-  
-  /*-webkit-background-clip: text;*/
-
+ 
 }
+
 
 .kalki-k {
   color:rgba(0,102,102);
@@ -225,4 +213,81 @@ input[type="text"]
 .base-link{
   
   
+}
+.news-container{
+  
+}
+.main-url{
+  color:rgba(15,62,15,0.9);
+  font-size:20px;
+}
+
+.main-url:hover{
+  color:rgba(72,109,136,0.9);
+}
+
+.main-url:visited{
+  color:rgba(13,40,213,0.9);
+}
+.number-of-results
+/* how many results your search returned */{
+  font-size:1.7em;
+  font-style: normal !important;
+}
+.news-main-url{
+  font-size:1.5em;
+  position:relative;
+  margin-top:3%;
+}
+.news-image{
+  width:5%;
+  
+}
+.news-main-text{
+  font-size:1.3em;
+}
+.news-category{
+  font-size:15px;
+}
+
+
+
+.knockout {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/rsz_1fire-swirling-acrobat-800-600.jpg) 50% 5%;
+ position: relative;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: bold;
+  position: relative;
+  font-size: 202px;
+  margin-left:30%;
+  font-family: "century gothic";
+  width: 600px;
+  margin-top: 70px;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(60,1,60,0.5);
+ 
+}
+
+.btn {
+    background-color: rgba(2,2,2,0.85);
+    color: white;
+     margin-left:27%;
+  width:50%;
+  height: 40%;
+  cursor:pointer;
+    box-shadow: 2px 2px 2px rgba(1,1,1,0.7);
+}
+
+.btn:hover {
+	background-color: rgba(1,1,50,0.9);
+  /*background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/rsz_1fire-swirling-acrobat-800-600.jpg) 50% 50%;*/
+}
+
+.kalki-faq-link {
+  text-decoration: none;
+}
+
+.kalki-faq-link:hover {
+  text-decoration: none;
 }

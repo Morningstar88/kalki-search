@@ -133,7 +133,7 @@ searchItemRenderers = {
             }
             html.push("<p class='base-link'>" + links.join(" - ")+"</p>");
         }
-        html.push("<div class='searchresult'><p class='webPages'><a href='" + item.url + "'>" + item.name + "</a>");
+        html.push("<div class='searchresult'><p class='webPages'><a class='main-url' href='" + item.url + "'>" + item.name + "</a>");
         html.push(" <span class='top-right-link'>(" + getHost(item.displayUrl) + ")</span>"); 
         html.push("<p class='text-content'>" + item.snippet+"</p></div>");
         
@@ -142,25 +142,31 @@ searchItemRenderers = {
     // render news story
     news: function(item) {
         var html = [];
-        html.push("<p class='news'>");
+        //adding container for each news item
+        html.push("<p class='news-container'>");
         if (item.image) {
             width = 60;
             height = Math.round(width * item.image.thumbnail.height / item.image.thumbnail.width);
-            html.push("<img src='" +  item.image.thumbnail.contentUrl + 
+            //setting image class for each news image
+            html.push("<img class='news-image' src='" +  item.image.thumbnail.contentUrl + 
                 "&h=" + height + "&w=" + width + "' width=" + width + " height=" + height+  ">");
         }
-        html.push("<a href='" + item.url + "'>" + item.name + "</a>");
+        html.push("<a class='main-url' href='" + item.url + "'>" + item.name + "</a>");
         if (item.category) html.push(" - " + item.category);
-        if (item.contractualRules) {    // MUST display source attributions
+       
+       
+       
+        html.push("<br><p class='news-main-text'>" + item.description+"</p>");
+         html.push("<p> (" + getHost(item.url) + ")"); 
+         if (item.contractualRules) {    // MUST display source attributions
             html.push(" (");
             var rules = [];
             for (var i = 0; i < item.contractualRules.length; i++)
                 rules.push(item.contractualRules[i].text);
             html.push(rules.join(", "));
-            html.push(")");
+            html.push(")</p>");
         }
-        html.push(" (" + getHost(item.url) + ")"); 
-        html.push("<br>" + item.description);
+         
         return html.join("");
     },
     // render image result using thumbnail
@@ -410,7 +416,7 @@ function renderPagingLinks(results) {
     var bing = document.forms.bing;
     var offset = parseInt(bing.offset.value, 10);
     var count = parseInt(bing.count.value, 10);    
-    html.push("<p class='paging'><i>Results " + (offset + 1) + " to " + (offset + count));
+    html.push("<p class='paging'><i class='number-of-results'>Results " + (offset + 1) + " to " + (offset + count));
     html.push(" of about " + results.webPages.totalEstimatedMatches + ".</i> ");
     html.push("<a class='prev' href='#' onclick='return doPrevSearchPage()'>Prev</a> | ");
     html.push("<a class='next' href='#' onclick='return doNextSearchPage()'>Next</a>");
