@@ -22,7 +22,7 @@ Bing results are less inspiring than Google's and we want to fix this.
 
 Our first JS adventure will be an experiment to see if we can serve lyrics to users in the same way that Google does. 
 
-If you can do this, please go ahead.
+If you help add a lyric function, please go ahead.
 
 # API
 
