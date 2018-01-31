@@ -1,13 +1,13 @@
 # Kalki
 
-A search Engine inspired by [Ecosia](www.ecosia.org) Kalki is a prototype search engine that uses the Bing API. 
-Ecosia have proven that you can make a sustainable business with a search engine that gives 80% of its profits to tree planting. 
+A search Engine inspired by [Ecosia](www.ecosia.org). Kalki is a prototype search engine that uses the Bing API. 
+Ecosia have proven that you can make a sustainable business with a search engine that gives 80% of its profits to tree planting in Burkina Faso. 
 
 We welcome all contributions from front end programmers, beginners or advanced. Feel free to send a pull request.
 
-The name Kalki comes from the mythical Hindu warrior...
+The name [Kalki](https://en.wikipedia.org/wiki/Kalki) comes from the mythical Hindu warrior...
 
-#TODO LISTS
+# TODO LISTS
 
 This is a bare-bones readme with some simple TODO lists.
 
