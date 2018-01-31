@@ -34,3 +34,4 @@ https://azure.microsoft.com/en-us/services/cognitive-services/bing-news-search-a
 
 https://azure.microsoft.com/en-us/pricing/details/cognitive-services/search-api/web/
 
+.
