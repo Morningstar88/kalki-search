@@ -63,7 +63,7 @@ a{color:#330033;}
   margin-left:32%;
 }
 #_noresults{
-  margin-left:20%;
+  /*margin-left:20%;*/
   font-size: 4.5em;
   text-align:center;
   color: rgba(10,10,10,0.87);
@@ -116,7 +116,7 @@ a{color:#330033;}
 .right-addon input { padding-right: 30px; }
 /* margin for checkout boxes */
 .custom-control{
-	margin-left:25px;
+	/*margin-left:25px;*/
 }
 /* margin for safesearch */
 #safe{
@@ -126,7 +126,7 @@ a{color:#330033;}
 /* adding container for each search item */
 .webPages{
 	
-	/*border: 1px solid rgba(12,99,200,0.1);*/
+	/*border: 1px solid rgba(12,99,200,1);*/
 	width:80%;
   border-radius: 10px;
   margin: 10px;
@@ -149,7 +149,7 @@ a{color:#330033;}
 }
 /* adding margin for prev/next */
 .prev{
-	margin-left:3%;
+	/*margin-left:3%;*/
 }
 #json{
   visibility:hidden;
@@ -253,7 +253,7 @@ input[type="text"]
 
 
 .knockout {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/rsz_1fire-swirling-acrobat-800-600.jpg) 50% 5%;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-226589.jpeg) 5% 5%;
  position: relative;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -265,18 +265,19 @@ input[type="text"]
   width: 600px;
   margin-top: 70px;
   text-align: center;
-  text-shadow: 2px 2px 2px rgba(60,1,60,0.5);
+  text-shadow: 2px 2px 2px rgba(60,1,60,0.3);
  
 }
 
 .btn {
+  background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-226589.jpeg) 1% 1%;
     background-color: rgba(2,2,2,0.85);
     color: white;
-     margin-left:27%;
+     margin-left:20%;
   width:50%;
-  height: 40%;
+  height: 70%;
   cursor:pointer;
-    box-shadow: 2px 2px 2px rgba(1,1,1,0.7);
+    box-shadow: 1px 1px 1px rgba(1,1,1,0.7);
 }
 
 .btn:hover {
@@ -290,4 +291,15 @@ input[type="text"]
 
 .kalki-faq-link:hover {
   text-decoration: none;
+}
+
+@media only screen and (max-device-width: 1200px) {
+    .container {
+      /*background: red;*/
+        margin-left:-5%;
+         /*border: 5px solid red;*/
+    }
+    #_mainline{
+      margin-left:25%;
+    }
 }
