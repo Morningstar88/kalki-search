@@ -1,8 +1,10 @@
 // TODO JS
 //
-//
-//
-//Fapi
+// Weather
+// Working Weather on Click. https://codepen.io/fleeting/pen/Idsaj
+// Data for styling: https://codepen.io/fleeting/pen/wzvAE
+//API
+// https://codepen.io/Hartecode/pen/zdXeJo?editors=1010
 
 
 // cookie names for data we store
@@ -73,7 +75,7 @@ try {
 
 // get stored API subscription key, or prompt if it's not found
 function getSubscriptionKey() {
-    var key = "b982abe4112b47b9867f5500be5a017a"; //     var key = retrieveValue(API_KEY_COOKIE);
+    var key = "97e6dc350f2b4e6889ed1e50e579004a"; //     var key = retrieveValue(API_KEY_COOKIE);
     while (key.length !== 32) {
         key = prompt("Enter Bing Search API subscription key:", "").trim();
     }
@@ -450,3 +452,10 @@ function doPrevSearchPage() {
     alert("You're already at the beginning!");
     return false;
 }
+var $widget = $("[data-ks-widget]");
+var toggleCls = "open";
+
+$widget.on("click", "[data-widget-toggle]", function (e) {
+    e.preventDefault();
+    $widget.toggleClass(toggleCls);
+});
