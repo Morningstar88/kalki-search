@@ -270,11 +270,11 @@ input[type="text"]
 }
 
 .btn {
-  background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-226589.jpeg) 1% 1%;
+  background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-226589.jpeg) 100% 1%;
     background-color: rgba(2,2,2,0.85);
     color: white;
-     margin-left:20%;
-  width:63%;
+     margin-left:50% !important;
+  width:93%;
   height: 90%;
   cursor:pointer;
     box-shadow: 1px 1px 1px rgba(1,1,1,0.7);

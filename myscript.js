@@ -75,7 +75,7 @@ try {
 
 // get stored API subscription key, or prompt if it's not found
 function getSubscriptionKey() {
-    var key = "97e6dc350f2b4e6889ed1e50e579004a"; //     var key = retrieveValue(API_KEY_COOKIE);
+    var key = "07b3d7f2183d4296bc15da797e4d1545";//     var key = retrieveValue(API_KEY_COOKIE);
     while (key.length !== 32) {
         key = prompt("Enter Bing Search API subscription key:", "").trim();
     }
