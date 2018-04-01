@@ -22,13 +22,9 @@ var quotes = ["The best preparation for tomorrow is doing your best today.",
   "Plant your garden and decorate your own soul.",
   "It's supposed to be hard. If it were easy, everyone would do it.",
   "The more you weigh, the harder you are to kidnap.",
-  "Don't give up on your dreams, keep sleeping",
   "Life is short, smile while you have teeth",
   "Happiness is not having to set alarm for the next day",
-  "The automobile is only a novelty—a fad.",
-  "Television won't last. It's a flash in the pan.",
-  "Love for all, hatred for none",
-  "Change the world by being yourself",
+   "Change the world by being yourself",
   "Every moment is a fresh beginning",
   "Never regret anything that made you smile.",
   "Die with memories, not dreams.",
@@ -129,10 +125,10 @@ searchItemRenderers = {
         if ("deepLinks" in item) {
             var links = [];
             for (var i = 0; i < item.deepLinks.length; i++) {
-                links.push("<a href='" + item.deepLinks[i].url + "'>" +
+                links.push("<a class='deeplinkstext' href='" + item.deepLinks[i].url + "'>" +
                     item.deepLinks[i].name + "</a>");
             }
-            html.push("<p class='base-link'>" + links.join(" - ")+"</p>");
+            html.push("<p class='base-link'>" + links.join("  ")+"</p>");
         }
         html.push("<div class='searchresult'><p class='webPages'><a class='main-url' href='" + item.url + "'>" + item.name + "</a>");
         html.push(" <span class='top-right-link'>(" + getHost(item.displayUrl) + ")</span>"); 
@@ -419,8 +415,8 @@ function renderPagingLinks(results) {
     var count = parseInt(bing.count.value, 10);    
     html.push("<p class='paging'><i class='number-of-results'>Results " + (offset + 1) + " to " + (offset + count));
     html.push(" of about " + results.webPages.totalEstimatedMatches + ".</i> ");
-    html.push("<a class='prev' href='#' onclick='return doPrevSearchPage()'>Prev</a> | ");
-    html.push("<a class='next' href='#' onclick='return doNextSearchPage()'>Next</a>");
+    html.push("<a class='prev' href='#' onclick='return doPrevSearchPage()'>\<<<</a> | ");
+    html.push("<a class='next' href='#' onclick='return doNextSearchPage()'>>>></a>");
     return html.join("");
 }
 
@@ -459,3 +455,188 @@ $widget.on("click", "[data-widget-toggle]", function (e) {
     e.preventDefault();
     $widget.toggleClass(toggleCls);
 });
+
+// Beautiful Pics Feed
+
+
+
+var Settings = {
+  subreddit : 'TaiwanPics', subreddit2: 'earthporn',
+  after: 'o',
+  limit: 5
+};
+
+// let d = new Date; document.getElementById("date").innerHTML = d.toUTCString();;
+
+let $grid = $('#positive-technology')
+  .attr('data-loading-text','')
+  .packery({ itemSelector: '.item' })
+  .on('click','.overlay', function(){
+    $(this).parent().toggleClass('active').parent().packery('layout');
+  });
+
+function RedditJSON(){  
+  this.loadLink = function(){
+    Settings.isLoading = true;
+    return 'https://www.reddit.com/r/' + Settings.subreddit + '/.json?after=' 
+ + Settings.subreddit + '/.json?after=' 
+      + Settings.after + '&limit=' + Settings.limit;
+  };
+  
+  this.next = function(feed){
+    if (Settings.theLast) return;
+    if (feed.data.after == null) Settings.theLast = true;
+    let posts = feed.data.children;
+    for(let i = 0; i < posts.length; i++){
+      if(true){ // posts[i].data.post_hint == 'image' || posts[i].data.url.search('imgur')
+        if(!posts[i].data.hasOwnProperty('preview')) continue;
+        
+        let image = posts[i].data.preview.images[0];
+        let permalink = posts[i].data.url;
+        //added by kind redditor
+        
+        let elem    = $('<div>').addClass('item').css('background-image', 'url(' + image.source.url + ')');
+        let overlay = $('<a>').addClass('overlay').appendTo(elem);
+        let bar     = $('<div>').addClass('bar').appendTo(elem);
+        let link    = $('<a>').addClass('post').attr({target: '_blank', href: permalink}).appendTo(bar).text(posts[i].data.title);
+        let zoom    = $('<a>').addClass('zoom').attr({target: '_blank', href: image.source.url}).appendTo(bar).html('<i class="fa fa-camera-retro"></i>');
+        
+        if (posts[i].data.stickied){
+          elem.addClass('stickied');
+        }
+        
+        // if (image.source.width > image.source.height){
+        //   elem.addClass('wide');
+        // }
+        
+        // if(posts[i].data.created % 6 == 0){
+        //   elem.addClass('active');
+        // }
+        
+        $grid.append(elem).packery('appended', elem).packery('layout');
+      }
+    }
+    
+    Settings.after = feed.data.after;
+    Settings.isLoading = false;
+  }
+}
+
+var bob = new RedditJSON();
+
+function loadNext(){
+  if (Settings.isLoading){
+    setTimeout(loadNext,100);
+    return;
+  } else {
+    $.getJSON(bob.loadLink(), bob.next);
+  }
+}
+
+$(function() {
+  // return;
+  loadNext();
+  $(window).scroll(function () {    
+    console.log($(window).scrollTop() + ' ' + ($('body').height() - $(window).height() - 10));
+    if ($(window).scrollTop() >= $('body').height() - $(window).height() - 10 && !Settings.isLoading) {
+      loadNext();
+    }
+  });
+});
+
+/*Animation Start*/
+
+var mTitle = null;
+
+$("h3").each(function(index) {
+  mTitle = $(this).html();
+  $(this).html("");
+  
+  // $("h3").each(function(index) {
+  // mTitle = $(this).html();
+  // $(this).html("");
+
+  for (var i=0; i<mTitle.length; i++)
+  {
+    if (mTitle.charAt(i) == " ") {
+      $(this).append("<span class='jump'> &nbsp; </span>");
+    }
+    else {
+      $(this).append("<span class='jump'>" + mTitle.charAt(i) + "</span>");
+    }
+  }
+});
+
+
+var timing = 0;
+
+$('span.jump').each(function (index, element) {
+  timing = (index*50) + 800; //original 500
+  $(this).velocity ({
+    opacity: 1,
+    color: "#eee", //flash color
+    translateY: 0 //original -5
+  }, {duration: 600, delay: (timing), loop: true});
+  $(this).velocity ({
+    opacity: 1, //text opacity
+    color: "#004040", //text color
+    translateY: 0
+  }, {duration: 200, delay: (400-timing), loop: true});
+  
+  // button fade in fadeout effect. Took the id as a selector
+  $("null").velocity ({
+    opacity: 0,
+    translateY: 0 //original -580
+  }, {duration: 3000, delay: (timing), loop: true}); //original value 800
+  $("#back").velocity ({
+    opacity: 1,
+    translateY: 0
+  }, {duration: 200, delay: (400-timing), loop: true});
+});
+
+//Start copy to clip function
+ $(".copied").hide();
+ $(function() {
+       
+        $('.address_content').on('click', function () {
+              
+              //$(".copied").show();
+              //$( ".copied" ).hasClass('on');
+              if($( ".copied" ).hasClass('on')){
+                 $( ".copied" ).text("Already Copied :)");
+                 $( ".copied" ).fadeIn( "slow", function() {
+                   $( ".copied" ).fadeOut( "slow", function() {
+                       $( ".copied" ).addClass('on');
+                   });
+                 });
+              }else{
+                $( ".copied" ).fadeIn( "slow", function() {
+                   $( ".copied" ).fadeOut( "slow", function() {
+                       $( ".copied" ).addClass('on');
+                   });
+                });
+              SelectText($(this)[0]);
+              document.execCommand('copy');
+              }
+              
+        });
+
+        function SelectText(element) {
+            var doc = document, range, selection;
+            if (doc.body.createTextRange) {
+                range = document.body.createTextRange();
+                range.moveToElementText(element);
+                range.select();
+            } else if (window.getSelection) {
+                selection = window.getSelection();
+                range = document.createRange();
+                range.selectNodeContents(element);
+                selection.removeAllRanges();
+                selection.addRange(range);
+            }
+        }
+    });
+
+  // copied animation
+        // t.classList.add('copied');
+        // setTimeout(function() { t.classList.remove('copied'); }, 1500);

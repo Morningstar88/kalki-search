@@ -45,7 +45,7 @@ p.images img {float: none;}
 p.relatedSearches {clear: none;}
 #logo p, p.news, p.webPages, p.images {clear: left;}
 
-a[href="#"]:link {color: #008080 !important}
+a[href="#"]:link {color: #003030 !important}
 a[href="#"]:visited {color: #00ff00;}
 
 h3 a:visited {color: #080 !important;}
@@ -92,7 +92,7 @@ a{color:#330033;}
 
 /* input searchbox hover */
 .form-control:hover {
-  box-shadow: 0 1px 0px rgba(0,80,126,0.7), 0 1px 0px rgba(0,80,128,0.7);
+  box-shadow: 0px 1px 5px rgba(91,91,91,0.7);
 }
 
 /* fontawesome search icon */
@@ -150,7 +150,16 @@ a{color:#330033;}
 /* adding margin for prev/next */
 .prev{
 	/*margin-left:3%;*/
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(10,10,10,0.9) !important;
 }
+
+.next {font-size: 20px;
+  font-weight: bold;
+color: rgba(10,10,10,0.9) !important;
+}
+
 #json{
   visibility:hidden;
 }
@@ -193,16 +202,17 @@ input[type="text"]
     font-size:24px;
 }
 /*url element of the search result*/
-.top-right-link{
-  color:rgba(0, 137, 123, 1);
-  
-}
+.top-right-link {
+  color:rgba(0, 110, 110, 1);
+  font-weight: bold;
+ }
 
 /*container of just the text part of the search*/
 .text-content{
    margin-left:2%;
   font-size:1.5em;
-  margin-top: -2%
+  margin-top: -2%;
+  width: 900px;
 }
 /*total container of each search result*/
 .searchresult{
@@ -218,16 +228,25 @@ input[type="text"]
   
 }
 .main-url{
-  color:rgba(15,62,15,0.9);
+  color:rgba(1,4,100,1);
   font-size:20px;
+   font-weight: bold !important;
 }
 
+/*Rainbow Gradient*/
+
 .main-url:hover{
-  color:rgba(72,109,136,0.9);
+/*     background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-226589.jpeg) 50% 50%; */
+   background: red;
+        background: linear-gradient(to right, rgba(65,105,185,1), navy, rgba(0,50,50,0.9));
+   -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  color:rgba(0,80,80,0.9);
+
 }
 
 .main-url:visited{
-  color:rgba(13,40,213,0.9);
+  color:rgba(1,4,100,0.9);
 }
 .number-of-results
 /* how many results your search returned */{
@@ -269,21 +288,7 @@ input[type="text"]
  
 }
 
-.btn {
-  background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-226589.jpeg) 100% 1%;
-    background-color: rgba(2,2,2,0.85);
-    color: white;
-     margin-left:50% !important;
-  width:93%;
-  height: 90%;
-  cursor:pointer;
-    box-shadow: 1px 1px 1px rgba(1,1,1,0.7);
-}
 
-.btn:hover {
-	background-color: rgba(1,1,50,0.9);
-  /*background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/rsz_1fire-swirling-acrobat-800-600.jpg) 50% 50%;*/
-}
 
 .kalki-faq-link {
   text-decoration: none;
@@ -372,3 +377,166 @@ a img {
   margin-left: 2.5%;
 }
 
+.invisible-element {
+  visibility: hidden;
+}
+
+.btn {
+/*   background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-226589.jpeg) 100% 1% !important; */
+  background-color: rgba(2,2,2,0.85);
+  color: white;
+  margin: 0 auto;
+  display: block;
+  width:63%;
+  height: 90%;
+  cursor:pointer;
+  box-shadow: 1px 1px 1px rgba(1,1,1,0.7);
+   display: flex;
+  justify-content: center;
+  margin-left: 25%;
+}
+
+.btn:hover {
+	background-color: rgba(1,1,50,0.9);
+  /*background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/rsz_1fire-swirling-acrobat-800-600.jpg) 50% 50%;*/
+}
+
+/* CSS for beautiful pics. May include redundant code */
+
+
+.grid {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+}
+.grid::after {
+  display: block;
+  content: attr(data-loading-text);
+  text-align: center;
+  width: 100%;
+  padding: 20px 0;
+  position: absolute;
+  top: 100%;
+}
+.grid .item {
+  position: relative;
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center center;
+  cursor: pointer;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border-radius: 15px 3px 18px 3px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  box-shadow: inset 0 0 10px #000000;
+  -webkit-filter: saturate(1.5) contrast(107%);
+}
+.grid .item.wide {
+  width: 25%;
+}
+.grid .item.active {
+  width: 25%;
+  height: 600px;
+}
+.grid .item.wide.active {
+  width: 100%;
+  height: 650px;
+}
+.grid .item .bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  height: 200px;
+  padding: 0 4px;
+  z-index: 4;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.grid .item .bar a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 16px;
+  /* reduced font size */
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  overflow: hidden;
+}
+.grid .item .bar a:not(.zoom):before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: linear-gradient(transparent 175px, #888);
+}
+.grid .item .bar a.zoom {
+  position: absolute;
+  z-index: 3;
+  bottom: 8px;
+  right: 8px;
+}
+.grid .item .overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+}
+.grid .item .bar, .grid .item .overlay {
+  transition: transform 250ms;
+  transform: translateY(80px);
+  color: transparent;
+}
+.grid .item:hover .bar, .grid .item:hover .overlay {
+  transform: translateY(0);
+  color: inherit;
+  text-shadow: 2px 2px 2px #222;
+  background: linear-gradient(to top, #001, rgba(0, 0, 0, 0.4) 5px);
+  padding: 8px;
+}
+.grid .item.stickied .overlay {
+  background: linear-gradient(to top, #0f0, transparent 80px);
+}
+@media (max-width: 520px) {
+  .grid .item {
+    width: 100% !important;
+  }
+}
+
+.paypal-wrapper {
+  text-align: center;
+  background: red;
+  color: red;
+}
+
+.deeplinkstext {
+  
+  font-size: 1.4em;
+  color: rgba(10,10,10,0.87);
+  background: rgba(0,200,200,0.07);
+  padding:10px;
+  border-radius:4px;
+}
+
+.deeplinkstext:hover {
+  
+  font-size: 1.4em;
+  color: rgba(10,10,10,0.87);
+  background: rgba(0,230,230,0.08);
+  padding:10px;
+  border-radius:4px;
+}
