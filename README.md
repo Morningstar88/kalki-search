@@ -2,7 +2,7 @@
 
 ![Kalki logo](https://cdn-images-1.medium.com/max/1600/1*m-MpgJyeVgkj1oscfJ5-rA.png)
 
-### [Latest Version](https://codepen.io/Teeke/pen/dmwROB)
+### [Latest Version on Codepen](https://codepen.io/Teeke/pen/dmwROB)
 
 ----
 
