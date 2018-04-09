@@ -1,7 +1,7 @@
+<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,400,500,600,700,800|Open+Sans:200,300,400" rel="stylesheet">
+
 
 <!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
-
-
 
     <!-- FROM THIS TUTOhttps://docs.microsoft.com/en-us/azure/cognitive-services/bing-web-search/tutorial-bing-web-search-single-page-app -->
     <!DOCTYPE html>
@@ -12,22 +12,45 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Kalki Search</title>
+        <title>Kalki!!!  ¯\_(ツ)_/¯</title>
         <base target="_blank">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+                 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
     </head>
 
     <body onload="document.forms.bing.query.focus();">
-        <div class="container">
+      <div class="container">
+              </div>
+<!-- <div id="modal"> -->
+  
         <form name="bing" onsubmit="this.offset.value = 0; return bingWebSearch(this.query.value, 
     bingSearchOptions(this), getSubscriptionKey())">
             <div id="logo">
                 <!-- logo block including search market/language -->
                 <!--     <I>api</I> -->
-                <p>
+  
+              
+<!--               <button onclick="chooseATheme()">Choose A Theme</button> -->
+              
+                          <div id="choose-a-theme-button">CHOOSE A THEME</div>
+              <br>
+              <div id="choose-a-theme-menu">
+                <div class="choose-rose-theme">ROSE THEME</div>
+                <br><br>
+                <div class="choose-sky-theme">SKY THEME</div>
+                <br><br>
+                CLOSE MENU
+              </div>
+              
+    
+
+
+
+              
+                        <div class="invisible-element">
+              <p>
                     <select name="where" class="form-control">
                         <option value="es-AR">Argentina (Spanish)</option>
                         <option value="en-AU">Australia (English)</option>
@@ -66,12 +89,13 @@
                         <option value="de-CH">Switzerland (German)</option>
                         <option value="zh-TW">Taiwan (Traditional Chinese)</option>
                         <option value="tr-TR">Turkey (Turkish)</option>
-                        <option value="en-GB">United Kingdom (English)</option>
-                        <option value="en-US" selected>United States (English)</option>
+                        <option value="en-GB" selected>United Kingdom (English)</option>
+                        <option value="en-US">United States (English)</option>
                         <option value="es-US">United States (Spanish)</option>
                     </select>
                     <p>
             </div>
+          </div>
           
 <!--REMOVE PROJECT DISPLAY-->
 <!--<div class="embedded-project-div">-->
@@ -82,18 +106,31 @@
 <!--</div>-->
 <!--REMOVE PROJECT DISPLAY END-->
             
-          <div class="knockout"><a class="kalki-faq-link" href="http://mksht.crisnoble.com" rel="Like cool shit? visit my site">Kalki</a></div>
+          <div class="knockout"><a class="kalki-faq-link" href="www.google.com" rel="">Kalki</a></div>
+          <!-- Main button -->
+          <div id="geolocationaddress" class="underline--emoji" href="www.google.com" rel=""></div>
                     <div id="query">
                <div style="display:flex;margin-bottom:3%" >
     <div class="inner-addon right-addon">
     <i class="fa fa-search fa-2x" aria-hidden="true"></i>
     <input class="form-control" type="text" name="query" id="term" placeholder="✎" autocomplete=off>
     </div>
-   
+   </div> <!-- Added this to close query div. Not sure if it will upset any other elements.-->
       <br>  
- 
+
   </div>   
-  <div id="searchbtn"> <button class="btn btn-lg margin-btn" id="search"><i class="fa fa-arrow-right" aria-hidden="true"></i></button></div>
+                <div id="reveal-news">
+  <div id="modal-text">
+    <span id="hey-city">!</span> <span class="modal-news-title">  Here are some awesome  projects...</span>
+     <div id="app"></div>
+  
+
+    <br><br><br><br><br><br>
+  </div>
+</div>
+          <div class="invisible-element">
+  <div id="searchbtn invisible-element"> <button class="btn btn-lg margin-btn" id="search"><i class="fa fa-arrow-right" aria-hidden="true"></i></button></div>
+          </div>
        
 
 <div class="custom-control custom-checkbox my-1 mr-sm-2 checkbox checkbox-primary">
@@ -126,10 +163,7 @@
 
     <!-- these hidden fields control paging -->
     <input type=hidden name="count" value="25">
-    <input type=hidden name="offset" value="0">
-
-</form>
-
+    <input type=hidden name="offset" value="0"></form>
 </div>
     <div id="error">
     <h2>Error</h2>
@@ -172,21 +206,41 @@
     <h3><a href="#" onclick="return toggleDisplay('_http')">HTTP</a></h3>
     <div id="_http" style="display: none"></div>
 </div>
-  
-  
-  
- <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
- </div>
+<!--    <div class="grid" id="positive-technology"></div> -->
+      
+<!--       <a href="#jsModal" id="popup" class="jsModalTrigger">Trigger</a>
 
-   
+<div id="jsModal" class="modal">
+  <div class="modal__overlay jsOverlay"></div>
+  <div class="modal__container">
+    <p>Modal window text</p>
+    <button class="modal__close jsModalClose">&#10005;</button>
+  </div>
+</div> -->
+  
+  
+ <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+     
+      
+      <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.2/velocity.js"></script>
+      
+      <script src="https://unpkg.com/packery@2/dist/packery.pkgd.js"></script>
+      
     <script type="text/javascript" src="myscript.js"></script>
 
 </body>
 </html>
+
+
+
+
+
 
 
 

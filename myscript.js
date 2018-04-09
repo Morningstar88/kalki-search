@@ -9,56 +9,113 @@
 
 // cookie names for data we store
 // YOUR API KEY DOES NOT GO IN THIS CODE; don't paste it in.
-API_KEY_COOKIE   = "bing-search-api-key";
+API_KEY_COOKIE = "bing-search-api-key";
 CLIENT_ID_COOKIE = "bing-search-client-id";
 
+function chooseATheme() {
+    alert("I am an alert box!");
+}
 
+//JQUERY CHANGE https://codepen.io/raazxplorer/pen/WvyEvG
+
+				$(document).ready(function(){
+					$(".choose-rose-theme").on({
+
+						click: function(){
+							$(".main-url").css("color", "rgba(1,40,1,0.95)");
+                 $(".main-url").css("font-family", "Raleway");
+                 $(".top-right-link").css("color", "rgba(180,20,10,0.9)");
+               $(".deeplinkstext").css("font-family", "Raleway");
+              $(".deeplinkstext").css("font-family", "Raleway");
+               $(".text-content").css("font-family", "Open Sans");
+              $(".deeplinkstext").css("background", "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-226589.jpeg) 5% 1%");
+              $("#geolocationaddress").css("background", "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-534031.jpeg) 50% 50%");
+						}  
+					});
+				});
+
+$(document).ready(function(){
+					$(".choose-sky-theme").on({
+
+						click: function(){
+							$(".main-url").css("color", "rgba(200,130,115,0.7)");
+                 $(".main-url").css("font-family", "Raleway");
+                 $(".top-right-link").css("color", "rgba(18,20,200,0.9)");
+               $(".deeplinkstext").css("font-family", "Raleway");
+              $(".deeplinkstext").css("font-family", "Raleway");
+               $(".text-content").css("font-family", "Open Sans");
+              $(".deeplinkstext").css("background", "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-26110.jpg) 5% 1%");
+              $("#geolocationaddress").css("background", "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-116191.jpeg) 50% 50%");
+						}  
+					});
+				});
+				
+//main-url
+//number-of-results
+//top-right-link
+//text-content
+//deeplinkstext
+// .news-image {
+// /*   width: 5%; */
+// }
+// .news-main-text {
+//   font-size: 1.3em;
+// }
+// .news-category {
+//   font-size: 15px;
+// }
+            
+            
+         
+
+$(function(){
+    $("#choose-a-theme-menu").hide();
+    $("#choose-a-theme-button").on("click", function(){
+        $("#choose-a-theme-menu").show();
+    });
+});
+  // document.getElementById('choice-of-themes').innerHTML = "Choose a theme!";
 
 //quotes arry
 
 var quotes = ["The best preparation for tomorrow is doing your best today.",
-  "Better to run than curse the road.",
-  "Nothing in life is to be feared; it is only to be understood.",
-  "Plant your garden and decorate your own soul.",
-  "It's supposed to be hard. If it were easy, everyone would do it.",
-  "The more you weigh, the harder you are to kidnap.",
-  "Don't give up on your dreams, keep sleeping",
-  "Life is short, smile while you have teeth",
-  "Happiness is not having to set alarm for the next day",
-  "The automobile is only a novelty—a fad.",
-  "Television won't last. It's a flash in the pan.",
-  "Love for all, hatred for none",
-  "Change the world by being yourself",
-  "Every moment is a fresh beginning",
-  "Never regret anything that made you smile.",
-  "Die with memories, not dreams.",
-  "Aspire to inspire before we expire.",
-  "Everything you can imagine is real.",
-  "Simplicity is the ultimate sophistication.",
-  "Whatever you do, do it well",
-  "What we think, we become",
-  "All limitations are self-imposed.",
-  "Be so good they can’t ignore you.",
-  "Yesterday you said tomorrow. Just do it.",
-  "Reality is wrong, dreams are for real."
-  
-  ]
+    "Better to run than curse the road.",
+    "Nothing in life is to be feared; it is only to be understood.",
+    "Plant your garden and decorate your own soul.",
+    "It's supposed to be hard. If it were easy, everyone would do it.",
+    "The more you weigh, the harder you are to kidnap.",
+      "Happiness is not having to set alarm for the next day",
+    "Change the world by being yourself",
+    "Every moment is a fresh beginning",
+    "Never regret anything that made you smile.",
+    "Die with memories, not dreams.",
+    "Aspire to inspire before we expire.",
+    "Everything you can imagine is real.",
+    "Simplicity is the ultimate sophistication.",
+    "Whatever you do, do it well",
+    "What we think, we become",
+    "All limitations are self-imposed.",
+    "Be so good they can’t ignore you.",
+    "Yesterday you said tomorrow. Just do it.",
+    "Reality is wrong, dreams are for real."
+
+]
 
 // Various browsers differ in their support for persistent storage by local
 // HTML files (IE won't use localStorage, but Chrome won't use cookies). So
 // use localStorage if we can, otherwise use cookies.
 
 try {
-    localStorage.getItem;   // try localStorage
+    localStorage.getItem; // try localStorage
 
-    window.retrieveValue = function (name) {
+    window.retrieveValue = function(name) {
         return localStorage.getItem(name) || "";
     }
     window.storeValue = function(name, value) {
         localStorage.setItem(name, value);
     }
 } catch (e) {
-    window.retrieveValue = function (name) {
+    window.retrieveValue = function(name) {
         var cookies = document.cookie.split(";");
         for (var i = 0; i < cookies.length; i++) {
             var keyvalue = cookies[i].split("=");
@@ -66,7 +123,7 @@ try {
         }
         return "";
     }
-    window.storeValue = function (name, value) {
+    window.storeValue = function(name, value) {
         var expiry = new Date();
         expiry.setFullYear(expiry.getFullYear() + 1);
         document.cookie = name + "=" + value.trim() + "; expires=" + expiry.toUTCString();
@@ -75,7 +132,7 @@ try {
 
 // get stored API subscription key, or prompt if it's not found
 function getSubscriptionKey() {
-    var key = "07b3d7f2183d4296bc15da797e4d1545";//     var key = retrieveValue(API_KEY_COOKIE);
+    var key = "07b3d7f2183d4296bc15da797e4d1545"; //     var key = retrieveValue(API_KEY_COOKIE);
     while (key.length !== 32) {
         key = prompt("Enter Bing Search API subscription key:", "").trim();
     }
@@ -122,22 +179,22 @@ function hideDivs() {
 }
 
 // render functions for various types of search results
-searchItemRenderers = { 
+searchItemRenderers = {
     // render Web page result
     webPages: function(item) {
         var html = [];
         if ("deepLinks" in item) {
             var links = [];
             for (var i = 0; i < item.deepLinks.length; i++) {
-                links.push("<a href='" + item.deepLinks[i].url + "'>" +
+                links.push("<a class='deeplinkstext' href='" + item.deepLinks[i].url + "'>" +
                     item.deepLinks[i].name + "</a>");
             }
-            html.push("<p class='base-link'>" + links.join(" - ")+"</p>");
+            html.push("<p class='base-link'>" + links.join("  ") + "</p>");
         }
         html.push("<div class='searchresult'><p class='webPages'><a class='main-url' href='" + item.url + "'>" + item.name + "</a>");
-        html.push(" <span class='top-right-link'>(" + getHost(item.displayUrl) + ")</span>"); 
-        html.push("<p class='text-content'>" + item.snippet+"</p></div>");
-        
+        html.push(" <span class='top-right-link'>(" + getHost(item.displayUrl) + ")</span>");
+        html.push("<p class='text-content'>" + item.snippet + "</p></div>");
+
         return html.join("");
     },
     // render news story
@@ -149,17 +206,17 @@ searchItemRenderers = {
             width = 60;
             height = Math.round(width * item.image.thumbnail.height / item.image.thumbnail.width);
             //setting image class for each news image
-            html.push("<img class='news-image' src='" +  item.image.thumbnail.contentUrl + 
-                "&h=" + height + "&w=" + width + "' width=" + width + " height=" + height+  ">");
+            html.push("<img class='news-image' src='" + item.image.thumbnail.contentUrl +
+                "&h=" + height + "&w=" + width + "' width=" + width + " height=" + height + ">");
         }
         html.push("<a class='main-url' href='" + item.url + "'>" + item.name + "</a>");
         if (item.category) html.push(" - " + item.category);
-       
-       
-       
-        html.push("<br><p class='news-main-text'>" + item.description+"</p>");
-         html.push("<p> (" + getHost(item.url) + ")"); 
-         if (item.contractualRules) {    // MUST display source attributions
+
+
+
+        html.push("<br><p class='news-main-text'>" + item.description + "</p>");
+        html.push("<p> (" + getHost(item.url) + ")");
+        if (item.contractualRules) { // MUST display source attributions
             html.push(" (");
             var rules = [];
             for (var i = 0; i < item.contractualRules.length; i++)
@@ -167,7 +224,7 @@ searchItemRenderers = {
             html.push(rules.join(", "));
             html.push(")</p>");
         }
-         
+
         return html.join("");
     },
     // render image result using thumbnail
@@ -182,7 +239,7 @@ searchItemRenderers = {
         }
         html.push("<a href='" + item.hostPageUrl + "'>");
         var title = escapeQuotes(item.name) + "\n" + getHost(item.hostPageDisplayUrl);
-        html.push("<img src='"+ item.thumbnailUrl + "&h=" + height + "&w=" + width + 
+        html.push("<img src='" + item.thumbnailUrl + "&h=" + height + "&w=" + width +
             "' height=" + height + " width=" + width + " title='" + title + "' alt='" + title + "'>");
         html.push("</a>");
         return html.join("");
@@ -194,10 +251,10 @@ searchItemRenderers = {
     },
     relatedSearches: function(item, section, index, count) {
         var html = [];
-        if (section !== "sidebar") html.push(index === 0 ? "<h2>Related</h2>": " - "); 
+        if (section !== "sidebar") html.push(index === 0 ? "<h2>Related</h2>" : " - ");
         else html.push("<p class='relatedSearches'>");
-      //added related class to work on styling
-        html.push("<a class='related' href='#' onclick='return doRelatedSearch(&quot;" + 
+        //added related class to work on styling
+        html.push("<a class='related' href='#' onclick='return doRelatedSearch(&quot;" +
             escapeQuotes(item.text) + "&quot;)'>");
         html.push(item.displayText + "</a>");
         return html.join("");
@@ -214,15 +271,17 @@ function renderResultsItems(section, results) {
         // collection name has lowercase first letter while answerType has uppercase
         // e.g. `WebPages` rankingResult type is in the `webPages` top-level collection
         var type = item.answerType[0].toLowerCase() + item.answerType.slice(1);
+        
         // must have results of the given type AND a renderer for it
         if (type in results && type in searchItemRenderers) {
             var render = searchItemRenderers[type];
             // this ranking item refers to ONE result of the specified type
             if ("resultIndex" in item) {
                 html.push(render(results[type].value[item.resultIndex], section));
-            // this ranking item refers to ALL results of the specified type
+                // this ranking item refers to ALL results of the specified type
             } else {
                 var len = results[type].value.length;
+                
                 for (var j = 0; j < len; j++) {
                     html.push(render(results[type].value[j], section, j, len));
                 }
@@ -236,7 +295,7 @@ function renderResultsItems(section, results) {
 function renderSearchResults(results) {
 
     // if spelling was corrected, update search field
-    if (results.queryContext.alteredQuery) 
+    if (results.queryContext.alteredQuery)
         document.forms.bing.query.value = results.queryContext.alteredQuery;
 
     // add Prev / Next links with result count
@@ -245,7 +304,11 @@ function renderSearchResults(results) {
     showDiv("paging2", pagingLinks);
 
     // for each possible section, render the resuts from that section
-    for (section in {pole: 0, mainline: 0, sidebar: 0}) {
+    for (section in {
+            pole: 0,
+            mainline: 0,
+            sidebar: 0
+        }) {
         if (results.rankingResponse[section])
             showDiv(section, renderResultsItems(section, results));
     }
@@ -266,13 +329,13 @@ function handleOnLoad() {
     // try to parse JSON results
     try {
         if (json.length) jsobj = JSON.parse(json);
-    } catch(e) {
+    } catch (e) {
         renderErrorMessage("Invalid JSON response");
     }
 
     // show raw JSON and headers
     showDiv("json", preFormat(JSON.stringify(jsobj, null, 2)));
-    showDiv("http", preFormat("GET " + this.responseURL + "\n\nStatus: " + this.status + " " + 
+    showDiv("http", preFormat("GET " + this.responseURL + "\n\nStatus: " + this.status + " " +
         this.statusText + "\n" + this.getAllResponseHeaders()));
 
     // if HTTP response is 200 OK, try to render search results
@@ -321,9 +384,9 @@ function bingWebSearch(query, options, key) {
 
     // scroll to top of window
     window.scrollTo(0, 0);
-    if (!query.trim().length) return false;     // empty query, do nothing
+    if (!query.trim().length) return false; // empty query, do nothing
     //showing quotes before the ajax request is served or showing none if the resonse is empty
-    showDiv("noresults", quotes[Math.floor((Math.random())*34)]);
+    showDiv("noresults", quotes[Math.floor((Math.random()) * 34)]);
     hideDivs("pole", "mainline", "sidebar", "_json", "_headers", "paging1", "paging2", "error");
 
     var endpoint = "https://api.cognitive.microsoft.com/bing/v7.0/search";
@@ -333,8 +396,7 @@ function bingWebSearch(query, options, key) {
     // 
     try {
         request.open("GET", queryurl);
-    } 
-    catch (e) {
+    } catch (e) {
         renderErrorMessage("Bad request (invalid URL)\n" + queryurl);
         return false;
     }
@@ -371,7 +433,7 @@ function bingSearchOptions(form) {
     options.push("SafeSearch=" + (form.safe.checked ? "strict" : "off"));
     if (form.when.value.length) options.push("freshness=" + form.when.value);
     var what = [];
-    for (var i = 0; i < form.what.length; i++) 
+    for (var i = 0; i < form.what.length; i++)
         if (form.what[i].checked) what.push(form.what[i].value);
     if (what.length) {
         options.push("promote=" + what.join(","));
@@ -405,7 +467,7 @@ function doRelatedSearch(query) {
 
     var bing = document.forms.bing;
     bing.query.value = query;
-    bing.offset.value = 0; 
+    bing.offset.value = 0;
     return bingWebSearch(query, bingSearchOptions(bing), getSubscriptionKey());
 }
 
@@ -416,11 +478,11 @@ function renderPagingLinks(results) {
     var html = [];
     var bing = document.forms.bing;
     var offset = parseInt(bing.offset.value, 10);
-    var count = parseInt(bing.count.value, 10);    
+    var count = parseInt(bing.count.value, 10);
     html.push("<p class='paging'><i class='number-of-results'>Results " + (offset + 1) + " to " + (offset + count));
     html.push(" of about " + results.webPages.totalEstimatedMatches + ".</i> ");
-    html.push("<a class='prev' href='#' onclick='return doPrevSearchPage()'>Prev</a> | ");
-    html.push("<a class='next' href='#' onclick='return doNextSearchPage()'>Next</a>");
+    html.push("<a class='prev' href='#' onclick='return doPrevSearchPage()'>\<<<</a> | ");
+    html.push("<a class='next' href='#' onclick='return doNextSearchPage()'>>>></a>");
     return html.join("");
 }
 
@@ -455,7 +517,301 @@ function doPrevSearchPage() {
 var $widget = $("[data-ks-widget]");
 var toggleCls = "open";
 
-$widget.on("click", "[data-widget-toggle]", function (e) {
+$widget.on("click", "[data-widget-toggle]", function(e) {
     e.preventDefault();
     $widget.toggleClass(toggleCls);
 });
+
+// Beautiful Pics Feed
+
+
+
+var Settings = {
+    subreddit: 'UpliftingNews',
+    after: 'o',
+    limit: 3
+};
+
+// let d = new Date; document.getElementById("date").innerHTML = d.toUTCString();;
+
+let $grid = $('#positive-technology')
+    .attr('data-loading-text', '')
+    .packery({
+        itemSelector: '.item'
+    })
+    .on('click', '.overlay', function() {
+        $(this).parent().toggleClass('active').parent().packery('layout');
+    });
+
+function RedditJSON() {
+    this.loadLink = function() {
+        Settings.isLoading = true;
+        return 'https://www.reddit.com/r/' + Settings.subreddit + '/.json?after=' +
+            Settings.subreddit + '/.json?after=' +
+            Settings.after + '&limit=' + Settings.limit;
+    };
+
+    this.next = function(feed) {
+        if (Settings.theLast) return;
+        if (feed.data.after == null) Settings.theLast = true;
+        let posts = feed.data.children;
+        for (let i = 0; i < posts.length; i++) {
+            if (true) { // posts[i].data.post_hint == 'image' || posts[i].data.url.search('imgur')
+                if (!posts[i].data.hasOwnProperty('preview')) continue;
+
+                let image = posts[i].data.preview.images[0];
+                let permalink = posts[i].data.url;
+                //added by kind redditor
+
+              let elem = $('<div>').addClass('item').css('background-image', 'url(' + image.source.url + ')');
+                let overlay = $('<a>').addClass('overlay').appendTo(elem);
+                let bar = $('<div>').addClass('bar').appendTo(elem);
+                let link = $('<a>').addClass('post').attr({
+                    target: '_blank',
+                    href: permalink
+                }).appendTo(bar).text(posts[i].data.title);
+                let zoom = $('<a>').addClass('zoom').attr({
+                    target: '_blank',
+                    href: image.source.url
+                }).appendTo(bar).html('<i class="fa fa-camera-retro"></i>');
+
+                if (posts[i].data.stickied) {
+                    elem.addClass('stickied');
+                }
+
+                // if (image.source.width > image.source.height){
+                //   elem.addClass('wide');
+                // }
+
+                // if(posts[i].data.created % 6 == 0){
+                //   elem.addClass('active');
+                // }
+
+                $grid.append(elem).packery('appended', elem).packery('layout');
+            }
+        }
+
+        Settings.after = feed.data.after;
+        Settings.isLoading = false;
+    }
+}
+
+var bob = new RedditJSON();
+
+function loadNext() {
+    if (Settings.isLoading) {
+        setTimeout(loadNext, 100);
+        return;
+    } else {
+        $.getJSON(bob.loadLink(), bob.next);
+    }
+}
+
+$(function() {
+    // return;
+    loadNext();
+    $(window).scroll(function() {
+        console.log($(window).scrollTop() + ' ' + ($('body').height() - $(window).height() - 10));
+        if ($(window).scrollTop() >= $('body').height() - $(window).height() - 10 && !Settings.isLoading) {
+            loadNext();
+        }
+    });
+});
+
+/*Animation Start*/
+
+var mTitle = null;
+
+$("h3").each(function(index) {
+    mTitle = $(this).html();
+    $(this).html("");
+
+    // $("h3").each(function(index) {
+    // mTitle = $(this).html();
+    // $(this).html("");
+
+    for (var i = 0; i < mTitle.length; i++) {
+        if (mTitle.charAt(i) == " ") {
+            $(this).append("<span class='jump'> &nbsp; </span>");
+        } else {
+            $(this).append("<span class='jump'>" + mTitle.charAt(i) + "</span>");
+        }
+    }
+});
+
+
+var timing = 0;
+
+$('span.jump').each(function(index, element) {
+    timing = (index * 50) + 800; //original 500
+    $(this).velocity({
+        opacity: 1,
+        color: "#eee", //flash color
+        translateY: 0 //original -5
+    }, {
+        duration: 600,
+        delay: (timing),
+        loop: true
+    });
+    $(this).velocity({
+        opacity: 1, //text opacity
+        color: "#004040", //text color
+        translateY: 0
+    }, {
+        duration: 200,
+        delay: (400 - timing),
+        loop: true
+    });
+
+    // button fade in fadeout effect. Took the id as a selector
+    $("null").velocity({
+        opacity: 0,
+        translateY: 0 //original -580
+    }, {
+        duration: 3000,
+        delay: (timing),
+        loop: true
+    }); //original value 800
+    $("#back").velocity({
+        opacity: 1,
+        translateY: 0
+    }, {
+        duration: 200,
+        delay: (400 - timing),
+        loop: true
+    });
+});
+
+//Start copy to clip function
+$(".copied").hide();
+$(function() {
+
+    $('.address_content').on('click', function() {
+
+        //$(".copied").show();
+        //$( ".copied" ).hasClass('on');
+        if ($(".copied").hasClass('on')) {
+            $(".copied").text("Already Copied :)");
+            $(".copied").fadeIn("slow", function() {
+                $(".copied").fadeOut("slow", function() {
+                    $(".copied").addClass('on');
+                });
+            });
+        } else {
+            $(".copied").fadeIn("slow", function() {
+                $(".copied").fadeOut("slow", function() {
+                    $(".copied").addClass('on');
+                });
+            });
+            SelectText($(this)[0]);
+            document.execCommand('copy');
+        }
+
+    });
+
+    function SelectText(element) {
+        var doc = document,
+            range, selection;
+        if (doc.body.createTextRange) {
+            range = document.body.createTextRange();
+            range.moveToElementText(element);
+            range.select();
+        } else if (window.getSelection) {
+            selection = window.getSelection();
+            range = document.createRange();
+            range.selectNodeContents(element);
+            selection.removeAllRanges();
+            selection.addRange(range);
+        }
+    }
+});
+
+// copied animation
+// t.classList.add('copied');
+// setTimeout(function() { t.classList.remove('copied'); }, 1500);
+(function () {
+var geolocation_store = "";
+$.post("https://ipinfo.io", function(response) {
+    $("#ip").html("IP: " + response.ip);
+    $("#geolocationaddress").html("🌾 " + response.region + " 🐑");
+    geolocation_store = response.region;
+    $("#hey-city").html("Hey " + geolocation_store + " ! ");
+    toggleDisplay("modal");
+    console.log("running");
+}, "jsonp");
+
+// http://jsfiddle.net/cbtzzLjs/17/
+
+
+
+// $('#geolocationaddress').click(function() {
+//     $('#screen, #modal').show();
+// });
+
+// $('#screen, #modal').click(function() {
+//     $('#screen, #modal').hide();
+// });
+}())
+
+//Bing Image Search Docs
+// https://azure.microsoft.com/en-us/services/cognitive-services/bing-image-search-api/
+// https://docs.microsoft.com/en-us/azure/cognitive-services/bing-image-search/tutorial-bing-image-search-single-page-app
+// https://docs.microsoft.com/en-us/azure/cognitive-services/bing-image-search/tutorial-bing-image-search-single-page-app-source
+
+//New Minimal Modal Text:
+
+fetch('https://www.reddit.com/r/UpliftingNews.json')
+.then(res=>res.json())
+.then(res=>res.data.children)
+.then(res=>res.map(post=>({
+  author: post.data.author,
+  link: post.data.url,
+  img: post.data.thumbnail,
+  title: post.data.title
+})))
+.then(res=>res.map(render))
+.then(res=>console.log(res))
+
+
+
+const app = document.querySelector('#app');
+
+const render = post => {
+  const node = document.createElement('div');
+  node.innerHTML = `
+    <h2>
+  <img src="${post.img}" />
+<br>
+      <a class="modal-news" href="${post.link}">      
+         ${post.title} 
+      </a>
+   </h2>`;
+  app.appendChild(node);
+}
+
+$(function(){
+    $("#reveal-news").hide();
+    $("#geolocationaddress").on("click", function(){
+        $("#reveal-news").toggle();
+    });
+});
+
+// ANother Reddit News App
+
+// LOCAL STORAGE:
+
+//https://jsfiddle.net/james2doyle/jC9ms/
+
+// Buggy version store name: // // https://jsfiddle.net/yzrzje41/5/
+
+
+
+
+
+
+
+
+
+
+
+
