@@ -2,7 +2,9 @@
 
 ![Kalki logo](https://cdn-images-1.medium.com/max/1600/1*m-MpgJyeVgkj1oscfJ5-rA.png)
 
-Latest Version: https://codepen.io/Teeke/pen/dmwROB
+### Latest Version: https://codepen.io/Teeke/pen/dmwROB
+
+----
 
 Kalki is a prototype search engine that uses the Bing API. We're inspired by [Ecosia](www.ecosia.org). Ecosia give 80% of their profits to tree planting in Burkina Faso. [They've planted over 24 million trees](https://info.ecosia.org/).
 
