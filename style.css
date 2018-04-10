@@ -117,6 +117,7 @@ p.images {
   clear: left;
 }
 
+
 a[href="#"]:link {
   color: #003030 !important;
 }
@@ -171,7 +172,9 @@ a {
 
 /* input searchbox hover */
 .form-control:hover {
+
   box-shadow: 0px 1px 5px rgba(91, 91, 91, 0.7);
+
 }
 
 /* fontawesome search icon */
@@ -240,6 +243,7 @@ a {
   font-size: 20px;
   font-weight: bold;
   color: rgba(10, 10, 10, 0.9) !important;
+
 }
 
 #json {
@@ -288,6 +292,7 @@ input[type="text"] {
 .text-content {
   margin-left: 2%;
   font-size: 1.5em;
+
   margin-top: -2%;
   width: 900px;
 }
@@ -301,6 +306,7 @@ input[type="text"] {
 }
 .news-container {
 }
+
 .main-url {
   color: rgba(1, 4, 100, 1);
   font-size: 20px;
@@ -308,6 +314,7 @@ input[type="text"] {
 }
 
 /*Rainbow Gradient*/
+
 
 .main-url:hover {
   /*     background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-226589.jpeg) 50% 50%; */
@@ -325,6 +332,7 @@ input[type="text"] {
 
 .main-url:visited {
   color: rgba(1, 4, 100, 0.9);
+
 }
 .number-of-results {
   font-size: 2.3em;
@@ -359,10 +367,12 @@ input[type="text"] {
   width: 600px;
   margin-top: 70px;
   text-align: center;
+
   text-shadow: 2px 2px 2px rgba(60, 1, 60, 0.3);
 /*   filter: saturate(1.3); */
     -webkit-filter:grayscale(10%);
 }
+
 
 .kalki-faq-link {
   text-decoration: none;
@@ -454,6 +464,7 @@ a img {
 }
 
 .btn {
+
   /*   background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-226589.jpeg) 100% 1% !important; */
   background-color: rgba(2, 2, 2, 0.85);
   color: white;
@@ -464,16 +475,21 @@ a img {
   cursor: pointer;
   box-shadow: 1px 1px 1px rgba(1, 1, 1, 0.7);
   display: flex;
+
   justify-content: center;
   margin-left: 25%;
 }
 
 .btn:hover {
+
   background-color: rgba(1, 1, 50, 0.9);
+
   /*background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/rsz_1fire-swirling-acrobat-800-600.jpg) 50% 50%;*/
 }
 
 /* CSS for beautiful pics. May include redundant code */
+
+
 
 .grid {
   width: 100%;
@@ -499,6 +515,7 @@ a img {
   background-position: center center;
   cursor: pointer;
   overflow: hidden;
+
   color: teal;
   text-align: center;
   padding: 5px;
@@ -538,6 +555,7 @@ a img {
   font-size: 16px;
   /* reduced font size */
   line-height: 1.5;
+
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   text-align: center;
@@ -567,12 +585,14 @@ a img {
   bottom: 0;
   z-index: 3;
 }
+
 .grid .item .bar,
 .grid .item .overlay {
   transition: transform 250ms;
   transform: translateY(80px);
   color: transparent;
 }
+
 .grid .item:hover .bar,
 .grid .item:hover .overlay {
   transform: translateY(0);
@@ -832,5 +852,23 @@ https://codepen.io/KanatSahanov/pen/raGXXa
 
 #choice-of-themes {
   font-size: 6em;
+}
+
+=======
+  
+  font-size: 1.4em;
+  color: rgba(10,10,10,0.87);
+  background: rgba(0,200,200,0.07);
+  padding:10px;
+  border-radius:4px;
+}
+
+.deeplinkstext:hover {
+  
+  font-size: 1.4em;
+  color: rgba(10,10,10,0.87);
+  background: rgba(0,230,230,0.08);
+  padding:10px;
+  border-radius:4px;
 }
 

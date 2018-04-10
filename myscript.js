@@ -100,6 +100,7 @@ var quotes = ["The best preparation for tomorrow is doing your best today.",
     "Reality is wrong, dreams are for real."
 
 ]
+ 
 
 // Various browsers differ in their support for persistent storage by local
 // HTML files (IE won't use localStorage, but Chrome won't use cookies). So
@@ -189,7 +190,9 @@ searchItemRenderers = {
                 links.push("<a class='deeplinkstext' href='" + item.deepLinks[i].url + "'>" +
                     item.deepLinks[i].name + "</a>");
             }
+
             html.push("<p class='base-link'>" + links.join("  ") + "</p>");
+
         }
         html.push("<div class='searchresult'><p class='webPages'><a class='main-url' href='" + item.url + "'>" + item.name + "</a>");
         html.push(" <span class='top-right-link'>(" + getHost(item.displayUrl) + ")</span>");
@@ -527,6 +530,7 @@ $widget.on("click", "[data-widget-toggle]", function(e) {
 
 
 var Settings = {
+
     subreddit: 'UpliftingNews',
     after: 'o',
     limit: 3
@@ -641,7 +645,6 @@ $("h3").each(function(index) {
 
 
 var timing = 0;
-
 $('span.jump').each(function(index, element) {
     timing = (index * 50) + 800; //original 500
     $(this).velocity({
@@ -803,6 +806,7 @@ $(function(){
 //https://jsfiddle.net/james2doyle/jC9ms/
 
 // Buggy version store name: // // https://jsfiddle.net/yzrzje41/5/
+
 
 
 
