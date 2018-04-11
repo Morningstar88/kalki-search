@@ -100,7 +100,6 @@ var quotes = ["The best preparation for tomorrow is doing your best today.",
     "Reality is wrong, dreams are for real."
 
 ]
- 
 
 // Various browsers differ in their support for persistent storage by local
 // HTML files (IE won't use localStorage, but Chrome won't use cookies). So
@@ -190,9 +189,7 @@ searchItemRenderers = {
                 links.push("<a class='deeplinkstext' href='" + item.deepLinks[i].url + "'>" +
                     item.deepLinks[i].name + "</a>");
             }
-
             html.push("<p class='base-link'>" + links.join("  ") + "</p>");
-
         }
         html.push("<div class='searchresult'><p class='webPages'><a class='main-url' href='" + item.url + "'>" + item.name + "</a>");
         html.push(" <span class='top-right-link'>(" + getHost(item.displayUrl) + ")</span>");
@@ -527,90 +524,6 @@ $widget.on("click", "[data-widget-toggle]", function(e) {
 
 // Beautiful Pics Feed
 
-
-
-var Settings = {
-
-    subreddit: 'UpliftingNews',
-    after: 'o',
-    limit: 3
-};
-
-// let d = new Date; document.getElementById("date").innerHTML = d.toUTCString();;
-
-let $grid = $('#positive-technology')
-    .attr('data-loading-text', '')
-    .packery({
-        itemSelector: '.item'
-    })
-    .on('click', '.overlay', function() {
-        $(this).parent().toggleClass('active').parent().packery('layout');
-    });
-
-function RedditJSON() {
-    this.loadLink = function() {
-        Settings.isLoading = true;
-        return 'https://www.reddit.com/r/' + Settings.subreddit + '/.json?after=' +
-            Settings.subreddit + '/.json?after=' +
-            Settings.after + '&limit=' + Settings.limit;
-    };
-
-    this.next = function(feed) {
-        if (Settings.theLast) return;
-        if (feed.data.after == null) Settings.theLast = true;
-        let posts = feed.data.children;
-        for (let i = 0; i < posts.length; i++) {
-            if (true) { // posts[i].data.post_hint == 'image' || posts[i].data.url.search('imgur')
-                if (!posts[i].data.hasOwnProperty('preview')) continue;
-
-                let image = posts[i].data.preview.images[0];
-                let permalink = posts[i].data.url;
-                //added by kind redditor
-
-              let elem = $('<div>').addClass('item').css('background-image', 'url(' + image.source.url + ')');
-                let overlay = $('<a>').addClass('overlay').appendTo(elem);
-                let bar = $('<div>').addClass('bar').appendTo(elem);
-                let link = $('<a>').addClass('post').attr({
-                    target: '_blank',
-                    href: permalink
-                }).appendTo(bar).text(posts[i].data.title);
-                let zoom = $('<a>').addClass('zoom').attr({
-                    target: '_blank',
-                    href: image.source.url
-                }).appendTo(bar).html('<i class="fa fa-camera-retro"></i>');
-
-                if (posts[i].data.stickied) {
-                    elem.addClass('stickied');
-                }
-
-                // if (image.source.width > image.source.height){
-                //   elem.addClass('wide');
-                // }
-
-                // if(posts[i].data.created % 6 == 0){
-                //   elem.addClass('active');
-                // }
-
-                $grid.append(elem).packery('appended', elem).packery('layout');
-            }
-        }
-
-        Settings.after = feed.data.after;
-        Settings.isLoading = false;
-    }
-}
-
-var bob = new RedditJSON();
-
-function loadNext() {
-    if (Settings.isLoading) {
-        setTimeout(loadNext, 100);
-        return;
-    } else {
-        $.getJSON(bob.loadLink(), bob.next);
-    }
-}
-
 $(function() {
     // return;
     loadNext();
@@ -645,6 +558,7 @@ $("h3").each(function(index) {
 
 
 var timing = 0;
+
 $('span.jump').each(function(index, element) {
     timing = (index * 50) + 800; //original 500
     $(this).velocity({
@@ -736,7 +650,7 @@ $(function() {
 var geolocation_store = "";
 $.post("https://ipinfo.io", function(response) {
     $("#ip").html("IP: " + response.ip);
-    $("#geolocationaddress").html("🌾 " + response.region + " 🐑");
+    $("#geolocationaddress").html("Awesome " + response.region);
     geolocation_store = response.region;
     $("#hey-city").html("Hey " + geolocation_store + " ! ");
     toggleDisplay("modal");
@@ -806,16 +720,4 @@ $(function(){
 //https://jsfiddle.net/james2doyle/jC9ms/
 
 // Buggy version store name: // // https://jsfiddle.net/yzrzje41/5/
-
-
-
-
-
-
-
-
-
-
-
-
 
