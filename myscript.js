@@ -35,17 +35,20 @@ function chooseATheme() {
 				});
 
 $(document).ready(function(){
-					$(".choose-sky-theme").on({
+					$(".choose-black-and-white-theme").on({
 
 						click: function(){
-							$(".main-url").css("color", "rgba(200,130,115,0.7)");
+							$(".main-url").css("color", "rgba(2,1,1,0.9)");
                  $(".main-url").css("font-family", "Raleway");
-                 $(".top-right-link").css("color", "rgba(18,20,200,0.9)");
-               $(".deeplinkstext").css("font-family", "Raleway");
-              $(".deeplinkstext").css("font-family", "Raleway");
-               $(".text-content").css("font-family", "Open Sans");
-              $(".deeplinkstext").css("background", "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-26110.jpg) 5% 1%");
-              $("#geolocationaddress").css("background", "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-116191.jpeg) 50% 50%");
+                 $(".top-right-link").css("color", "rgba(1,2,2,0.7)");
+               $(".deeplinkstext").css("font-family", "Century Gothic");
+               $(".deeplinkstext").css("border", "1px solid rgba(2,2,2,0.8");
+               $(".text-content").css("font-family", "Century Gothic");
+              $(".deeplinkstext").css("background", "url() 5% 1%");
+             $(".deeplinkstext").css("color", "rgba(20,20,20,0.8)");
+              $("#geolocationaddress").css("background", "url() 50% 50%");
+              $(".knockout").css("background", "url()");
+                $(".knockout").css("color", "rgba(1,1,1,0.8) !important");
 						}  
 					});
 				});
@@ -281,7 +284,7 @@ function renderResultsItems(section, results) {
                 // this ranking item refers to ALL results of the specified type
             } else {
                 var len = results[type].value.length;
-                
+                len = type == 'images' && section == 'sidebar' ? 4 : len;
                 for (var j = 0; j < len; j++) {
                     html.push(render(results[type].value[j], section, j, len));
                 }
@@ -650,7 +653,7 @@ $(function() {
 var geolocation_store = "";
 $.post("https://ipinfo.io", function(response) {
     $("#ip").html("IP: " + response.ip);
-    $("#geolocationaddress").html("Awesome " + response.region);
+    $("#geolocationaddress").html("&#2631;" + response.region +"&#2631;");
     geolocation_store = response.region;
     $("#hey-city").html("Hey " + geolocation_store + " ! ");
     toggleDisplay("modal");
@@ -677,7 +680,7 @@ $.post("https://ipinfo.io", function(response) {
 
 //New Minimal Modal Text:
 
-fetch('https://www.reddit.com/r/UpliftingNews.json')
+fetch('https://www.reddit.com/r/KalkiTaiwan.json')
 .then(res=>res.json())
 .then(res=>res.data.children)
 .then(res=>res.map(post=>({
