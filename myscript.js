@@ -20,36 +20,65 @@ function chooseATheme() {
 
 				$(document).ready(function(){
 					$(".choose-rose-theme").on({
-
+// renamed orange theme.
 						click: function(){
-							$(".main-url").css("color", "rgba(1,40,1,0.95)");
-                 $(".main-url").css("font-family", "Raleway");
-                 $(".top-right-link").css("color", "rgba(180,20,10,0.9)");
-               $(".deeplinkstext").css("font-family", "Raleway");
-              $(".deeplinkstext").css("font-family", "Raleway");
+							$(".main-url").css("color", "rgba(1,4,1,0.95)");
+                 $(".main-url").css("font-family", "Lucida Sans Unicode");
+                 $(".top-right-link").css("color", "rgba(70,0,14,1)");
+                          $(".deeplinkstext").css("font-family", "Century Gothic");
                $(".text-content").css("font-family", "Open Sans");
-              $(".deeplinkstext").css("background", "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-226589.jpeg) 5% 1%");
-              $("#geolocationaddress").css("background", "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-534031.jpeg) 50% 50%");
+              $(".deeplinkstext").css("background", "rgba(170,50,30,1)");
+                   $(".deeplinkstext").css("color", "rgba(255,255,255,0.95)");
+             // $("#geolocationaddress").css("background", "linear-gradient(to right, rgba(0,0,0,0.9), rgba(30,0,0,0.9))");
+            //       $("#geolocationaddress").css("color", "linear-gradient(to right, rgba(200,100,0,0.9), rgba(220,80,0,0.9))");
+                   $(".knockout").css("color", "white");
+                      $(".knockout").css({"background": "url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-226589.jpeg') 5% 5%", "-webkit-text-fill-color":"transparent", "-webkit-background-clip": "text"});
+                  //This works to hide an element    $(".knockout").css("visibility", "hidden");
 						}  
 					});
 				});
+
+// JQUERY HOVER STATE https://stackoverflow.com/questions/21051440/how-to-define-the-css-hover-state-in-a-jquery-selector
 
 $(document).ready(function(){
 					$(".choose-black-and-white-theme").on({
 
 						click: function(){
 							$(".main-url").css("color", "rgba(2,1,1,0.9)");
-                 $(".main-url").css("font-family", "Raleway");
+                 $(".main-url").css("font-family", "Century Gothic");
                  $(".top-right-link").css("color", "rgba(1,2,2,0.7)");
                $(".deeplinkstext").css("font-family", "Century Gothic");
                $(".deeplinkstext").css("border", "1px solid rgba(2,2,2,0.8");
                $(".text-content").css("font-family", "Century Gothic");
               $(".deeplinkstext").css("background", "url() 5% 1%");
              $(".deeplinkstext").css("color", "rgba(20,20,20,0.8)");
-              $("#geolocationaddress").css("background", "url() 50% 50%");
-              $(".knockout").css("background", "url()");
-                $(".knockout").css("color", "rgba(1,1,1,0.8) !important");
+            //  $("#geolocationaddress").css("background", "url() 50% 50%");
+            //   $(".knockout").css("background", "url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/black-and-white-trees-winter-branches%20(1).jpg')");
+            //     $(".knockout").css("color", "rgba(1,1,1,1) !important");
 						}  
+					});
+				});
+				
+				$(document).ready(function(){
+					$(".choose-ascii-hacker-theme").on({
+
+						click: function(){
+							$(".main-url").css("color", "rgba(2,1,1,0.9)");
+                 $(".main-url").css("font-family", "Courier New");
+                 $(".top-right-link").css("color", "rgba(1,2,2,0.7)");
+                     $(".top-right-link").css("font-family", "Courier New");
+                       $(".top-right-link").css("letter-spacing", "1px");
+               $(".deeplinkstext").css("font-family", "Courier New");
+               $(".deeplinkstext").css("border", "1px solid rgba(2,2,2,0.8");
+               $(".text-content").css("font-family", "Courier New");
+              $(".deeplinkstext").css("background", "url() 5% 1%");
+             $(".deeplinkstext").css("color", "rgba(20,20,20,0.8)");
+               $(".deeplinkstext").css("border", "1px rgba(20,20,20,0.9)");
+              $("#geolocationaddress").css("background", "white");
+                $("#geolocationaddress").css("color", "rgba(20,20,20,0.9)");
+                  $("#geolocationaddress").css("font-family", "Helvetica");
+                        $(".knockout").css({"font-family": "Helvetica", "font-size": "202px", "-webkit-text-fill-color":"rgba(10,10,10,0.9)", "background": "none"});
+                 		}  
 					});
 				});
 				
