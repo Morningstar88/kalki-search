@@ -626,20 +626,58 @@ a img {
 
 .deeplinkstext {
   display: inline-block;
-  font-family: Raleway;
+  font-family: "Century Gothic";
   font-size: 1.7em;
   font-weight: bold;
-  color: rgba(255, 255, 255, 0.87);
-  background: rgba(70, 0, 125, 0.9);
-  background:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-534031.jpeg");
+  color: rgba(255, 255, 255, 1);
+  /*background: rgba(70, 0, 125, 0.9);*/
+  /*background:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-534031.jpeg");*/
   padding: 15px;
   border-radius: 4px;
   text-decoration: none;
   margin-bottom: 10px;
   margin-right: 7px;
-  box-shadow: 4px 4px 4px rgba(100, 100, 100, 0.5);
-  opacity:(0.2);
+  box-shadow: 3px 3px 3px rgba(100, 100, 100, 0.5);
+  /*opacity:(0.2);*/
 }
+
+.deeplinkstext:nth-child(5n+0) {
+  background-color: rgba(19,122,99,1);
+}
+
+.deeplinkstext:nth-child(5n+1) {
+  background-color: rgba(36,251,202,1);
+}
+
+.deeplinkstext:nth-child(5n+2) {
+  background-color: rgba(71,255,204,1);
+}
+
+.deeplinkstext:nth-child(5n+3) {
+  background-color: rgba(66,255,193,1);
+}
+
+.deeplinkstext:nth-child(5n+4) {
+  background-color: rgba(90,200,180,1);
+}
+
+.deeplinkstext:nth-child(5n+5) {
+  background-color: rgba(79,150,145,1);
+}
+
+.deeplinkstext:nth-child(5n+6) {
+  background-color: rgba(60,185,140,1);
+}
+
+.deeplinkstext:nth-child(5n+7) {
+  background-color: rgba(171,255,227,1);
+}
+
+
+
+
+
+
 
 .deeplinkstext:hover {
   /*   font-size: 1.4em;
