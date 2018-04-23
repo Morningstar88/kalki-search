@@ -295,7 +295,7 @@ input[type="text"] {
 /*container of just the text part of the search*/
 .text-content {
   margin-left: 2%;
-  font-size: 1.5em;
+  font-size: 1.7em;
   margin-top: -2%;
   width: 900px;
 }
@@ -310,8 +310,8 @@ input[type="text"] {
 .news-container {
 }
 .main-url {
-  color: rgba(1, 4, 100, 1);
-  font-size: 20px;
+  color: rgba(0, 0, 51, 0.9);
+  font-size: 1.4em !important;
   font-weight: bold !important;
 }
 
@@ -319,27 +319,22 @@ input[type="text"] {
 
 .main-url:hover {
   /*     background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-226589.jpeg) 50% 50%; */
-  background: red;
   background: linear-gradient(
     to right,
-    rgba(65, 105, 185, 1),
-    navy,
-    rgba(0, 50, 50, 0.9)
+    rgba(104, 134, 165, 1),
+    rgba(100, 114, 155, 0.9)
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  color: rgba(0, 80, 80, 0.9);
+  /*color: rgba(0, 80, 80, 0.9);*/
 }
 
 .main-url:visited {
   color: rgba(1, 4, 100, 0.9);
 }
-.number-of-results {
-  font-size: 2.3em;
-  font-style: normal !important;
-}
+
 .news-main-url {
-  font-size: 1.5em;
+  font-size: 2em;
   position: relative;
   margin-top: 3%;
 }
@@ -347,8 +342,14 @@ input[type="text"] {
 /*   width: 5%; */
 }
 .news-main-text {
-  font-size: 1.3em;
+  font-size: 1.8em;
 }
+
+.number-of-results {
+  font-size: 2.3em;
+  font-style: normal !important;
+}
+
 .news-category {
   font-size: 15px;
 }
@@ -370,10 +371,26 @@ input[type="text"] {
   width: 600px;
   margin-top: 70px;
   text-align: center;
-  text-shadow: 2px 2px 2px rgba(60, 1, 60, 0.3);
+  /*text-shadow: 2px 2px 2px rgba(60, 1, 60, 0.3);*/
 /*   filter: saturate(1.3); */
-    -webkit-filter:grayscale(10%);
+    /*-webkit-filter:grayscale(10%);*/
 }
+
+.knockout-monotype {
+   position: relative;
+  font-weight: bold;
+  font-size: 202px;
+      margin-left: auto;
+    margin-right: auto;
+    clear: both;
+  font-family: "Courier New";
+  width: 600px;
+  margin-top: 70px;
+  text-align: center;
+  /*text-shadow: 2px 2px 2px rgba(60, 1, 60, 0.3);*/
+
+}
+
 
 .kalki-faq-link {
   text-decoration: none;
@@ -609,20 +626,58 @@ a img {
 
 .deeplinkstext {
   display: inline-block;
-  font-family: Raleway;
+  font-family: "Century Gothic";
   font-size: 1.7em;
   font-weight: bold;
-  color: rgba(255, 255, 255, 0.87);
-  background: rgba(70, 0, 125, 0.9);
-  background:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-534031.jpeg");
+  color: rgba(255, 255, 255, 1);
+  /*background: rgba(70, 0, 125, 0.9);*/
+  /*background:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-534031.jpeg");*/
   padding: 15px;
   border-radius: 4px;
   text-decoration: none;
   margin-bottom: 10px;
   margin-right: 7px;
-  box-shadow: 4px 4px 4px rgba(100, 100, 100, 0.5);
-  opacity:(0.2);
+  box-shadow: 3px 3px 3px rgba(100, 100, 100, 0.5);
+  /*opacity:(0.2);*/
 }
+
+.deeplinkstext:nth-child(5n+0) {
+  background-color: rgba(19,122,99,1);
+}
+
+.deeplinkstext:nth-child(5n+1) {
+  background-color: rgba(36,251,202,1);
+}
+
+.deeplinkstext:nth-child(5n+2) {
+  background-color: rgba(71,255,204,1);
+}
+
+.deeplinkstext:nth-child(5n+3) {
+  background-color: rgba(66,255,193,1);
+}
+
+.deeplinkstext:nth-child(5n+4) {
+  background-color: rgba(90,200,180,1);
+}
+
+.deeplinkstext:nth-child(5n+5) {
+  background-color: rgba(79,150,145,1);
+}
+
+.deeplinkstext:nth-child(5n+6) {
+  background-color: rgba(60,185,140,1);
+}
+
+.deeplinkstext:nth-child(5n+7) {
+  background-color: rgba(171,255,227,1);
+}
+
+
+
+
+
+
 
 .deeplinkstext:hover {
   /*   font-size: 1.4em;
@@ -796,6 +851,16 @@ https://codepen.io/KanatSahanov/pen/raGXXa
   border-radius: 4px;
 }
 
+#hey-city {
+  /*News title. Introduces it to a city*/
+   font-family: "Century Gothic";
+  font-size: 4.2em;
+  font-weight: 100;
+  color: rgba(1,1,1,0.87);
+  text-decoration: none;
+  text-shadow:1px 1px 1px rgba(0,0,0,0.8)
+}
+
 #modal-text {
   padding: 10%;
   font-family: 'Raleway';
@@ -808,17 +873,16 @@ https://codepen.io/KanatSahanov/pen/raGXXa
 
 .modal-news {
   
-  /* Styles the title/text of each news item */
-  font-family: "Raleway","Century Gothic";
+  /* TITLE. Styles the title/text of each news item */
+  font-family: "Montserrat","Century Gothic";
   font-size: 1.8em;
-  font-weight: 400;
-   color: rgba(0,40,0,0.87);
+  font-weight: 800;
+   color: rgba(20,20,20,0.87);
   text-decoration: none;
 }
 
 .modal-news:hover {
     color: rgba(0,60,0,0.87);
-    font-weight: 400;
     text-decoration: none;
 }
 
@@ -837,15 +901,7 @@ https://codepen.io/KanatSahanov/pen/raGXXa
   width: auto;
 }
 
-#hey-city {
-  /*News title*/
-   font-family: "Raleway","Century Gothic";
-  font-size: 4.2em;
-  font-weight: 100;
-  color: rgba(1,1,1,0.87);
-  text-decoration: none;
-  text-shadow:1px 1px 1px rgba(0,0,0,0.8)
-}
+
 
 #choice-of-themes {
   font-size: 6em;
@@ -854,4 +910,5 @@ https://codepen.io/KanatSahanov/pen/raGXXa
 #choose-a-theme-menu {
   
 }
+
 

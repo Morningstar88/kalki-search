@@ -18,40 +18,119 @@ function chooseATheme() {
 
 //JQUERY CHANGE https://codepen.io/raazxplorer/pen/WvyEvG
 
-				$(document).ready(function(){
-					$(".choose-rose-theme").on({
-
+	$(document).ready(function(){
+					$(".choose-original-theme").on({
+// renamed orange theme.
 						click: function(){
-							$(".main-url").css("color", "rgba(1,40,1,0.95)");
-                 $(".main-url").css("font-family", "Raleway");
-                 $(".top-right-link").css("color", "rgba(180,20,10,0.9)");
-               $(".deeplinkstext").css("font-family", "Raleway");
-              $(".deeplinkstext").css("font-family", "Raleway");
+						    localStorage.setItem("kalkitheme", $(this).text());
+							$(".main-url").css("color", "rgba(1,4,1,0.95)");
+                 $(".main-url").css("font-family", "Lucida Sans Unicode");
+                 $(".top-right-link").css("color", "rgba(70,0,14,1)");
+                          $(".deeplinkstext").css("font-family", "Century Gothic");
                $(".text-content").css("font-family", "Open Sans");
-              $(".deeplinkstext").css("background", "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-226589.jpeg) 5% 1%");
-              $("#geolocationaddress").css("background", "url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-534031.jpeg) 50% 50%");
+              $(".deeplinkstext").css("background", "rgba(170,50,30,1)");
+                   $(".deeplinkstext").css("color", "rgba(255,255,255,0.95)");
+                      $(".knockout").css("color", "white");
+                                   $(".knockout").css({"background": "url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-226589.jpeg') 5% 5%",
+                      "-webkit-text-fill-color":"transparent", "-webkit-background-clip": "text"});
+                          $(".knockout").css({"font-family": "Century Gothic", "font-size": "202px", "text-shadow":'none'});
+                  //This works to hide an element    $(".knockout").css("visibility", "hidden");
 						}  
 					});
 				});
+
+				$(document).ready(function(){
+					$(".choose-orange-theme").on({
+// renamed orange theme.
+						click: function(){
+						    localStorage.setItem("kalkitheme", $(this).text());
+							$(".main-url").css("color", "rgba(1,4,1,0.95)");
+                 $(".main-url").css("font-family", "Lucida Sans Unicode");
+                 $(".top-right-link").css("color", "rgba(70,0,14,1)");
+                          $(".deeplinkstext").css("font-family", "Century Gothic");
+               $(".text-content").css("font-family", "Open Sans");
+              $(".deeplinkstext:nth-child(4n+0)").css("background", "rgba(170,50,30,1)");
+                  $(".deeplinkstext:nth-child(4n+1)").css("background", "rgba(180,60,30,1)");
+                      $(".deeplinkstext:nth-child(4n+2)").css("background", "rgba(190,70,30,1)");
+                          $(".deeplinkstext:nth-child(4n+3)").css("background", "rgba(200,80,30,1)");
+                              $(".deeplinkstext:nth-child(4n+4)").css("background", "rgba(210,90,30,1)");
+                   $(".deeplinkstext").css("color", "rgba(255,255,255,0.95)");
+                      $(".knockout").css("color", "white");
+                                   $(".knockout").css({"background": "url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-226589.jpeg') 5% 5%",
+                      "-webkit-text-fill-color":"transparent", "-webkit-background-clip": "text"});
+                          $(".knockout").css({"font-family": "Century Gothic", "font-size": "202px", "text-shadow":'none'});
+                  //This works to hide an element    $(".knockout").css("visibility", "hidden");
+						}  
+					});
+				});
+
+// JQUERY HOVER STATE https://stackoverflow.com/questions/21051440/how-to-define-the-css-hover-state-in-a-jquery-selector
 
 $(document).ready(function(){
 					$(".choose-black-and-white-theme").on({
 
 						click: function(){
+						    localStorage.setItem("kalkitheme", $(this).text());
 							$(".main-url").css("color", "rgba(2,1,1,0.9)");
-                 $(".main-url").css("font-family", "Raleway");
+                 $(".main-url").css("font-family", "Century Gothic");
                  $(".top-right-link").css("color", "rgba(1,2,2,0.7)");
                $(".deeplinkstext").css("font-family", "Century Gothic");
                $(".deeplinkstext").css("border", "1px solid rgba(2,2,2,0.8");
                $(".text-content").css("font-family", "Century Gothic");
               $(".deeplinkstext").css("background", "url() 5% 1%");
              $(".deeplinkstext").css("color", "rgba(20,20,20,0.8)");
-              $("#geolocationaddress").css("background", "url() 50% 50%");
-              $(".knockout").css("background", "url()");
-                $(".knockout").css("color", "rgba(1,1,1,0.8) !important");
+    $(".knockout").css({"font-family": "Helvetica", "font-size": "202px", "-webkit-text-fill-color":"rgba(10,10,10,0.9)", "background": "none"});
 						}  
 					});
 				});
+				
+				$(document).ready(function(){
+					$(".choose-ascii-hacker-theme").on({
+
+						click: function(){
+						    localStorage.setItem("kalkitheme", $(this).text());
+							$(".main-url").css("color", "rgba(2,1,1,0.9)");
+                 $(".main-url").css("font-family", "Courier New");
+                 $(".top-right-link").css("color", "rgba(1,2,2,0.7)");
+                     $(".top-right-link").css("font-family", "Courier New");
+                       $(".top-right-link").css("letter-spacing", "1px");
+               $(".deeplinkstext").css("font-family", "Courier New");
+               $(".deeplinkstext").css("border", "1px solid rgba(2,2,2,0.8");
+               $(".text-content").css("font-family", "Courier New");
+              $(".deeplinkstext").css("background", "url() 5% 1%");
+             $(".deeplinkstext").css("color", "rgba(20,20,20,0.8)");
+               $(".deeplinkstext").css("border", "1px rgba(20,20,20,0.9)");
+                        $(".knockout").css({"font-family": "Lucida Console", "font-size": "202px", "-webkit-text-fill-color":"rgba(20,20,20,0.9)", "text-shadow":"0px 2px 2px rgba(100,100,100,0.8)", "background": "none"});
+                 		$("#geolocationaddress").css({"color": "rgba(20,20,20,0.8)", "text-shadow": "1px 1px 1px rgba(10,10,10,0.8)", "border": "1px solid rgba(40,40,40,0.6)", "background": "white", "font-family": "Lucida Console", "box-shadow": "0px 0px 1px rgba(30,30,30,0.8)"});
+						    
+						}  
+					});
+				});
+				
+$(document).ready(function(){
+    var theme = localStorage.getItem("kalkitheme");
+    if (theme) {
+        if(theme == 'ORANGE THEME')
+        {
+            $(".choose-orange-theme").click();
+        }
+        else if(theme == 'BLACK + WHITE THEME')
+        {
+            $(".choose-black-and-white-theme").click();
+        }
+        else if(theme == 'OLD SCHOOL ASCII THEME')
+        {
+            $(".choose-ascii-hacker-theme").click();
+        }
+        else if(theme == 'KALKI ORIGINAL')
+        {
+            $(".choose-original-theme").click();
+        }
+    }
+    else{
+        $(".choose-original-theme").click();
+    }
+});
 				
 //main-url
 //number-of-results
@@ -389,7 +468,7 @@ function bingWebSearch(query, options, key) {
     window.scrollTo(0, 0);
     if (!query.trim().length) return false; // empty query, do nothing
     //showing quotes before the ajax request is served or showing none if the resonse is empty
-    showDiv("noresults", quotes[Math.floor((Math.random()) * 34)]);
+    showDiv("noresults", quotes[Math.floor((Math.random()) * 18)]);
     hideDivs("pole", "mainline", "sidebar", "_json", "_headers", "paging1", "paging2", "error");
 
     var endpoint = "https://api.cognitive.microsoft.com/bing/v7.0/search";
