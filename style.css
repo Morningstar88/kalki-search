@@ -19,8 +19,9 @@ body {
 {
   display: flex;
   justify-content: center;
-  align: center;
-  width: 500px;
+  text-align: center;
+  width: 100%;
+  overflow-x: none;
 }
 
 /*h1, h2, h3 {font-weight: bold; color: #087;}*/
@@ -148,20 +149,20 @@ a {
 /*  margin-top: 1%;*/
 /*}*/
 #error {
-  margin-left: 32%;
+  margin-left: 32%; /* WARNING! MARGIN. */
 }
 #paging1 {
-  margin-left: 32%;
+  margin-left: 32%; /* WARNING! MARGIN. */
 }
 #_noresults {
   /*margin-left:20%;*/
   font-size: 5.5em;
   text-align: center;
   color: rgba(10, 10, 10, 0.87);
-  margin-left: 10%;
+  margin-left: 10%; /* WARNING! MARGIN. */
 }
 #mainline {
-  margin-left: 20%;
+  margin-left: 5%; /* WARNING! MARGIN. */
 }
 
 /*search button implementation*/
@@ -234,7 +235,7 @@ a {
 /* adding margin for paging info */
 #paging2 {
   margin-top: 1%;
-  margin-left: 32%;
+  /*margin-left: 32%;*/
 }
 /* adding margin for prev/next */
 .prev {
@@ -260,7 +261,7 @@ a {
 .kalki-main {
   position: relative;
   font-size: 152px;
-  margin-left: 25%;
+  /*margin-left: 25%;*/
 }
 
 .kalki-k {
@@ -297,7 +298,7 @@ input[type="text"] {
   margin-left: 2%;
   font-size: 1.7em;
   margin-top: -2%;
-  width: 900px;
+  /*width: 900px;*/
 }
 /*total container of each search result*/
 .searchresult {
@@ -403,14 +404,14 @@ input[type="text"] {
 @media only screen and (max-device-width: 1200px) {
   .container {
     /*background: red;*/
-    margin-left: -5%;
+    /*margin-left: -5%;*/
     /*border: 5px solid red;*/
   }
   #_mainline {
-    margin-left: 24%;
+    margin-left: 5%;
   }
   #_noresults {
-    margin-left: 36%;
+    /*margin-left: 36%;*/
   }
 }
 
@@ -493,7 +494,7 @@ a img {
   box-shadow: 1px 1px 1px rgba(1, 1, 1, 0.7);
   display: flex;
   justify-content: center;
-  margin-left: 25%;
+  margin-left: 25%; /* Warning, margin*/
 }
 
 .btn:hover {
@@ -912,3 +913,7 @@ https://codepen.io/KanatSahanov/pen/raGXXa
 }
 
 
+#kalki-title{
+  font-size: 150px !important;
+  width:100% !important;
+}
