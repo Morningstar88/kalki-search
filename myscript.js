@@ -34,6 +34,7 @@ function chooseATheme() {
                                    $(".knockout").css({"background": "url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-226589.jpeg') 5% 5%",
                       "-webkit-text-fill-color":"transparent", "-webkit-background-clip": "text"});
                           $(".knockout").css({"font-family": "Century Gothic", "font-size": "202px", "text-shadow":'none'});
+                          $("#geolocationaddress").css({"color": "rgba(20,20,20,0.8)", "text-shadow": "1px 1px 1px rgba(10,10,10,0.8)", "border": "1px solid rgba(40,40,40,0.6)", "background": "white", "font-family": "Lucida Console", "box-shadow": "0px 0px 1px rgba(30,30,30,0.8)"});
                   //This works to hide an element    $(".knockout").css("visibility", "hidden");
 						}  
 					});
@@ -59,6 +60,7 @@ function chooseATheme() {
                                    $(".knockout").css({"background": "url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/577362/pexels-photo-226589.jpeg') 5% 5%",
                       "-webkit-text-fill-color":"transparent", "-webkit-background-clip": "text"});
                           $(".knockout").css({"font-family": "Century Gothic", "font-size": "202px", "text-shadow":'none'});
+                          $("#geolocationaddress").css({"color": "rgba(20,20,20,0.8)", "text-shadow": "1px 1px 1px rgba(10,10,10,0.8)", "border": "1px solid rgba(40,40,40,0.6)", "background": "white", "font-family": "Lucida Console", "box-shadow": "0px 0px 1px rgba(30,30,30,0.8)"});
                   //This works to hide an element    $(".knockout").css("visibility", "hidden");
 						}  
 					});
@@ -80,6 +82,7 @@ $(document).ready(function(){
               $(".deeplinkstext").css("background", "url() 5% 1%");
              $(".deeplinkstext").css("color", "rgba(20,20,20,0.8)");
     $(".knockout").css({"font-family": "Helvetica", "font-size": "202px", "-webkit-text-fill-color":"rgba(10,10,10,0.9)", "background": "none"});
+    $("#geolocationaddress").css({"color": "rgba(20,20,20,0.8)", "text-shadow": "1px 1px 1px rgba(10,10,10,0.8)", "border": "1px solid rgba(40,40,40,0.6)", "background": "white", "font-family": "Lucida Console", "box-shadow": "0px 0px 1px rgba(30,30,30,0.8)"});
 						}  
 					});
 				});
@@ -737,6 +740,8 @@ $.post("https://ipinfo.io", function(response) {
     $("#hey-city").html("Hey " + geolocation_store + " ! ");
     toggleDisplay("modal");
     console.log("running");
+    console.log(geolocation_store);
+    geolocatedLocalNews(geolocation_store);
 }, "jsonp");
 
 // http://jsfiddle.net/cbtzzLjs/17/
@@ -757,9 +762,37 @@ $.post("https://ipinfo.io", function(response) {
 // https://docs.microsoft.com/en-us/azure/cognitive-services/bing-image-search/tutorial-bing-image-search-single-page-app
 // https://docs.microsoft.com/en-us/azure/cognitive-services/bing-image-search/tutorial-bing-image-search-single-page-app-source
 
-//New Minimal Modal Text:
+//Geolocated News Feature
 
-fetch('https://www.reddit.com/r/KalkiTaiwan.json')
+// function geolocatedLocalNews
+//
+// Array of 5 cities
+// Check Geolocation city against list
+// If Geolocation city matches list, serve from subreddit. i.e. Geolocate New York = KalkiNewYork 
+// if no match, serve global news KalkiMainNews
+
+
+var cities = [
+    //london and newyork lowercase, California capitalized. worldnews is lowercase be careful :) !
+    {city: 'New York', 'url': 'https://www.reddit.com/r/newyork.json'}
+    ,{city: 'California ', 'url': 'https://www.reddit.com/r/California.json'}
+    ,{city: 'London', 'url': 'https://www.reddit.com/r/london.json'}
+        ];
+    
+var globalNewsUrl = "https://www.reddit.com/r/worldnews.json";
+//New Minimal Modal Text:
+function geolocatedLocalNews(location)
+{
+//fetch('https://www.reddit.com/r/KalkiTaiwan.json')
+
+var filteredArray = cities.filter(function(x){return x == location;});
+var newsUrl = globalNewsUrl;
+if(filteredArray.length > 0)
+{
+    newsUrl = filteredArray[0].url;
+}
+
+fetch(newsUrl)
 .then(res=>res.json())
 .then(res=>res.data.children)
 .then(res=>res.map(post=>({
@@ -770,6 +803,7 @@ fetch('https://www.reddit.com/r/KalkiTaiwan.json')
 })))
 .then(res=>res.map(render))
 .then(res=>console.log(res))
+}
 
 
 
