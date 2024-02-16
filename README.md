@@ -9,7 +9,7 @@
 ## [Latest developments](https://github.com/Morningstar88/kalki-search/issues) [Latest developments](https://github.com/Morningstar88/kalki-search/issues)Kalki is a prototype search engine that uses the Bing API. We're inspired by [Ecosia](www.ecosia.org). Ecosia give 80% of their profits to tree planting in Burkina Faso. [They've planted over 24 million trees](https://info.ecosia.org/).
 
 We plan to register as a charity in Taiwan. This costs about 1500USD.
-
+https://en.wikipedia.org/wiki/Distributed_search_engine
 Kalki will show users weather, and interesting innovative projects from the local area. We'll show solar + wind power, water filtration, hydroponics, aeroponics. Any interesting local project or charity is cool. We want to represent the charities and bright innovators who are not shown on the news.
 
 Google [dominates 70% of the search market](https://www.smartinsights.com/search-engine-marketing/search-engine-statistics/), but they are losing market share. Ecosia have found themselves 7 million customers, and proven the concept of charity search.
