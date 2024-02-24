@@ -48,7 +48,7 @@
       "title":"How to Set Up a Multi-Filter Feature with Vanilla JavaScript",
       "link":"https://webdesign.tutsplus.com/tutorials/how-to-set-up-a-multi-filter-feature-with-vanilla-javascript--cms-93390",
       "description":"In this tutorial, we’re going to use vanilla JavaScript to implement a multi-filter feature, that allows a user to select and combine multiple different...",
-      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/93390/preview_image/multi_filter.png",
+      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-black-and-white-photo-of-train-tracks-and-wires.jpeg",
       "categories":[
          "JavaScript",
          "Filters",
@@ -135,7 +135,7 @@
    {
       "title":"How To Build a Simple Carousel With Vanilla JavaScript (14 Lines of Code!)",
       "link":"https://webdesign.tutsplus.com/tutorials/how-to-build-a-simple-carousel-with-vanilla-javascript--cms-41734",
-      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/41734/preview_image/slider.png",
+      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-black-and-white-photograph-of-stairs-with-shadows.jpegg",
       "categories":[
          "JavaScript",
          "Slider"
