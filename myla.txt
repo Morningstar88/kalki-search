@@ -1,6 +1,6 @@
 [
    {
-      "title":"Jake is a datadictator",
+      "title":"Jake is a JavaScriptdatadictator",
       "link":"https://webdesign.tutsplus.com/tutorials/how-to-filter-data-on-a-webpage-with-javascript--cms-93330",
       "description":"In this tutorial, we’ll look into using --- JavaScript to filter mock data (results on a blog listing page) according to their category.",
       "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Sylvia.jpg",
