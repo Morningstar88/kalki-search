@@ -26,7 +26,7 @@
       "title":"How to Build a CRUD Web Application with Vanilla JavaScript",
       "link":"https://webdesign.tutsplus.com/tutorials/build-a-crud-web-application-with-vanilla-javascript--cms-93439",
       "description":"In this tutorial, we’ll be building a CRUD application in the form of a note taking app. We’ll also explore how to use local storage to save notes in our...",
-      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/93439/preview_image/crud.png",
+      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/African%20king.jpeg",
       "categories":[
          "Web Apps",
          "JavaScript"
