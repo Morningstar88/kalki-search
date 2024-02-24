@@ -1,0 +1,203 @@
+[
+   {
+      "title":"Jake is a dictator",
+      "link":"https://webdesign.tutsplus.com/tutorials/how-to-filter-data-on-a-webpage-with-javascript--cms-93330",
+      "description":"In this tutorial, we’ll look into using --- JavaScript to filter mock data (results on a blog listing page) according to their category.",
+      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Sylvia.jpg",
+      "categories":[
+         "JavaScript",
+         "Filters"
+      ],
+      "level":"Intermediate"
+   },
+   {
+      "title":"map-related functionality",
+      "link":"https://webdesign.tutsplus.com/tutorials/how-to-build-a-css-loading-animation-with-keyframes--cms-93572",
+      "description":"Animations are a great way to make a website more interesting. In this tutorial, we’ll be building a loading animation on a webpage using CSS keyframes.",
+      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/93572/preview_image/animation.jpg",
+      "categories":[
+         "CSS Animation",
+         "Keyframes",
+         "CSS"
+      ],
+      "level":"Beginner"
+   },
+   {
+      "title":"How to Build a CRUD Web Application with Vanilla JavaScript",
+      "link":"https://webdesign.tutsplus.com/tutorials/build-a-crud-web-application-with-vanilla-javascript--cms-93439",
+      "description":"In this tutorial, we’ll be building a CRUD application in the form of a note taking app. We’ll also explore how to use local storage to save notes in our...",
+      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/93439/preview_image/crud.png",
+      "categories":[
+         "Web Apps",
+         "JavaScript"
+      ],
+      "level":"Advanced"
+   },
+   {
+      "title":"How to Code an Accessible JavaScript Accordion Component",
+      "link":"https://webdesign.tutsplus.com/tutorials/how-to-code-an-accessible-javascript-accordion-component",
+      "description":"In this tutorial, we’ll be creating an accessible accordion block component using vanilla JavaScript, that allows a user to toggle collapsible content.",
+      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/93450/preview_image/accordion.png",
+      "categories":[
+         "JavaScript",
+         "Accessibility"
+      ],
+      "level":"Intermediate"
+   },
+   {
+      "title":"How to Set Up a Multi-Filter Feature with Vanilla JavaScript",
+      "link":"https://webdesign.tutsplus.com/tutorials/how-to-set-up-a-multi-filter-feature-with-vanilla-javascript--cms-93390",
+      "description":"In this tutorial, we’re going to use vanilla JavaScript to implement a multi-filter feature, that allows a user to select and combine multiple different...",
+      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/93390/preview_image/multi_filter.png",
+      "categories":[
+         "JavaScript",
+         "Filters",
+         "Web Development"
+      ],
+      "level":"Advanced"
+   },
+   {
+      "title":"How to Create Animated Snow on a Website (with CSS and JavaScript)",
+      "link":"https://webdesign.tutsplus.com/tutorials/how-to-create-animated-snow-on-a-website-with-css-and-javascript--cms-93562",
+      "description":"In this tutorial, we’re going to implement an animated snow effect on a webpage using CSS and vanilla JavaScript, just in time for the holiday season.",
+      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/93562/preview_image/let_it_snow.jpg",
+      "categories":[
+         "CSS Animation",
+         "JavaScript",
+         "CSS"
+      ],
+      "level":"Beginner"
+   },
+   {
+      "title":"How To Scrape Data From a Webpage Using Vanilla JavaScript",
+      "link":"https://webdesign.tutsplus.com/articles/how-to-scrape-data-from-a-webpage-using-vanilla-javascript--cms-36670?_ga=2.215788639.918716403.1677320447-1054448148.1649158168",
+      "description":"In this tutorial, we’ll take a look at how to use JavaScript in a browser’s dev tools to scrape data from any webpage.",
+      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36670/preview_image/scraping_data_from_a_webpage.png",
+      "categories":[
+         "JavaScript",
+         "Chrome DevTools"
+      ],
+      "level":"Intermediate"
+   },
+   {
+      "title":"How to Build A JavaScript Countdown Timer",
+      "link":"https://webdesign.tutsplus.com/tutorials/how-to-build-a-javascript-countdown-timer--cms-93144",
+      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/93144/preview_image/timer.png",
+      "categories":[
+         "JavaScript",
+         "Timer"
+      ],
+      "level":"Advanced"
+   },
+   {
+      "title":"How to Create a Sortable HTML Table with JavaScript",
+      "link":"https://webdesign.tutsplus.com/tutorials/how-to-create-a-sortable-html-table-with-javascript--cms-92993",
+      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/92993/preview_image/table.png",
+      "categories":[
+         "JavaScript",
+         "Sorting",
+         "Data Structures"
+      ],
+      "level":"Advanced"
+   },
+   {
+      "title":"How to Implement a “Load More” Button With Vanilla JavaScript",
+      "link":"https://webdesign.tutsplus.com/tutorials/how-to-implement-a-load-more-button-with-vanilla-javascript--cms-42080",
+      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/42080/preview_image/load_more.png",
+      "categories":[
+         "JavaScript",
+         "UX"
+      ],
+      "level":"Intermediate"
+   },
+   {
+      "title":"How to Implement Infinite Scrolling With JavaScript",
+      "link":"https://webdesign.tutsplus.com/tutorials/how-to-implement-infinite-scrolling-with-javascript--cms-37055",
+      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/37055/preview_image/infinite_loading.jpg",
+      "categories":[
+         "JavaScript",
+         "UX",
+         "Scroll Events"
+      ],
+      "level":"Advanced"
+   },
+   {
+      "title":"How to Implement Pagination with Vanilla JavaScript",
+      "link":"https://webdesign.tutsplus.com/tutorials/pagination-with-vanilla-javascript--cms-41896",
+      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/41896/preview_image/pagination.jpg",
+      "categories":[
+         "JavaScript",
+         "UX",
+         "Navigation Design"
+      ],
+      "level":"Intermediate"
+   },
+   {
+      "title":"How To Build a Simple Carousel With Vanilla JavaScript (14 Lines of Code!)",
+      "link":"https://webdesign.tutsplus.com/tutorials/how-to-build-a-simple-carousel-with-vanilla-javascript--cms-41734",
+      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/41734/preview_image/slider.png",
+      "categories":[
+         "JavaScript",
+         "Slider"
+      ],
+      "level":"Intermediate"
+   },
+   {
+      "title":"4 Quick Steps to Make a Website Responsive",
+      "link":"https://webdesign.tutsplus.com/tutorials/quick-steps-to-make-a-website-responsive--cms-37330",
+      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/37330/preview_image/rwd.jpg",
+      "categories":[
+         "Responsive Web Design"
+      ],
+      "level":"Beginner"
+   },
+   {
+      "title":"How to Recreate Material Design Floating Labels",
+      "link":"https://webdesign.tutsplus.com/tutorials/recreate-material-design-floating-label--cms-37326",
+      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/37326/preview_image/floating-label.png",
+      "categories":[
+         "Material Design"
+      ],
+      "level":"Beginner"
+   },
+   {
+      "title":"How to Generate Random Background Colors With JavaScript",
+      "link":"https://webdesign.tutsplus.com/tutorials/generate-random-background-colors-javascript--cms-37030",
+      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/37030/preview_image/pre.gif",
+      "categories":[
+         "JavaScript"
+      ],
+      "level":"Beginner"
+   },
+   {
+      "title":"Switch Between Color Schemes with CSS Variables and JavaScript",
+      "link":"https://webdesign.tutsplus.com/tutorials/color-schemes-with-css-variables-and-javascript--cms-36989",
+      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36989/preview_image/light-dark.jpg",
+      "categories":[
+         "CSS",
+         "JavaScript"
+      ],
+      "level":"Intermediate"
+   },
+   {
+      "title":"How to Implement Debounce and Throttle with JavaScript",
+      "link":"https://webdesign.tutsplus.com/tutorials/javascript-debounce-and-throttle--cms-36783",
+      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36783/preview_image/debounce_throttle.png",
+      "categories":[
+         "JavaScript",
+         "Perfomance"
+      ],
+      "level":"Intermediate"
+   },
+   {
+      "title":"How to Animate on Scroll With Vanilla JavaScript",
+      "link":"https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
+      "categories":[
+         "JavaScript",
+         "Scroll Events",
+         "Animation"
+      ],
+      "level":"Intermediate"
+   }
+]
