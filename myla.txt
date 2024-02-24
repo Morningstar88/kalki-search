@@ -14,7 +14,7 @@
       "title":"map-related functionality",
       "link":"https://webdesign.tutsplus.com/tutorials/how-to-build-a-css-loading-animation-with-keyframes--cms-93572",
       "description":"Animations are a great way to make a website more interesting. In this tutorial, we’ll be building a loading animation on a webpage using CSS keyframes.",
-      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/93572/preview_image/animation.jpg",
+      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/tc.jpeg",
       "categories":[
          "CSS Animation",
          "Keyframes",
@@ -113,7 +113,7 @@
    {
       "title":"How to Implement Infinite Scrolling With JavaScript",
       "link":"https://webdesign.tutsplus.com/tutorials/how-to-implement-infinite-scrolling-with-javascript--cms-37055",
-      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/37055/preview_image/infinite_loading.jpg",
+      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/treess.jpeg",
       "categories":[
          "JavaScript",
          "UX",
@@ -124,7 +124,7 @@
    {
       "title":"How to Implement Pagination with Vanilla JavaScript",
       "link":"https://webdesign.tutsplus.com/tutorials/pagination-with-vanilla-javascript--cms-41896",
-      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/41896/preview_image/pagination.jpg",
+      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Posturas-Yoga-aumentar-senos%20(1).webp",
       "categories":[
          "JavaScript",
          "UX",
@@ -163,7 +163,7 @@
    {
       "title":"How to Generate Random Background Colors With JavaScript",
       "link":"https://webdesign.tutsplus.com/tutorials/generate-random-background-colors-javascript--cms-37030",
-      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/37030/preview_image/pre.gif",
+      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Posturas-Yoga-aumentar-senos%20(1).webp",
       "categories":[
          "JavaScript"
       ],
