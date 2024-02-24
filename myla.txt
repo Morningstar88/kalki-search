@@ -3,7 +3,7 @@
       "title":"JavaScriptr",
       "link":"https://webdesign.tutsplus.com/tutorials/how-to-filter-data-on-a-webpage-with-javascript--cms-93330",
       "description":"In this tutorial, we’ll look into using --- JavaScript to filter mock data (results on a blog listing page) according to their category.",
-      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Sylvia.jpg",
+      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Black%20and%20white%20bird.webp",
       "categories":[
          "JavaScript",
          "Filters"
@@ -37,7 +37,7 @@
       "title":"How to Code an Accessible JavaScript Accordion Component",
       "link":"https://webdesign.tutsplus.com/tutorials/how-to-code-an-accessible-javascript-accordion-component",
       "description":"In this tutorial, we’ll be creating an accessible accordion block component using vanilla JavaScript, that allows a user to toggle collapsible content.",
-      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/93450/preview_image/accordion.png",
+      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Andrea%20Botez.jpeg",
       "categories":[
          "JavaScript",
          "Accessibility"
@@ -60,7 +60,7 @@
       "title":"How to Create Animated Snow on a Website (with CSS and JavaScript)",
       "link":"https://webdesign.tutsplus.com/tutorials/how-to-create-animated-snow-on-a-website-with-css-and-javascript--cms-93562",
       "description":"In this tutorial, we’re going to implement an animated snow effect on a webpage using CSS and vanilla JavaScript, just in time for the holiday season.",
-      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/93562/preview_image/let_it_snow.jpg",
+      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Mysterious-%20girl.jpeg",
       "categories":[
          "CSS Animation",
          "JavaScript",
@@ -72,7 +72,7 @@
       "title":"How To Scrape Data From a Webpage Using Vanilla JavaScript",
       "link":"https://webdesign.tutsplus.com/articles/how-to-scrape-data-from-a-webpage-using-vanilla-javascript--cms-36670?_ga=2.215788639.918716403.1677320447-1054448148.1649158168",
       "description":"In this tutorial, we’ll take a look at how to use JavaScript in a browser’s dev tools to scrape data from any webpage.",
-      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36670/preview_image/scraping_data_from_a_webpage.png",
+      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/CIN_JupiterAscending_1600x900.jpg",
       "categories":[
          "JavaScript",
          "Chrome DevTools"
@@ -82,7 +82,7 @@
    {
       "title":"How to Build A JavaScript Countdown Timer",
       "link":"https://webdesign.tutsplus.com/tutorials/how-to-build-a-javascript-countdown-timer--cms-93144",
-      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/93144/preview_image/timer.png",
+      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Fuchsia%20flower.webp",
       "categories":[
          "JavaScript",
          "Timer"
@@ -92,7 +92,7 @@
    {
       "title":"How to Create a Sortable HTML Table with JavaScript",
       "link":"https://webdesign.tutsplus.com/tutorials/how-to-create-a-sortable-html-table-with-javascript--cms-92993",
-      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/92993/preview_image/table.png",
+      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Tuppence-Middleton.webp",
       "categories":[
          "JavaScript",
          "Sorting",
@@ -103,7 +103,7 @@
    {
       "title":"How to Implement a “Load More” Button With Vanilla JavaScript",
       "link":"https://webdesign.tutsplus.com/tutorials/how-to-implement-a-load-more-button-with-vanilla-javascript--cms-42080",
-      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/42080/preview_image/load_more.png",
+      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/bagua.jpg",
       "categories":[
          "JavaScript",
          "UX"
