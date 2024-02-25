@@ -169,45 +169,13 @@
       ],
       "level":"Beginner"
    },
-   {
-    "title": "John Coltrane: A Biography",
-    "link": "https://www.britannica.com/biography/John-Coltrane",
-    "description": "This biography from Britannica provides a comprehensive overview of John Coltrane's life, career, and musical impact.",
-    "image": "https://commons.wikimedia.org/wiki/File:John_Coltrane_performing_at_Birdland_1963.jpg"
-  },
-  {
-    "title": "John Coltrane - The Master Innovator",
-    "link": "https://www.allmusic.com/artist/john-coltrane-mn0000009172/biography",
-    "description": "AllMusic offers a detailed biography of John Coltrane, highlighting his musical evolution and influence.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/John_Coltrane_1961.jpg/220px-John_Coltrane_1961.jpg"
-  },
-  {
-    "title": "John Coltrane: 5 Essential Albums",
-    "link": "https://www.rollingstone.com/music/music-lists/john-coltrane-5-essential-albums-1049717/",
-    "description": "Rolling Stone magazine presents five of John Coltrane's most essential albums, offering a starting point for exploring his discography.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/A_Love_Supreme_-_John_Coltrane.jpg/220px-A_Love_Supreme_-_John_Coltrane.jpg"
-  },
-  {
-    "title": "John Coltrane's A Love Supreme: A Spiritual Masterpiece",
-    "link": "https://www.npr.org/sections/abide/2015/06/23/414717724/john-coltrane-s-a-love-supreme-a-spiritual-masterpiece",
-    "description": "NPR delves into the significance of John Coltrane's album 'A Love Supreme,' exploring its spiritual themes and musical innovations.",
-    "image": "https://commons.wikimedia.org/wiki/File:John_Coltrane_in_concert,_1961.jpg"
-  },
-  {
-    "title": "The Enduring Legacy of John Coltrane",
-    "link": "https://www.jazziz.com/magazine/features/the-enduring-legacy-of-john-coltrane/",
-    "description": "Jazziz magazine examines the lasting impact of John Coltrane on the world of jazz and music as a whole.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/John_Coltrane_1964.jpg/220px-John_Coltrane_1964.jpg"
-  }
+  
+  
    {
       "title":"How to Implement Debounce and Throttle with JavaScript",
       "link":"https://webdesign.tutsplus.com/tutorials/javascript-debounce-and-throttle--cms-36783",
       "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36783/preview_image/debounce_throttle.png",
-      "categories":[
-         "JavaScript",
-         "Perfomance"
-      ],
-      "level":"Intermediate"
+     
    },
    {
       "title":"How to Animate on Scroll With Vanilla JavaScript",
