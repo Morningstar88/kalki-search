@@ -2,7 +2,7 @@
 
 ![Kalki logo](https://cdn-images-1.medium.com/max/1600/1*m-MpgJyeVgkj1oscfJ5-rA.png)
 
-## [Latest Version on Codepen](https://codepen.io/Teeke/pen/rNRoOVx) // [open source database](https://gist.github.com/Morningstar88/9d574ccdddac3fdb78ec0aa08b62adde)
+## [Latest Version on Codepen](https://codepen.io/Teeke/pen/rNRoOVx](https://codepen.io/Teeke/pen/eYXqJBX) // [open source database](https://gist.github.com/Morningstar88/9d574ccdddac3fdb78ec0aa08b62adde)
 ## [Old design need to import to new](https://codepen.io/Teeke/pen/dmwROB)
 ----
 ## [Latest developments](https://github.com/Morningstar88/kalki-search/issues)
