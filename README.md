@@ -5,8 +5,8 @@
 ## [Latest Version on Codepen](https://codepen.io/Teeke/pen/eYXqJBX) // [open source database](https://gist.github.com/Morningstar88/9d574ccdddac3fdb78ec0aa08b62adde)
 ## [Old design need to import to new](https://codepen.io/Teeke/pen/dmwROB)
 ----
-## [Latest developments](https://github.com/Morningstar88/kalki-search/issues)[Latest developments][Enjoy the journey, Jack](https://www.youtube.com/watch?v=3fgxyyrqZ-I)
-## [Latest developments](https://github.com/Morningstar88/kalki-search/issues) (https://github.com/Morningstar88/kalki-search/issues)Kalki is a prototype search engine that uses the Bing API. We're inspired by [Ecosia](www.ecosia.org). Ecosia give 80% of their profits to tree planting in Burkina Faso. [They've planted over 24 million trees](https://info.ecosia.org/).
+## [Latest developments](https://github.com/Morningstar88/kalki-search/issues)[Enjoy the journey, Jack]//(https://www.youtube.com/watch?v=3fgxyyrqZ-I)
+## [Latest developments](https://github.com/Morningstar88/kalki-search/issues) Kalki is a prototype search engine that uses the Bing API. We're inspired by [Ecosia](www.ecosia.org). Ecosia give 80% of their profits to tree planting in Burkina Faso. [They've planted over 24 million trees](https://info.ecosia.org/).
 [Chris Coyier](https://beta.character.ai/character-profile?source=recent-chats&char=g3-CnnTXEGbsSWhuTxdIYAP__bUpo7x1yzyg7Nr0KMs)
 We plan to register as a charity in Taiwan. This costs about 1500USD.
 https://en.wikipedia.org/wiki/Distributed_search_engine
