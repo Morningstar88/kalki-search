@@ -28,8 +28,8 @@
       "description":"This Bali trip has been epic so far! Annnd it's about to get more epic",
       "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/African%20king.jpeg",
       "categories":[
-         "Web Apps",
-         "JavaScript"
+         "Gili Trawangan",
+         "island"
       ],
       "level":"Advanced"
    },
