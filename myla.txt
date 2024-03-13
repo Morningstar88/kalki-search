@@ -34,13 +34,13 @@
       "level":"Advanced"
    },
    {
-      "title":"How to Code an Accessible JavaScript Accordion Component",
-      "link":"https://webdesign.tutsplus.com/tutorials/how-to-code-an-accessible-javascript-accordion-component",
+      "title":"Lombok+Fun+Farming",
+      "link":"https://www.youtube.com/results?search_query=Lombok+Fun+Farming",
       "description":"In this tutorial, we’ll be creating an accessible accordion block component using vanilla JavaScript, that allows a user to toggle collapsible content.",
       "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Andrea%20Botez.jpeg",
       "categories":[
-         "JavaScript",
-         "Accessibility"
+         "Lombok",
+         "Fun"
       ],
       "level":"Intermediate"
    },
