@@ -80,12 +80,12 @@
       "level":"Intermediate"
    },
    {
-      "title":"How to Build A JavaScript Countdown Timer",
-      "link":"https://webdesign.tutsplus.com/tutorials/how-to-build-a-javascript-countdown-timer--cms-93144",
+      "title":"lombok+Village",
+      "link":"https://www.youtube.com/results?search_query=lombok+Village",
       "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Fuchsia%20flower.webp",
       "categories":[
-         "JavaScript",
-         "Timer"
+         "Village",
+         "lombok"
       ],
       "level":"Advanced"
    },
