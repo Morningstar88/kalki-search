@@ -23,9 +23,9 @@
       "level":"Lombok"
    },
    {
-      "title":"How to Build a CRUD Web Application with Vanilla JavaScript",
-      "link":"https://webdesign.tutsplus.com/tutorials/build-a-crud-web-application-with-vanilla-javascript--cms-93439",
-      "description":"In this tutorial, we’ll be building a CRUD application in the form of a note taking app. We’ll also explore how to use local storage to save notes in our...",
+      "title":"24+Hours+In+Gili+Trawangan",
+      "link":"https://www.youtube.com/results?search_query=24+Hours+In+Gili+Trawangan",
+      "description":"This Bali trip has been epic so far! Annnd it's about to get more epic",
       "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/African%20king.jpeg",
       "categories":[
          "Web Apps",
