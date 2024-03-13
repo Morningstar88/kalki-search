@@ -45,8 +45,8 @@
       "level":"Intermediate"
    },
    {
-      "title":"Cara Membuat Repository Baru Di Akun Github Kita 
-",
+
+"title":"Cara Membuat Repository Baru Di Akun Github Kita",
       "link":"https://www.youtube.com/watch?v=d5n_DgCHvWc",
       "description":"In this tutorial, we’re going to use vanilla JavaScript to implement a multi-filter feature, that allows a user to select and combine multiple different...",
       "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-black-and-white-photo-of-train-tracks-and-wires.jpeg",
