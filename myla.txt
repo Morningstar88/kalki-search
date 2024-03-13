@@ -11,16 +11,16 @@
       "level":"Intermediate"
    },
    {
-      "title":"map-related functionality",
-      "link":"https://webdesign.tutsplus.com/tutorials/how-to-build-a-css-loading-animation-with-keyframes--cms-93572",
-      "description":"Animations are a great way to make a website more interesting. In this tutorial, we’ll be building a loading animation on a webpage using CSS keyframes.",
+      "title":"24 Hours In Gili Trawangan (Things To Know!) | Bali Vlog 7 of 10",
+      "link":"https://www.youtube.com/watch?v=90resNv5kl8",
+      "description":"we're in Lombok, exploring the first Gili Island, Gili Trawangan. Also known as Gili T, it's the most developed island with a stunning beach",
       "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/tc.jpeg",
       "categories":[
-         "CSS Animation",
-         "Keyframes",
-         "CSS"
+         "Gili Trawangan",
+         "Lombok",
+         "island"
       ],
-      "level":"Beginner"
+      "level":"Lombok"
    },
    {
       "title":"How to Build a CRUD Web Application with Vanilla JavaScript",
