@@ -1,12 +1,12 @@
 [
    {
-      "title":"JavaScriptr",
-      "link":"https://webdesign.tutsplus.com/tutorials/how-to-filter-data-on-a-webpage-with-javascript--cms-93330",
-      "description":"In this tutorial, we’ll look into using --- JavaScript to filter mock data (results on a blog listing page) according to their category.",
+      "title":"Friends of Shepperton",
+      "link":"https://www.facebook.com/profile.php?id=100064581403988",
+      "description":"A page where residents of Shepperton, Middx, can exchange information and discuss local issues. Find 'posts to page' under photos to see all posts.",
       "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Black%20and%20white%20bird.webp",
       "categories":[
-         "JavaScript",
-         "Filters"
+         "Shepperton",
+         "Friends"
       ],
       "level":"Intermediate"
    },
