@@ -45,8 +45,9 @@
       "level":"Intermediate"
    },
    {
-      "title":"How to Set Up a Multi-Filter Feature with Vanilla JavaScript",
-      "link":"https://webdesign.tutsplus.com/tutorials/how-to-set-up-a-multi-filter-feature-with-vanilla-javascript--cms-93390",
+      "title":"Cara Membuat Repository Baru Di Akun Github Kita 
+",
+      "link":"https://www.youtube.com/watch?v=d5n_DgCHvWc",
       "description":"In this tutorial, we’re going to use vanilla JavaScript to implement a multi-filter feature, that allows a user to select and combine multiple different...",
       "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-black-and-white-photo-of-train-tracks-and-wires.jpeg",
       "categories":[
@@ -101,12 +102,12 @@
       "level":"Advanced"
    },
    {
-      "title":"How to Implement a “Load More” Button With Vanilla JavaScript",
-      "link":"https://webdesign.tutsplus.com/tutorials/how-to-implement-a-load-more-button-with-vanilla-javascript--cms-42080",
+      "title":"Cara Membuat Repository Baru Di Akun Github Kita",
+      "link":"https://www.youtube.com/watch?v=d5n_DgCHvWc",
       "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/bagua.jpg",
       "categories":[
-         "JavaScript",
-         "UX"
+         "Github",
+         "Repo"
       ],
       "level":"Intermediate"
    },
