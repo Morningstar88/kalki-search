@@ -57,14 +57,14 @@
       "level":"Advanced"
    },
    {
-      "title":"How to Create Animated Snow on a Website (with CSS and JavaScript)",
-      "link":"https://webdesign.tutsplus.com/tutorials/how-to-create-animated-snow-on-a-website-with-css-and-javascript--cms-93562",
-      "description":"In this tutorial, we’re going to implement an animated snow effect on a webpage using CSS and vanilla JavaScript, just in time for the holiday season.",
-      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Mysterious-%20girl.jpeg",
+      "title":"FULL MOON PARTY - SANDS BAR - GILI TRAWANGAN",
+      "link":"https://www.youtube.com/results?search_query=gili+trawangan+nightlife&sp=EgIYAQ%253D%253D",
+      "description":"just in time for the holiday season.",
+      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-the-green-gate-inside-the-city-palace-representing-spring-is-dedicated-to-lord-ganesha.jpeg",
       "categories":[
-         "CSS Animation",
-         "JavaScript",
-         "CSS"
+         "GILI TRAWANGAN",
+         "holiday",
+         "spring"
       ],
       "level":"Beginner"
    },
