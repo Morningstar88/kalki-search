@@ -145,7 +145,7 @@
    {
       "title":"King David - learn Russian - the anomalies",
       "link":"https://www.one-tab.com/page/zLwloxfiSradxnwrExpTvg",
-      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-black-and-white-photograph-of-stairs-with-shadows.jpeg",
+      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/CIN_JupiterAscending_1600x900.jpg",
       "categories":[
          "collection"
       ],
