@@ -1,7 +1,7 @@
 # Kalki
 
 ![Kalki logo](https://cdn-images-1.medium.com/max/1600/1*m-MpgJyeVgkj1oscfJ5-rA.png)
-# https://kalki1.vercel.app/ ### https://youtu.be/clNb2dy1ZEI
+# https://kalki1.vercel.app/ ### ### https://youtu.be/clNb2dy1ZEI
 ### [Latest Version on Codepen](https://codepen.io/Teeke/pen/eYXqJBX) // [open source database](https://github.com/Morningstar88/kalki-search/blob/master/myla.txt)
 ### [Old design need to import to new](https://codepen.io/Teeke/pen/dmwROB)// Flavours of Kalki.Tune your database.
 ### [Cara Membuat Repository Baru Di Akun Github Kita || Tutorial Github](https://www.youtube.com/watch?v=d5n_DgCHvWc))// First steps in an exciting new industry..----
