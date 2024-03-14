@@ -135,7 +135,7 @@
    {
       "title":"How To Build a Simple Carousel With Vanilla JavaScript (14 Lines of Code!)",
       "link":"https://webdesign.tutsplus.com/tutorials/how-to-build-a-simple-carousel-with-vanilla-javascript--cms-41734",
-      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-black-and-white-photograph-of-stairs-with-shadows.jpegg",
+      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-black-and-white-photograph-of-stairs-with-shadows.jpeg",
       "categories":[
          "JavaScript",
          "Slider"
@@ -145,7 +145,7 @@
    {
       "title":"King David - learn Russian - the anomalies",
       "link":"https://www.one-tab.com/page/zLwloxfiSradxnwrExpTvg",
-      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-black-and-white-photograph-of-stairs-with-shadows.jpegg",
+      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-black-and-white-photograph-of-stairs-with-shadows.jpeg",
       "categories":[
          "collection"
       ],
