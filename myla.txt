@@ -152,11 +152,11 @@
       "level":"Beginner"
    },
    {
-      "title":"How to Recreate Material Design Floating Labels",
-      "link":"https://webdesign.tutsplus.com/tutorials/recreate-material-design-floating-label--cms-37326",
-      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/37326/preview_image/floating-label.png",
+      "title":"Attn, Rain Man",
+      "link":"https://www.youtube.com/results?search_query=how+to+make+your+own+weights+DIY+",
+      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Attn-RainMan.jpg",
       "categories":[
-         "Material Design"
+         "DIY"
       ],
       "level":"Beginner"
    },
