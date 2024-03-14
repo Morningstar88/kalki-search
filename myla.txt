@@ -122,13 +122,13 @@
       "level":"Advanced"
    },
    {
-      "title":"How to Implement Pagination with Vanilla JavaScript",
-      "link":"https://webdesign.tutsplus.com/tutorials/pagination-with-vanilla-javascript--cms-41896",
-      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Posturas-Yoga-aumentar-senos%20(1).webp",
+      "title":"Betadine+Feminine+Care%2C+Masih+Perlukah+Antiseptik",
+      "link":"https://www.youtube.com/results?search_query=Betadine+Feminine+Care%2C+Masih+Perlukah+Antiseptik",
+      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/CHOOSE%20(4).jpg",
       "categories":[
-         "JavaScript",
-         "UX",
-         "Navigation Design"
+         "Feminine",
+         "Care",
+         "Antiseptik"
       ],
       "level":"Intermediate"
    },
