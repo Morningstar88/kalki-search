@@ -143,11 +143,11 @@
       "level":"Intermediate"
    },
    {
-      "title":"4 Quick Steps to Make a Website Responsive",
-      "link":"https://webdesign.tutsplus.com/tutorials/quick-steps-to-make-a-website-responsive--cms-37330",
-      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/37330/preview_image/rwd.jpg",
+      "title":"King David - learn Russian - the anomalies",
+      "link":"https://www.one-tab.com/page/zLwloxfiSradxnwrExpTvg",
+      "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-black-and-white-photograph-of-stairs-with-shadows.jpegg",
       "categories":[
-         "Responsive Web Design"
+         "collection"
       ],
       "level":"Beginner"
    },
