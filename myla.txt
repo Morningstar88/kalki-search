@@ -122,7 +122,7 @@
       "level":"Advanced"
    },
    {
-      "title":"Betadine+Feminine+Care%2C+Masih+Perlukah+Antiseptik",
+      "title":"Betadine+Feminine+Care+Masih+Perlukah+Antiseptik",
       "link":"https://www.youtube.com/results?search_query=Betadine+Feminine+Care%2C+Masih+Perlukah+Antiseptik",
       "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/CHOOSE%20(4).jpg",
       "categories":[
@@ -161,7 +161,7 @@
       "level":"Beginner"
    },
    {
-      "title":"ADHD meditation How are you?Informal.Captain.Cacti.Gucci.How are you?",
+      "title":"ADHD meditation",
       "link":"https://youtu.be/B_5N_aDu3u0?t=3484",
       "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Posturas-Yoga-aumentar-senos%20(1).webp",
       "categories":[
