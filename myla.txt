@@ -69,13 +69,13 @@
       "level":"Beginner"
    },
    {
-      "title":"How To Scrape Data From a Webpage Using Vanilla JavaScript",
-      "link":"https://webdesign.tutsplus.com/articles/how-to-scrape-data-from-a-webpage-using-vanilla-javascript--cms-36670?_ga=2.215788639.918716403.1677320447-1054448148.1649158168",
+      "title":"Konsultan Pertanian Konstruksi",
+      "link":"https://www.fiverr.com/search/gigs?query=Construction%20Farming%20%20Consultant.%20&source=top-bar&ref_ctx_id=6225cbcd4bed4416b226f510f62701f8&search_in=everywhere&search-autocomplete-original-term=construction%20farming%20%20consultant.%20",
       "description":"In this tutorial, we’ll take a look at how to use JavaScript in a browser’s dev tools to scrape data from any webpage.",
       "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/CIN_JupiterAscending_1600x900.jpg",
       "categories":[
-         "JavaScript",
-         "Chrome DevTools"
+         "Konsultan Pertanian ",
+         "Konstruksi"
       ],
       "level":"Intermediate"
    },
@@ -152,7 +152,7 @@
       "level":"Beginner"
    },
    {
-      "title":"Attn, Rain Man",
+      "title":"Attn, Rainman",
       "link":"https://www.youtube.com/results?search_query=how+to+make+your+own+weights+DIY+",
       "image":"https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Attn-RainMan.jpg",
       "categories":[
