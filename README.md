@@ -1,7 +1,7 @@
 # Kalki
 
 ![Kalki logo](https://cdn-images-1.medium.com/max/1600/1*m-MpgJyeVgkj1oscfJ5-rA.png)
-# https://kalki1.vercel.app/ ### ### https://youtu.be/clNb2dy1ZEI
+# https://kalki1.vercel.app/ ### [Pemilik toko lokal- tulis toko Anda di sini.Jika kami menyukainya, kami akan mengindeksnya-write your store here.If we like it, we will index it](https://pad.riseup.net/p/UMe8eGIaeGaU3Cwq1lWx-keep)
 ### [Latest Version on Codepen](https://codepen.io/Teeke/pen/eYXqJBX) // [open source database](https://github.com/Morningstar88/kalki-search/blob/master/myla.txt)
 ### [Old design need to import to new](https://codepen.io/Teeke/pen/dmwROB)// Flavours of Kalki.Tune your database.
 ### [Cara Membuat Repository Baru Di Akun Github Kita || Tutorial Github](https://www.youtube.com/watch?v=d5n_DgCHvWc))// First steps in an exciting new industry..----
@@ -12,7 +12,7 @@
 We plan to register as a charity in Taiwan. This costs about 1500USD.
 https://en.wikipedia.org/wiki/Distributed_search_engine
 Kalki will show users weather, and interesting innovative projects from the local area. We'll show solar + wind power, water filtration, hydroponics, aeroponics. Any interesting local project or charity is cool. We want to represent the charities and bright innovators who are not shown on the news.
-
+## https://youtu.be/clNb2dy1ZEI
 Google [dominates 70% of the search market](https://www.smartinsights.com/search-engine-marketing/search-engine-statistics/), but they are losing market share. Ecosia have found themselves 7 million customers, and proven the concept of charity search.
 
 More info [here](https://medium.com/@frodonomics/kalki-charity-search-engine-c2437a3802f5)
