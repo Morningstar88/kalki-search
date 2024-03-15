@@ -6,12 +6,12 @@
 
 ### [open source database](https://github.com/Morningstar88/kalki-search/blob/master/myla.txt)
 <hr>
-### Old design need to import to new--- https://codepen.io/Teeke/pen/dmwROB
+### Old design-- need to import to new--- https://codepen.io/Teeke/pen/dmwROB
 
 <hr>
 
 ### [Cara Membuat Repository Baru Di Akun Github Kita || Tutorial Github](https://www.youtube.com/watch?v=d5n_DgCHvWc) // First steps in an exciting new industry..----
-
+<hr>
 # BuildingKalki
 
 ### [Latest issues ](https://github.com/Morningstar88/kalki-search/issues) // [Charlie Parker](https://www.youtube.com/watch?v=3fgxyyrqZ-I) // [Comedy Radio](https://www.youtube.com/watch?v=ODkk4kmlX2s) // [Dillinger](https://dillinger.io/) // [gemini- coding and database help](https://gemini.google.com/) // [Comedy Radio](https://www.youtube.com/watch?v=ODkk4kmlX2s) // [Latest developments](https://github.com/Morningstar88/kalki-search/issues) // [Larry Page](https://c.ai/c/tHryhECiCDG6wGEgodblPenS_8SwWvcNVoryWZJyO6I) // [One click Dev Environment](https://www.one-tab.com/page/h9OeWm1gQ4eFNlfoh_G-6Q) // [database](https://github.com/Morningstar88/kalki-search/blob/master/myla.txt)https://www.facebook.com/groups/1157612982283228/
