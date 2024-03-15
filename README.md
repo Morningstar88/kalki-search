@@ -5,10 +5,10 @@
 # https://kalki1.vercel.app/<br><br> [Pemilik toko lokal- tulis toko Anda di sini.Jika kami menyukainya, kami akan mengindeksnya-write your store here.If we like it, we will index it](https://pad.riseup.net/p/UMe8eGIaeGaU3Cwq1lWx-keep)
 
 ### [open source database](https://github.com/Morningstar88/kalki-search/blob/master/myla.txt)
+<hr>
+### Old design need to import to new--- https://codepen.io/Teeke/pen/dmwROB
 
-### Old design need to import to new
-
-* https://codepen.io/Teeke/pen/dmwROB // Flavours of Kalki.Tune your database.
+<hr>
 
 ### [Cara Membuat Repository Baru Di Akun Github Kita || Tutorial Github](https://www.youtube.com/watch?v=d5n_DgCHvWc) // First steps in an exciting new industry..----
 
@@ -41,7 +41,7 @@ We welcome contributions from front end programmers, beginners or advanced. Feel
 
 The name [Kalki](https://en.wikipedia.org/wiki/Kalki) comes from the mythical Hindu warrior...
 
-
+Flavours of Kalki.Tune your database.
 # Bing Search API
 
 Links to understand the Bing search API are here.
