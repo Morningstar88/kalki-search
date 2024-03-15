@@ -1,12 +1,10 @@
-# Kalki
+
 
 ![Kalki logo](https://cdn-images-1.medium.com/max/1600/1*m-MpgJyeVgkj1oscfJ5-rA.png)
 
-# https://kalki1.vercel.app/ ### [Pemilik toko lokal- tulis toko Anda di sini.Jika kami menyukainya, kami akan mengindeksnya-write your store here.If we like it, we will index it](https://pad.riseup.net/p/UMe8eGIaeGaU3Cwq1lWx-keep)
+# https://kalki1.vercel.app/<br><br> [Pemilik toko lokal- tulis toko Anda di sini.Jika kami menyukainya, kami akan mengindeksnya-write your store here.If we like it, we will index it](https://pad.riseup.net/p/UMe8eGIaeGaU3Cwq1lWx-keep)
 
-### Latest Version on Codepen
-
-* https://codepen.io/Teeke/pen/eYXqJBX // [open source database](https://github.com/Morningstar88/kalki-search/blob/master/myla.txt)
+### [open source database](https://github.com/Morningstar88/kalki-search/blob/master/myla.txt)
 
 ### Old design need to import to new
 
