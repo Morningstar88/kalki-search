@@ -3,7 +3,7 @@
 ![Kalki logo](https://cdn-images-1.medium.com/max/1600/1*m-MpgJyeVgkj1oscfJ5-rA.png)
 
 
-# https://kalki1.vercel.app/<br><br>##  [Kafe organik, Taksi penanaman pohon Pemilik toko lokal - tulis toko Anda di sini. Jika kami menyukainya, kami akan mengindeksnya - Organic cafes, tree planting Taxi drivers,-,write your store here. If we like it, we will index it](https://pad.riseup.net/p/UMe8eGIaeGaU3Cwq1lWx-keep) https://github.com/Morningstar88/kalki-search/issues/172
+# https://kalki1.vercel.app/<br><br>##  [Kafe organik, Taksi penanaman pohon Pemilik toko lokal - tulis toko Anda di sini. Jika kami menyukainya, kami akan mengindeksnya - Organic cafes, tree planting Taxi drivers,-,write your store here. If we like it, we will index it](https://pad.riseup.net/p/UMe8eGIaeGaU3Cwq1lWx-keep) https://github.com/Morningstar88/kalki-search/issues/172 https://www.youtube.com/playlist?list=PLlOx95m4hh__GTsjeqfu9rf2iNoEWp7u2
 
 ### [open source database](https://github.com/Morningstar88/kalki-search/blob/master/myla.txt)
 <hr>
