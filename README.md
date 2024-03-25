@@ -1,9 +1,9 @@
 
 
 ![Kalki logo](https://cdn-images-1.medium.com/max/1600/1*m-MpgJyeVgkj1oscfJ5-rA.png)
-
-
-# https://kalki1.vercel.app/<br><br>##  [Kafe organik, Taksi penanaman pohon Pemilik toko lokal - tulis toko Anda di sini. Jika kami menyukainya, kami akan mengindeksnya - Organic cafes, tree planting Taxi drivers,-,write your store here. If we like it, we will index it](https://pad.riseup.net/p/UMe8eGIaeGaU3Cwq1lWx-keep)<hr> https://github.com/Morningstar88/kalki-search/issues/172 <hr>
+## "Move Slowly And Fix Things"
+# https://kalki1.vercel.app/<br><br>
+## [Kafe organik, Taksi penanaman pohon Pemilik toko lokal - tulis toko Anda di sini. Jika kami menyukainya, kami akan mengindeksnya - Organic cafes, tree planting Taxi drivers,-,write your store here. If we like it, we will index it](https://pad.riseup.net/p/UMe8eGIaeGaU3Cwq1lWx-keep)<hr> https://github.com/Morningstar88/kalki-search/issues/172 <hr>
 ## [open source database](https://github.com/Morningstar88/kalki-search/blob/master/myla.txt) [BahasaIndonesia](https://github.com/Morningstar88/kalki-search/issues/192) [Kalki sound system](https://www.youtube.com/playlist?list=PLlOx95m4hh__GTsjeqfu9rf2iNoEWp7u2)
 
 <hr>
@@ -13,7 +13,7 @@
 
 ### [Cara Membuat Repository Baru Di Akun Github Kita || Tutorial Github](https://www.youtube.com/watch?v=d5n_DgCHvWc) // First steps in an exciting new industry..----
 <hr>
-# BuildingKalki
+# Control panel
 
 ### [Latest issues ](https://github.com/Morningstar88/kalki-search/issues) // [Charlie Parker](https://www.youtube.com/watch?v=3fgxyyrqZ-I) // [Comedy Radio](https://www.youtube.com/watch?v=ODkk4kmlX2s) // [Dillinger](https://dillinger.io/) // [gemini- coding and database help](https://gemini.google.com/) // [Comedy Radio](https://www.youtube.com/watch?v=ODkk4kmlX2s) // [Latest developments](https://github.com/Morningstar88/kalki-search/labels/Feature) // [Larry Page](https://c.ai/c/tHryhECiCDG6wGEgodblPenS_8SwWvcNVoryWZJyO6I) // [One click Dev Environment](https://www.one-tab.com/page/h9OeWm1gQ4eFNlfoh_G-6Q) // [database](https://github.com/Morningstar88/kalki-search/blob/master/myla.txt)https://www.facebook.com/groups/1157612982283228/
 ## [Latest developments](https://github.com/Morningstar88/kalki-search/issues) Kalki is a prototype search engine that uses the Bing API. We're inspired by [Ecosia](www.ecosia.org). Ecosia give 80% of their profits to tree planting in Burkina Faso. [They've planted over 24 million trees](https://info.ecosia.org/).// [Daily development logs](https://github.com/Morningstar88/kalki-search/issues/70)
