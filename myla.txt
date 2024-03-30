@@ -180,12 +180,12 @@
       "level":"Intermediate"
    },
    {
-      "title":"How to Implement Debounce and Throttle with JavaScript",
-      "link":"https://webdesign.tutsplus.com/tutorials/javascript-debounce-and-throttle--cms-36783",
-      "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36783/preview_image/debounce_throttle.png",
+      "title":"Naraya Digital",
+      "link":"https://g.co/kgs/ri3njNa",
+      "image":"https://www.narayadigital.com/wp-content/uploads/2023/09/WDP-04.png",
       "categories":[
-         "JavaScript",
-         "Perfomance"
+         "Penestanan, Ubud",
+         "Printing, Design, Business Cards, Invitations"
       ],
       "level":"Intermediate"
    },
