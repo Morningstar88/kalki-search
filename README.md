@@ -3,7 +3,7 @@
 ![Kalki logo](https://cdn-images-1.medium.com/max/1600/1*m-MpgJyeVgkj1oscfJ5-rA.png)
 ## "Move Slowly And Fix Things"
 # https://kalki1.vercel.app/<br><br>
-## [Kafe organik, Taksi penanaman pohon Pemilik toko lokal - tulis toko Anda di sini.  - Organic cafes, tree planting Taxi drivers,-,write your store here. ](https://pad.riseup.net/p/UMe8eGIaeGaU3Cwq1lWx-keep)<hr> https://github.com/Morningstar88/kalki-search/issues/172 <hr>
+## [tulis toko Anda di sini. ](https://pad.riseup.net/p/UMe8eGIaeGaU3Cwq1lWx-keep)<hr> https://github.com/Morningstar88/kalki-search/issues/172 <hr>
 ## [open source database](https://github.com/Morningstar88/kalki-search/blob/master/myla.txt) [BahasaIndonesia](https://github.com/Morningstar88/kalki-search/issues/192) [Kalki sound system](https://www.youtube.com/playlist?list=PLlOx95m4hh__GTsjeqfu9rf2iNoEWp7u2)
 
 <hr>
