@@ -412,7 +412,7 @@
       ],
       "level":"Intermediate"
    }, {
-      "title":"youtube.com/results?search_query=how+to+turn+methanol+to+ethanol+diy+still",
+      "title":"how+to+turn+methanol+to+ethanol+diy+still",
       "link":"https://www.youtube.com/results?search_query=how+to+turn+methanol+to+ethanol+diy+still",
       "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
       "categories":[
@@ -422,25 +422,25 @@
       ],
       "level":"Beginner DIY"
    }, {
-      "title":"How to Animate on Scroll With Vanilla JavaScript",
-      "link":"https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+      "title":"How to Make WHISKEY at Home 10 YEAR OLD in ONLY 10 DAYS 🥃 Homemade WHISKY without tools",
+      "link":"https://www.youtube.com/watch?v=i4gjqQ-e-XQ",
       "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
       "categories":[
-         "JavaScript",
-         "Scroll Events",
-         "Animation"
+         "DIY Whiskey",
+         "Homebrew",
+         "Distilling"
       ],
       "level":"Intermediate"
    }, {
-      "title":"How to Animate on Scroll With Vanilla JavaScript",
-      "link":"https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+      "title":"github+repo+maintenance",
+      "link":"https://www.youtube.com/results?search_query=github+repo+maintenance",
       "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
       "categories":[
-         "JavaScript",
-         "Scroll Events",
-         "Animation"
+         "Github Repo",
+         "Maintainer",
+         "Version Control"
       ],
-      "level":"Intermediate"
+      "level":"Beginner"
    }, {
       "title":"How to Animate on Scroll With Vanilla JavaScript",
       "link":"https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
