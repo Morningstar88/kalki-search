@@ -452,13 +452,13 @@
       ],
       "level":"Beginner"
    }, {
-      "title":"How to Animate on Scroll With Vanilla JavaScript",
-      "link":"https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+      "title":"history+of+khmer+language",
+      "link":"https://www.youtube.com/results?search_query=history+of+khmer+language",
       "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
       "categories":[
-         "JavaScript",
-         "Scroll Events",
-         "Animation"
+         "#KhmerEnglish",
+         "History",
+         "languages"
       ],
       "level":"Intermediate"
    }, {
@@ -752,12 +752,12 @@
       ],
       "level":"Intermediate"
    }, {
-      "title":"How to Animate on Scroll With Vanilla JavaScript",
-      "link":"https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+      "title":"Basic Greetings in Khmer language | Rean Khmer | Cambodian Language",
+      "link":"https://youtu.be/OfrgM8bOnjo",
       "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
       "categories":[
-         "JavaScript",
-         "Scroll Events",
+         "#KhmerEnglish",
+         "Basic greetings in Khmer",
          "Animation"
       ],
       "level":"Intermediate"
