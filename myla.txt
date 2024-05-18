@@ -402,13 +402,13 @@
       "level":"Intermediate"
    },
  {
-      "title":"How to Animate on Scroll With Vanilla JavaScript",
-      "link":"https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+      "title":"LYE – What is it and why do we use it ? ",
+      "link":"https://honeysweetieacres.com/lye-what-is-it-and-why-do-we-use-it/#:~:text=Lye%20is%20probably%20one%20of%20thehttps://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
       "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
       "categories":[
-         "JavaScript",
-         "Scroll Events",
-         "Animation"
+         "#Lye",
+         "#Soapmaking",
+         "#5DollarIndustries"
       ],
       "level":"Intermediate"
    }, {
