@@ -522,13 +522,13 @@
       ],
       "level":"Intermediate"
    }, {
-      "title":"How to Animate on Scroll With Vanilla JavaScript",
-      "link":"https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+      "title":"Fantastic Khmerrr channel",
+      "link":"https://www.youtube.com/@reankhmer-learnkhmer",
       "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
       "categories":[
-         "JavaScript",
-         "Scroll Events",
-         "Animation"
+         "#KhmerEnglish",
+         "Languages",
+         "Angkor Wat"
       ],
       "level":"Intermediate"
    }, {
