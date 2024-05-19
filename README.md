@@ -7,7 +7,7 @@
 ## [open source database](https://github.com/Morningstar88/kalki-search/blob/master/myla.txt) [BahasaIndonesia](https://github.com/Morningstar88/kalki-search/issues/192) [Kalki sound system](https://www.youtube.com/playlist?list=PLlOx95m4hh__GTsjeqfu9rf2iNoEWp7u2)
 
 <hr>
-### Old design-- need to import to new--- https://codepen.io/Teeke/pen/dmwROB
+### Old design-- need to import to new--- use as footer? https://codepen.io/Teeke/pen/dmwROB
 
 <hr>
 
