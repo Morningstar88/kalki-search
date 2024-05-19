@@ -1237,13 +1237,13 @@
       ],
       "level":"Intermediate"
    }, {
-      "title":"How to Animate on Scroll With Vanilla JavaScript",
-      "link":"https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+      "title":"Strong With Kelly: Beginner's Deadlifts",
+      "link":"https://www.youtube.com/watch?v=ntr64W6ZWB0",
       "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
       "categories":[
-         "JavaScript",
-         "Scroll Events",
-         "Animation"
+         "Beginner",
+         "Deadlift",
+         "Strong With Kelly"
       ],
       "level":"Intermediate"
    }, {
