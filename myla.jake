@@ -2426,5 +2426,37 @@
          "Animation"
       ],
       "level":"Intermediate"
+   },
+{
+      "title": "Remembering Eric Dolphy",
+      "link": "https://www.charlesmingus.com/blog/remembering-eric-dolphy-june-20-1928-june-29-1964",
+      "description": "This article discusses the composition 'So Long Eric,' written during Mingus' ongoing argument with Dolphy about his decision to leave the group and stay in Europe after their 1964 tour.",
+      "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Black%20and%20white%20bird.webp",
+      "categories": ["Jazz", "Music", "Friendship"],
+      "level": "Intermediate"
+   },
+   {
+      "title": "Eric Dolphy: Gone In The Air",
+      "link": "https://www.allaboutjazz.com/eric-dolphy-gone-in-the-air-by-mark-werlin",
+      "description": "Learn more about Dolphy's technical perfectionism and his early collaborations with Mingus, including the recording of 'The Story of Love' in 1949.",
+      "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/tc.jpeg",
+      "categories": ["Jazz", "Music", "Collaboration"],
+      "level": "Advanced"
+   },
+   {
+      "title": "Charles Mingus: Triumph of the Underdog",
+      "link": "https://www.imdb.com/title/tt0103961/",
+      "description": "A documentary film that explores the life, music, and legacy of Charles Mingus, including his influential collaborations with Eric Dolphy.",
+      "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/charles-mingus.jpg",
+      "categories": ["Jazz", "Documentary", "Biography"],
+      "level": "Expert"
+   },
+   {
+      "title": "Eric Dolphy: Out to Lunch!",
+      "link": "https://www.allmusic.com/album/out-to-lunch%21-mw0000193885",
+      "description": "An iconic album by Eric Dolphy, featuring groundbreaking compositions and innovative improvisations. Mingus' influence is palpable in Dolphy's work.",
+      "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/eric-dolphy-out-to-lunch.jpg",
+      "categories": ["Jazz", "Album", "Avant-Garde"],
+      "level": "Intermediate"
    }
 ]
