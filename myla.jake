@@ -1557,15 +1557,15 @@
       ],
       "level":"Intermediate"
    }, {
-      "title":"How to Animate on Scroll With Vanilla JavaScript",
-      "link":"https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+      "title":"search?q=dumbbell+deadlift",
+      "link":"https://www.bing.com/videos/riverview/relatedvideo?q=dumbbell+deadlift",
       "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
       "categories":[
-         "JavaScript",
-         "Scroll Events",
-         "Animation"
+         "Lifting",
+         "Dumbbell",
+         "Romanian Deadlift"
       ],
-      "level":"Intermediate"
+      "level":"Beginner"
    }, {
       "title":"How to Animate on Scroll With Vanilla JavaScript",
       "link":"https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
