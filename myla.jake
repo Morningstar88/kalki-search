@@ -1247,11 +1247,11 @@
       ],
       "level":"Intermediate"
    }, {
-      "title":"How to Animate on Scroll With Vanilla JavaScript",
-      "link":"https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+      "title":"COMPILATION: Women's Heavy Squats | Riyadh 2023",
+      "link":"https://youtu.be/wWVnYUPIEOw?t=34",
       "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
       "categories":[
-         "JavaScript",
+         "Step into the world of power and perseverance with this awe-inspiring video showcasing heavy female squats. Witness the incredible strength and determination of female athletes as they push the limits of what's possible, squatting weights that defy expectations.",
          "Scroll Events",
          "Animation"
       ],
