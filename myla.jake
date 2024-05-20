@@ -601,10 +601,7 @@
          "#TheGreatAndSecretShow"
       ],
       "level":"Dansui Aren"
-   }, {
-      "title":"How to Animate on Scroll With Vanilla JavaScript",
-      "link":"[
-   {
+   },    {
       "title":"Friends of Shepperton",
       "link":"https://www.facebook.com/profile.php?id=100064581403988",
       "description":"A page where residents of Shepperton, Middx, can exchange information and discuss local issues. Find 'posts to page' under photos to see all posts.",
