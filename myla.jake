@@ -1147,8 +1147,8 @@
       ],
       "level":"Intermediate"
    }, {
-      "title":"How to Animate on Scroll With Vanilla JavaScript",
-      "link":"https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+      "title":"/r/redneckengineering. Drill powered washer and drayer.",
+      "link":"https://www.reddit.com/r/redneckengineering/comments/13go2b5/my_homemade_drillpowered_washer_and_dryer_is/",
       "image":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
       "categories":[
          "JavaScript",
