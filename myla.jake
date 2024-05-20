@@ -134,7 +134,7 @@
     },
     {
         "title": "How To Build a Simple Carousel With Vanilla JavaScript (14 Lines of Code!)",
-        "link": "https://webdesign.tutsplus.com/tutorials/how-to-build-a-simple-carousel-with-vanilla-javascript--cms-41734",
+        "link": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Black%20and%20white%20bird.webp",
         "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-black-and-white-photograph-of-stairs-with-shadows.jpeg",
         "categories": [
             "JavaScript",
@@ -335,7 +335,7 @@
     },
     {
         "title": "How To Build a Simple Carousel With Vanilla JavaScript (14 Lines of Code!)",
-        "link": "https://webdesign.tutsplus.com/tutorials/how-to-build-a-simple-carousel-with-vanilla-javascript--cms-41734",
+        "link": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Black%20and%20white%20bird.webp",
         "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-black-and-white-photograph-of-stairs-with-shadows.jpeg",
         "categories": [
             "JavaScript",
@@ -756,7 +756,7 @@
     },
     {
         "title": "How To Build a Simple Carousel With Vanilla JavaScript (14 Lines of Code!)",
-        "link": "https://webdesign.tutsplus.com/tutorials/how-to-build-a-simple-carousel-with-vanilla-javascript--cms-41734",
+        "link": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Black%20and%20white%20bird.webp",
         "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-black-and-white-photograph-of-stairs-with-shadows.jpeg",
         "categories": [
             "JavaScript",
@@ -957,7 +957,7 @@
     },
     {
         "title": "How To Build a Simple Carousel With Vanilla JavaScript (14 Lines of Code!)",
-        "link": "https://webdesign.tutsplus.com/tutorials/how-to-build-a-simple-carousel-with-vanilla-javascript--cms-41734",
+        "link": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Black%20and%20white%20bird.webp",
         "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-black-and-white-photograph-of-stairs-with-shadows.jpeg",
         "categories": [
             "JavaScript",
@@ -1432,7 +1432,7 @@
     },
     {
         "title": "The Lion of Oecusse makes play for Raven Throne and fails miserably. #MorningstarGame",
-        "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+        "link": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
         "image": "https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
         "categories": [
             "Dustbowl",
@@ -1653,7 +1653,7 @@
     {
         "title": "How to Animate on Scroll With Vanilla JavaScript",
         "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
-        "image": "https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
+        "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
         "categories": [
             "JavaScript",
             "Scroll Events",
@@ -1884,7 +1884,7 @@
     {
         "title": "How to Animate on Scroll With Vanilla JavaScript",
         "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
-        "image": "https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
+        "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
         "categories": [
             "JavaScript",
             "Scroll Events",
@@ -2148,7 +2148,73 @@
     {
         "title": "How to Animate on Scroll With Vanilla JavaScript",
         "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+        "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+        "categories": [
+            "JavaScript",
+            "Scroll Events",
+            "Animation"
+        ],
+        "level": "Intermediate"
+    },
+    {
+        "title": "How to Animate on Scroll With Vanilla JavaScript",
+        "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
         "image": "https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
+        "categories": [
+            "JavaScript",
+            "Scroll Events",
+            "Animation"
+        ],
+        "level": "Intermediate"
+    },
+    {
+        "title": "How to Animate on Scroll With Vanilla JavaScript",
+        "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+        "image": "https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
+        "categories": [
+            "JavaScript",
+            "Scroll Events",
+            "Animation"
+        ],
+        "level": "Intermediate"
+    },
+    {
+        "title": "How to Animate on Scroll With Vanilla JavaScript",
+        "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+        "image": "https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
+        "categories": [
+            "JavaScript",
+            "Scroll Events",
+            "Animation"
+        ],
+        "level": "Intermediate"
+    },
+    {
+        "title": "How to Animate on Scroll With Vanilla JavaScript",
+        "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+        "image": "https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
+        "categories": [
+            "JavaScript",
+            "Scroll Events",
+            "Animation"
+        ],
+        "level": "Intermediate"
+    },
+    {
+        "title": "How to Animate on Scroll With Vanilla JavaScript",
+        "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+        "image": "https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
+        "categories": [
+            "JavaScript",
+            "Scroll Events",
+            "Animation"
+        ],
+        "level": "Intermediate"
+    },
+    {
+        "title": "How to Animate on Scroll With Vanilla JavaScript",
+        "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+        "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
         "categories": [
             "JavaScript",
             "Scroll Events",
@@ -2324,7 +2390,7 @@
     {
         "title": "How to Animate on Scroll With Vanilla JavaScript",
         "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
-        "image": "https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
+        "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
         "categories": [
             "JavaScript",
             "Scroll Events",
@@ -2401,73 +2467,7 @@
     {
         "title": "How to Animate on Scroll With Vanilla JavaScript",
         "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
-        "image": "https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
-        "categories": [
-            "JavaScript",
-            "Scroll Events",
-            "Animation"
-        ],
-        "level": "Intermediate"
-    },
-    {
-        "title": "How to Animate on Scroll With Vanilla JavaScript",
-        "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
-        "image": "https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
-        "categories": [
-            "JavaScript",
-            "Scroll Events",
-            "Animation"
-        ],
-        "level": "Intermediate"
-    },
-    {
-        "title": "How to Animate on Scroll With Vanilla JavaScript",
-        "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
-        "image": "https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
-        "categories": [
-            "JavaScript",
-            "Scroll Events",
-            "Animation"
-        ],
-        "level": "Intermediate"
-    },
-    {
-        "title": "How to Animate on Scroll With Vanilla JavaScript",
-        "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
-        "image": "https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
-        "categories": [
-            "JavaScript",
-            "Scroll Events",
-            "Animation"
-        ],
-        "level": "Intermediate"
-    },
-    {
-        "title": "How to Animate on Scroll With Vanilla JavaScript",
-        "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
-        "image": "https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
-        "categories": [
-            "JavaScript",
-            "Scroll Events",
-            "Animation"
-        ],
-        "level": "Intermediate"
-    },
-    {
-        "title": "How to Animate on Scroll With Vanilla JavaScript",
-        "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
-        "image": "https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
-        "categories": [
-            "JavaScript",
-            "Scroll Events",
-            "Animation"
-        ],
-        "level": "Intermediate"
-    },
-    {
-        "title": "How to Animate on Scroll With Vanilla JavaScript",
-        "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
-        "image": "https://cms-assets.tutsplus.com/cdn-cgi/image/width=300/uploads/users/30/posts/36671/preview_image/animate-on-scroll.png",
+        "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
         "categories": [
             "JavaScript",
             "Scroll Events",
