@@ -1365,15 +1365,15 @@
         "level": "Intermediate"
     },
     {
-        "title": "Yr Link Here",
-        "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+        "title": "Before You Decide: 3 Steps To Better Decision Making | Matthew Confer | TEDxOakLawn",
+        "link": "https://youtu.be/d7Jnmi2BkS8",
         "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
         "categories": [
-            "JavaScript",
-            "Scroll Events",
+            "TEDx. TED",
+            "We have distilled our findings into a three step method you can use no matter the decision you face.",
             "Animation"
         ],
-        "level": "Intermediate"
+        "level": "Beginner"
     },
     {
         "title": "Yr Link Here",
@@ -1387,13 +1387,13 @@
         "level": "Intermediate"
     },
     {
-        "title": "Yr Link Here",
-        "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+        "title": "Guns N' Roses Live In Paris 1992 / Guns N' Roses en vivo en Paris 1992",
+        "link": "https://www.youtube.com/watch?v=ZPacP1nA_Hs",
         "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
         "categories": [
-            "JavaScript",
-            "Scroll Events",
-            "Animation"
+            "One of the best shows ever.",
+            "Miss you Izzy.",
+            "Welcome Dizzy."
         ],
         "level": "Intermediate"
     },
