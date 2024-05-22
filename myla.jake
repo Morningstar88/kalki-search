@@ -1299,15 +1299,15 @@
         "level": "Intermediate"
     },
     {
-        "title": "Yr Link Here",
-        "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+        "title": "Veed. Free AI text-to-video",
+        "link": "https://www.veed.io/",
         "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
         "categories": [
-            "JavaScript",
-            "Scroll Events",
-            "Animation"
+            "AI",
+            "Text-to-Video",
+            "Video generation. Free."
         ],
-        "level": "Intermediate"
+        "level": "Beginner"
     },
     {
         "title": "Yr Link Here",
