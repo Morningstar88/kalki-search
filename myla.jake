@@ -2157,8 +2157,8 @@
         "level": "Intermediate"
     },
     {
-        "title": "Yr Link Here",
-        "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+        "title": "The most incredible walled cities in the world++",
+        "link": "https://www.msn.com/en-xl/news/other/the-most-incredible-walled-cities-in-the-world/ss-AA1h03oO?ocid=msedgntp&pc=U531&cvid=170bc9ec1bba4d30975cdd65045875c2&ei=22#image=14",
         "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
         "categories": [
             "JavaScript",
