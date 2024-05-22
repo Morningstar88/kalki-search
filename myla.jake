@@ -1398,13 +1398,13 @@
         "level": "Intermediate"
     },
     {
-        "title": "Yr Link Here",
-        "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+        "title": "Cities with impressive beaches on their doorstep",
+        "link": "https://www.msn.com/en-xl/news/other/cities-with-impressive-beaches-on-their-doorstep/ss-BB1kb9qf?ocid=msedgdhp&pc=U531&cvid=e64a30137fc44690b66a24623f674769&ei=7#image=28",
         "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
         "categories": [
-            "JavaScript",
-            "Scroll Events",
-            "Animation"
+            "city",
+            "beach",
+            "ocean"
         ],
         "level": "Intermediate"
     },
