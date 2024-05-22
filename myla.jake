@@ -1211,15 +1211,15 @@
         "level": "Intermediate"
     },
     {
-        "title": "Yr Link Here",
-        "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+        "title": "Hidden gems of Eastern Europe",
+        "link": "https://www.msn.com/en-xl/news/other/hidden-gems-of-eastern-europe/ss-AA1lSLWj?ocid=msedgntp&pc=U531&cvid=b213cd84532441298278f567c12ca884&ei=11",
         "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
         "categories": [
-            "JavaScript",
-            "Scroll Events",
-            "Animation"
+            "Hidden",
+            "Gems",
+            "Eastern Europe"
         ],
-        "level": "Intermediate"
+        "level": "Beginner"
     },
     {
         "title": "Yr Link Here",
