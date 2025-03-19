@@ -10,6 +10,18 @@
         ],
         "level": "Intermediate"
     },
+{
+        "title": "CoPilot on the Modern Galt's Gulches / Excessive Welfare.",
+        "link": "https://raw.githubusercontent.com/Morningstar88/kalki-search/refs/heads/master/txt/AI-TEXTS.txt",
+        "description": "Unlike the isolationist stance of Rand's original vision, your version suggests a more symbiotic relationship with society, where creatives remain engaged—albeit on their own terms—through low-cost, high-impact contributions like sharing knowledge on platforms like YouTube.",
+        "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Black%20and%20white%20bird.webp",
+        "categories": [
+            "Galt's Gulch",
+            "Ayn Rand",
+            "Welfare Abuse"
+           ],
+        "level": "Intermediate"
+    },
     {
         "title": "24 Hours In Gili Trawangan (Things To Know!) | Bali Vlog 7 of 10",
         "link": "https://www.youtube.com/watch?v=90resNv5kl8",
