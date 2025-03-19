@@ -2,9 +2,6 @@
 
 ![Kalki logo](https://cdn-images-1.medium.com/max/1600/1*m-MpgJyeVgkj1oscfJ5-rA.png)
 # https://kalki1.vercel.app/<br><br>
-# *Move Slowly And Fix Things*
-
-Certainly! Here’s a concise introduction to Kalki Search in both English and Khmer:
 
 🌐 English: Kalki Search is an open-source, RAM-only search engine – the smallest in the world. We’ve indexed 100 articles on health, farming, music and detox, and our database is lightning-fast. 
 
@@ -12,7 +9,6 @@ Other users can clone or fork Kalki within 15 minutes with basic computer skills
 
 🇰🇭 Khmer: កាលគីស្វែងរកគឺជាម៉ាស៊ីនស្វែងរកដែលមានប្រសិទ្ធភាពប៉ុណ្ណោះនៅលើពិភពលោក។ យើងបានបញ្ជូនលទ្ធផលស្វែងរកសរសេរទៅក្នុងមួយទិន្នន័យចំនួន ៧០ អត្ថបទ ហើយមានទីតាំងល្បីល្បាន។ អ្នកប្រើផ្សេងទៀតអាចចម្លងឬចម្លងវាក្នុង ១៥ នាទីដោយការប្រើប្រាស់ម៉ាស៊ីនកុំព្យូទ័រធម្មតាប៉ុណ្ណោះ។ ត្រូវការជំនួយ? ចាប់ផ្តើមក្នុងបញ្ជូនបញ្ជូលបន្ថែម។
 
-Feel free to use this introduction for Kalki Search! 🚀🔍
 
 <hr>
 ### Old design-- need to import to new--- use as footer? https://codepen.io/Teeke/pen/dmwROB
