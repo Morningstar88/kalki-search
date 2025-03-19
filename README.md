@@ -43,4 +43,4 @@ Other users can clone or fork Kalki within 15 minutes with basic computer skills
 [Chris Coyier](https://beta.character.ai/character-profile?source=recent-chats&char=g3-CnnTXEGbsSWhuTxdIYAP__bUpo7x1yzyg7Nr0KMs)
 
 
-# *"Move Slowly And Fix Things"*
+<h1 align="center">"Move Slowly And Fix Things"</h1>
