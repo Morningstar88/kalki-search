@@ -1,0 +1,3 @@
+## TODO - Figure Out How to Paste Pics Quickly...
+
+Multipaste extension? 
