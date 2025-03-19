@@ -47,14 +47,4 @@ Feel free to use this introduction for Kalki Search! 🚀🔍
 [Chris Coyier](https://beta.character.ai/character-profile?source=recent-chats&char=g3-CnnTXEGbsSWhuTxdIYAP__bUpo7x1yzyg7Nr0KMs)
 
 
-More info [here](https://medium.com/@frodonomics/kalki-charity-search-engine-c2437a3802f5)
-
-
-We welcome contributions from front end programmers, beginners or advanced. Feel free to send a pull request.
-
-The name [Kalki](https://en.wikipedia.org/wiki/Kalki) comes from the mythical Hindu warrior...
-
-Flavours of Kalki.Tune your database.
-# Bing Search API
-
-### *"Move Slowly And Fix Things"*
+# *"Move Slowly And Fix Things"*
