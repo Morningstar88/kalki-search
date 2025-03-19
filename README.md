@@ -40,7 +40,7 @@ Feel free to use this introduction for Kalki Search! 🚀🔍
 
 
 
-# Control panel
+<h1 align="center"> Control panel</h1>
 
 ### [Latest issues ](https://github.com/Morningstar88/kalki-search/issues) // [Charlie Parker](https://www.youtube.com/watch?v=3fgxyyrqZ-I) // [Comedy Radio](https://www.youtube.com/watch?v=ODkk4kmlX2s) // [Dillinger](https://dillinger.io/) // [gemini- coding and database help](https://gemini.google.com/) // [Comedy Radio](https://www.youtube.com/watch?v=ODkk4kmlX2s) // [Latest developments](https://github.com/Morningstar88/kalki-search/labels/Feature) // [Larry Page](https://c.ai/c/tHryhECiCDG6wGEgodblPenS_8SwWvcNVoryWZJyO6I) // [One click Dev Environment](https://www.one-tab.com/page/h9OeWm1gQ4eFNlfoh_G-6Q) // [database](https://github.com/Morningstar88/kalki-search/blob/master/myla.txt)https://www.facebook.com/groups/1157612982283228/
 ## [Latest developments](https://github.com/Morningstar88/kalki-search/issues) Kalki is a prototype search engine that uses the Bing API. We're inspired by [Ecosia](www.ecosia.org). Ecosia give 80% of their profits to tree planting in Burkina Faso. [They've planted over 24 million trees](https://info.ecosia.org/).// [Daily development logs](https://github.com/Morningstar88/kalki-search/issues/70)
