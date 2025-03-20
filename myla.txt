@@ -22,7 +22,31 @@
            ],
         "level": "Intermediate"
     },
-    {
+{
+  "title": "Does Another You Exist? The Many-Worlds Theory Explained",
+  "link": "https://geeksaroundglobe.com/does-another-you-exist-the-many-worlds-theory-explained/",
+  "description": "An approachable explanation of the Many-Worlds Interpretation and its mathematical underpinnings.",
+  "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+  "categories": ["Quantum Mechanics", "Theory"],
+  "level": "Beginner"
+},
+{
+  "title": "I Want to Start Mathematics from Scratch",
+  "link": "https://math.stackexchange.com/questions/178302/i-want-to-start-mathematics-from-scratch-what-should-i-begin-with",
+  "description": "Advice on building mathematical foundations, relevant for understanding advanced theories.",
+  "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+  "categories": ["Mathematics", "Learning Path"],
+  "level": "Beginner"
+},
+{
+  "title": "OSSU Math Curriculum",
+  "link": "https://github.com/ossu/math",
+  "description": "A self-taught path to mastering mathematics, perfect for exploring deeper concepts.",
+  "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+  "categories": ["Open Source", "Education"],
+  "level": "Intermediate"
+},
+  {
         "title": "24 Hours In Gili Trawangan (Things To Know!) | Bali Vlog 7 of 10",
         "link": "https://www.youtube.com/watch?v=90resNv5kl8",
         "description": "we're in Lombok, exploring the first Gili Island, Gili Trawangan. Also known as Gili T, it's the most developed island with a stunning beach",
