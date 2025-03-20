@@ -294,7 +294,31 @@
         ],
         "level": "Advanced"
     },
-    {
+{
+  "title": "What is Headless Browser and Headless Browser Testing?",
+  "link": "https://www.browserstack.com/guide/what-is-headless-browser-testing",
+  "description": "An introduction to headless browsers and their applications in testing and automation.",
+  "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+  "categories": ["Web Development", "Testing"],
+  "level": "Beginner"
+},
+{
+  "title": "What Is Headless Browser Testing? A Complete Guide for 2025",
+  "link": "https://www.nimbleway.com/blog/headless-browser-testing-guide",
+  "description": "A comprehensive guide to headless browser testing, including tools and techniques.",
+  "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+  "categories": ["Automation", "Testing"],
+  "level": "Intermediate"
+},
+{
+  "title": "What is a Headless Browser: Top 8 Options for 2025 [Pros vs. Cons]",
+  "link": "https://www.scrapingbee.com/blog/what-is-a-headless-browser-best-solutions-for-web-scraping-at-scale/",
+  "description": "An overview of the top headless browser options, their pros and cons, and use cases.",
+  "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+  "categories": ["Web Scraping", "Tools"],
+  "level": "Intermediate"
+},
+{
         "title": "Lombok+Fun+Farming",
         "link": "https://www.youtube.com/results?search_query=Lombok+Fun+Farming",
         "description": "In this tutorial, we’ll be creating an accessible accordion block component using vanilla JavaScript, that allows a user to toggle collapsible content.",
