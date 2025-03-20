@@ -1215,7 +1215,7 @@
   "level": "Intermediate"
 },
 {
-  "title": "Paul Dirac — Wikipédia",
+  "title": "Paul Dirac — Wikipédia. Francais.",
   "link": "https://fr.wikipedia.org/wiki/Paul_Dirac",
   "description": "A detailed biography of Paul Dirac, highlighting his groundbreaking work in quantum mechanics and antimatter.",
   "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
