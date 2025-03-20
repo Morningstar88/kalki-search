@@ -236,7 +236,31 @@
         ],
         "level": "Intermediate"
     },
-    {
+{
+  "title": "The Many-Worlds Theory, Explained",
+  "link": "https://thereader.mitpress.mit.edu/the-many-worlds-theory/",
+  "description": "A jargon-free account of the Many-Worlds Interpretation of quantum mechanics, exploring its origins and implications.",
+  "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+  "categories": ["Quantum Mechanics", "Interpretation"],
+  "level": "Beginner"
+},
+{
+  "title": "The Bizarre Logic of the Many-Worlds Theory",
+  "link": "https://www.nature.com/articles/d41586-019-02602-8",
+  "description": "An exploration of the logical foundations and cultural impact of the Many-Worlds Theory.",
+  "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+  "categories": ["Quantum Mechanics", "Philosophy"],
+  "level": "Intermediate"
+},
+{
+  "title": "Does Another You Exist? The Many-Worlds Theory Explained",
+  "link": "https://geeksaroundglobe.com/does-another-you-exist-the-many-worlds-theory-explained/",
+  "description": "A beginner-friendly explanation of the Many-Worlds Interpretation and its implications for parallel universes.",
+  "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+  "categories": ["Quantum Mechanics", "Parallel Universes"],
+  "level": "Beginner"
+},
+  {
         "title": "Friends of Shepperton",
         "link": "https://www.facebook.com/profile.php?id=100064581403988",
         "description": "A page where residents of Shepperton, Middx, can exchange information and discuss local issues. Find 'posts to page' under photos to see all posts.",
