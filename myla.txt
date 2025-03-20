@@ -1206,7 +1206,31 @@
         ],
         "level": "Intermediate"
     },
-    {
+{
+  "title": "Paul Dirac - Wikipedia",
+  "link": "https://en.wikipedia.org/wiki/Paul_Dirac",
+  "description": "A comprehensive overview of Paul Dirac's life, contributions to quantum mechanics, and his legacy in physics.",
+  "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+  "categories": ["Quantum Physics", "Quantum Mechanics"],
+  "level": "Intermediate"
+},
+{
+  "title": "Paul Dirac — Wikipédia",
+  "link": "https://fr.wikipedia.org/wiki/Paul_Dirac",
+  "description": "A detailed biography of Paul Dirac, highlighting his groundbreaking work in quantum mechanics and antimatter.",
+  "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+  "categories": ["Quantum Physics", "Biography"],
+  "level": "Intermediate"
+},
+{
+  "title": "P.A.M. Dirac | English Physicist & Nobel Laureate | Britannica",
+  "link": "https://www.britannica.com/biography/Paul-Dirac",
+  "description": "An insightful article on Paul Dirac's achievements, including his Nobel Prize-winning work and the Dirac equation.",
+  "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+  "categories": ["Quantum Physics", "Nobel Laureates"],
+  "level": "Beginner"
+},
+  {
         "title": "#AnhBushcraft: Good looking girl makes Country Whiskey",
         "link": "https://youtu.be/jWpcfUI_bOA",
         "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
