@@ -3,329 +3,255 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ស្វែងរកភូមិ</title><style>
-  * {
-  box-sizing: border-box;
-}
+  <title>Kalki Search Engine</title>
+  <style>
+    /* Global Styles */
+    * {
+      box-sizing: border-box;
+    }
 
-/* Images and Approximate Lines*
-    
-    - PICS: .post-image (113)
-    
-    /
+    body {
+      font-family: "Josefin Sans", sans-serif;
+      background-color: #0a0a0a;
+      color: #33ff99;
+      margin: 0;
+      padding: 0;
+    }
 
-body {
-  font: normal 16px/26px system-ui, Josefin Sans, Helvetica, sans-serif;
-  background: #fefefe;
-  color: #444;
-  margin: 0;
-  padding: 0;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: none;
-  overflow-x: hidden;
-}
+    /* KALKI Title */
+    .kalki-logo {
+      font-size: 8em;
+      color: #33ff99;
+      text-shadow: 0 0 10px #33ff99, 0 0 20px #33ff99, 0 0 30px #33ff99;
+      text-align: center;
+      margin: 20px 0;
+    }
 
-.search-engine-name {
-    font-family: Josefin Sans;
-    font-size: 100px;
-}
-    
-header {
-  background: #112;
-  position: relative;
-  font-family: system-ui, Roboto, sans-serif;
-  min-height: 75px;
-  display: flex;
-  align-items: center;
-  position: sticky;
-  top: -54px;
-  z-index: 2;
-}
+    /* Search Box */
+    .search-container {
+      text-align: center;
+      margin: 20px 0;
+    }
 
-.logo {
-  height: 100px;justify-content: center;display: flex;
-  justify-content: center;
-  align-items: center;
-}
+    #search-box {
+      width: 300px;
+      padding: 10px;
+      font-size: 1.2em;
+      border: 2px solid #33ff99;
+      border-radius: 25px 5px 25px 5px;
+      background-color: #0a0a0a;
+      color: #33ff99;
+    }
 
-a {
-  color: #0085b6;
-  text-decoration: none;
-  border: none;
-}
+    #search-box::placeholder {
+      color: #80ffbf;
+    }
 
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 24px 24px 0px;
-  width: 100%;
-}
+    #search-button {
+      padding: 10px 20px;
+      font-size: 1.2em;
+      background-color: #33ff99;
+      color: #0a0a0a;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      margin-left: 10px;
+      transition: background-color 0.3s ease;
+    }
 
-/* SEACRH BAR START */
-    
-.search-bar {
-  display: flex;
-  justify-content: center;
-  padding: 24px;
-}
+    #search-button:hover {
+      background-color: #80ffbf;
+    }
 
-.search-bar input {
-  width: 50%;
-  min-width: 300px;
-  padding: 12px 24px;
-  border-radius: 16px 6px 16px 6px ;
-  font-size: 26px;
-  border: 0px;
-  outline: none;
-}
+    /* RAM Results */
+    .kalki-post-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
 
-.search-bar [list]::-webkit-list-button,
-.search-bar [list]::-webkit-calendar-picker-indicator {
-  display: none !important;
-}
+    .kalki-post img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
 
-.search-display {
-  text-align: center;
-}
-    /*SEARCH END*/
-    
-    
-    
-    /* Your Intro Text Here  */
-.card-header__title {
-  font-weight: 700;
-  font-family: "Josefin Sans";
-  font-size: 32px;
-  color: #222;
-}
+    .kalki-post div {
+      text-align: center;
+      margin-top: 10px;
+    }
 
-.posts-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  padding: 12px 0;
-}
+    /* DuckDuckGo and Wikipedia */
+    section {
+      margin: 20px;
+      padding: 15px;
+     /* border: 1px solid #222; */
+      border-radius: 8px;
+      background: #222;
+      font-size: 1.5em;
+    }
 
-.post {
-  position: relative;
-  min-width: 300px;
-  flex: 0 0 25%;
-  border: 1px solid #e1e8ed;
-  border-radius: 4px;
-  min-height: 300px;
-  height: auto;
-}
+    section h2 {
+      font-size: 1.5em;
+      color: #33ff99;
+    }
 
-.post-title {
-  font: 700 18px/1.4em system-ui, Roboto, Arial, sans-serif;
-  color: #555;
-  margin-top: 0;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.post-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: top;
-  filter: grayscale(100%); 
-  /* TODO: contrast(120%) brightness (80%); */
-  /* For more effects, including overlays and vignettes, see here (url)*/
-}
-
-.post-content {
-  padding: 16px;
-}
-
-.post-preview {
-  overflow: hidden;
-  width: 100%;
-  text-align: center;
-  display: block;
-  margin: 0 auto;
-  border-bottom: 1px solid #e1e8ed;
-  line-height: 0;
-  height: 200px;
-}
-
-.post-tag {
-  display: inline-block;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  padding: 0 10px;
-  color: #717171;
-  border: 1px solid #9b9b9b;
-  border-radius: 25px 5px 25px 5px;
-  white-space: nowrap;
-}
-
-.filter-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  gap: 10px;
-  padding: 32px 0;
-  border-top: 1px solid #e4e4e4;
-  border-bottom: 1px solid #e4e4e4;
-  margin-bottom: 32px;
-}
-
-.filter-button {
-  transition: background-color 200ms, color 200ms;
-  background-color: transparent;
-  font: inherit;
-  cursor: pointer;
-  display: inline-block;
-  padding: 0 8px;
-  color: #717171;
-  border: 1px solid #9b9b9b;
-  border-radius: 25px;
-  font-size: 14px;
-  white-space: nowrap;
-}
-
-.filter-button:hover {
-  background-color: #f3f3f3;
-  color: #3a3a3a;
-}
-
-.filter-button.is-active {
-  background-color: #0085b6;
-  border-color: #0085b6;
-  color: #fff;
-}
-/* This is a comment */
+    .glyph-placeholder {
+      text-align: center;
+      font-size: 1.5em;
+      color: #80ffbf;
+      margin: 20px 0;
+    }
   </style>
-  </head><body><header>
-  <div class="container header-content"><link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <im>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1 class="kalki-logo">KALKI</h1>
+  </header>
+
+  <!-- Search Box -->
+  <div class="search-container">
+    <input type="text" id="search-box" placeholder="Search Village...">
+    <button id="search-button">Go</button>
+  </div>
+
+  <!-- RAM Database Results -->
+  <section id="ram-results">
     
-<h1 align="center" class="search-engine-name" style="font-size:150px;">kALKi</h1>
-  
-        <div class="search-bar">
-      <input id="search" type="search" placeholder="ស្វែងរកភូមិ Search Village" list="search-suggestions" autocomplete="off"/>
-      
-      <datalist id="search-suggestions">
-        <option value="Timeline Jumping">
-        <option value="Quantum Physics. Many Worlds Theory">
-        <option value="Self Reliance">
-        <option value="Bread Making"><option value="Github">
-        <option value="Low Cost Farming">
-        <option value="Village">
-        <option value="Borax for Health">
-        <option value="Iodine">
-        <option value="Gili Trawangan">
-        <option value="Lombok">
-        <option value="Fun"><option value="Github">
-        <option value="Farming">
-        <option value="Village">
-        <option value="Cara Membuat Repository Baru">
-      </datalist>
-    </div>
-  </div>
-</header>
+    <div class="kalki-post-container"></div>
+  </section>c
 
-<main class="container">
-  <div class="profile__posts">
-    <div class="search-display"></div>
-    <div class="card-header" align="center">
-      <div class="card-header__title">Health, Self reliance, Timeline Jumping. <br> សុខភាព ការពឹងផ្អែកលើខ្លួនឯង ការលោតតាមពេលវេលា
-</div>
-    </div>
-    <div class="posts-container">
-    </div>
-  </div>
-</main> <!-- g alt="" class="logo" src="https://raw.githubusercontent.com/Morningstar88/X-Coin/main/pics/Abstract%20blue%20water.webp" -->
-  </body> <script>
-    let postsData = "";
-const postsContainer = document.querySelector(".posts-container");
-const searchDisplay = document.querySelector(".search-display");
-//https://gist.githubusercontent.com/Morningstar88/9d574ccdddac3fdb78ec0aa08b62adde/raw/54a568fa4d353fee39b768041339f52c90c91e44/gistfile1.txt?timestamp=12
-fetch(
-  "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/myla.txt"
-).then(async (response) => {
-  postsData = await response.json();
-  postsData.map((post) => createPost(post));
-});
+  <!-- DuckDuckGo Results -->
+  <section id="duckduckgo-results">
+    <h2>𓅔</h2>
+    <div id="ddg-content" class="glyph-placeholder"></div>
+  </section>
 
-const createPost = (postData) => {
-  const { title, link, image, categories } = postData;
-  const post = document.createElement("div");
-  post.className = "post";
-  post.innerHTML = `
-      <a class="post-preview" href="${link}" target="_blank">
-        <img class="post-image" src="${image}">
-      </a>
-      <div class="post-content">
-        <p class="post-title">${title}</p>
-        <div class="post-tags">
-          ${categories
-            .map((category) => {
-              return '<span class="post-tag">' + category + "</span>";
-            })
-            .join("")}
-        </div>
-      </div>
-  `;
+  <!-- Wikipedia Results -->
+  <section id="wikipedia-results">
+    <h2>𓅔𓅔</h2>
+    <div id="wiki-content" class="glyph-placeholder">Move Slowly and Fix Things</div>
+  </section>
 
-  postsContainer.append(post);
-};
+  <script>
+    /*****************
+     * RAM Database  *
+     *****************/
+    let ramPostsData = [];
+    const postContainer = document.querySelector(".kalki-post-container");
 
-const handleSearchPosts = (query) => {
-  const searchQuery = query.trim().toLowerCase();
-  
-  if (searchQuery.length <= 1) {
-    resetPosts()
-    return
-  }
-  
-  let searchResults = [...postsData].filter(
-    (post) =>
-      post.categories.some((category) => category.toLowerCase().includes(searchQuery)) ||
-      post.title.toLowerCase().includes(searchQuery)
-  );
-  
-  if (searchResults.length == 0) {
-    searchDisplay.innerHTML = "No results found"
-  } else if (searchResults.length == 1) {
-    searchDisplay.innerHTML = `1 result found for your query: ${query}`
-  } else {
-    searchDisplay.innerHTML = `${searchResults.length} results found for your query: ${query}`
-  }
+    // Fetch RAM database and display all results on load
+    fetch("https://raw.githubusercontent.com/Morningstar88/kalki-search/master/myla.txt")
+      .then(response => response.json())
+      .then(data => {
+        ramPostsData = data;
+        displayPosts(ramPostsData); // Display all results initially
+      })
+      .catch(error => console.error("Error fetching RAM data:", error));
 
-  postsContainer.innerHTML = "";
-  searchResults.map((post) => createPost(post));
-};
+    const displayPosts = (posts) => {
+      postContainer.innerHTML = "";
+      posts.forEach(post => {
+        const { title, link, image, categories } = post;
+        const postElement = document.createElement("div");
+        postElement.classList.add("kalki-post");
+        postElement.innerHTML = `
+          <a href="${link}" target="_blank">
+            <img src="${image}" alt="${title}" />
+          </a>
+          <div>${title}</div>
+          <div>${categories.map(cat => `<span>${cat}</span>`).join(", ")}</div>
+        `;
+        postContainer.appendChild(postElement);
+      });
+    };
 
-const resetPosts = () => {
-  searchDisplay.innerHTML = ""
-  postsContainer.innerHTML = "";
-  postsData.map((post) => createPost(post));
-};
+    // Autocomplete RAM search to reduce displayed results
+    document.getElementById("search-box").addEventListener("input", () => {
+      const query = document.getElementById("search-box").value.trim();
+      if (query) {
+        const filteredPosts = ramPostsData.filter(post =>
+          post.title.toLowerCase().includes(query.toLowerCase()) ||
+          post.categories.some(cat => cat.toLowerCase().includes(query.toLowerCase()))
+        );
+        displayPosts(filteredPosts);
+      } else {
+        displayPosts(ramPostsData); // Restore all results if input is cleared
+      }
+    });
 
-const search = document.getElementById("search");
+    /*****************
+     * DuckDuckGo Search *
+     *****************/
+    function searchDuckDuckGo(query) {
+      const ddgUrl = `https://api.duckduckgo.com/?q=${encodeURIComponent(query)}&format=json&pretty=1`;
+      const ddgContent = document.getElementById("ddg-content");
+      ddgContent.innerHTML = "";
 
-let debounceTimer;
-const debounce = (callback, time) => {
-  window.clearTimeout(debounceTimer);
-  debounceTimer = window.setTimeout(callback, time);
-};
+      fetch(ddgUrl)
+        .then(response => response.json())
+        .then(data => {
+          if (data.AbstractText) {
+            const ddgAbstract = document.createElement("p");
+            ddgAbstract.textContent = `DuckDuckGo Summary: ${data.AbstractText}`;
+            ddgContent.appendChild(ddgAbstract);
+          }
 
-search.addEventListener(
-  "input",
-  (event) => {
-    const query = event.target.value;
-    debounce(() => handleSearchPosts(query), 500);
-  },
-  false
-);
-/* This is a comment */
+          if (data.RelatedTopics.length > 0) {
+            data.RelatedTopics.slice(0, 5).forEach(topic => {
+              if (topic.FirstURL && topic.Text) {
+                const ddgLink = document.createElement("a");
+                ddgLink.href = topic.FirstURL;
+                ddgLink.target = "_blank";
+                ddgLink.textContent = topic.Text;
+
+                const wrapper = document.createElement("p");
+                wrapper.appendChild(ddgLink);
+                ddgContent.appendChild(wrapper);
+              }
+            });
+          }
+        })
+        .catch(error => console.error("Error fetching DuckDuckGo data:", error));
+    }
+
+    /*****************
+     * Wikipedia Search *
+     *****************/
+    function searchWikipedia(query) {
+      const wikiUrl = `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(query)}&format=json&origin=*`;
+      const wikiContent = document.getElementById("wiki-content");
+      wikiContent.innerHTML = "";
+
+      fetch(wikiUrl)
+        .then(response => response.json())
+        .then(data => {
+          const searchResults = data.query.search.slice(0, 3);
+          searchResults.forEach(result => {
+            const wikiLink = document.createElement("a");
+            wikiLink.href = `https://en.wikipedia.org/wiki/${encodeURIComponent(result.title)}`;
+            wikiLink.target = "_blank";
+            wikiLink.textContent = result.title;
+
+            const wrapper = document.createElement("p");
+            wrapper.appendChild(wikiLink);
+            wikiContent.appendChild(wrapper);
+          });
+        })
+        .catch(error => console.error("Error fetching Wikipedia data:", error));
+    }
+
+    // Event listener for search box to trigger DuckDuckGo and Wikipedia queries
+    document.getElementById("search-button").addEventListener("click", () => {
+      const query = document.getElementById("search-box").value.trim();
+      if (query) {
+        searchDuckDuckGo(query);
+        searchWikipedia(query);
+      }
+    });
   </script>
+</body>
 </html>
