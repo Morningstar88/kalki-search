@@ -256,11 +256,24 @@
   transform: rotate(0deg) translateY(-5px);
   box-shadow: 0 4px 15px rgba(51, 255, 153, 0.3);
 }
+  /* END IMPORT MASONRY GRID*/
+    /* IMPORT FADE IN*/
     
-    /* END IMPORT MASONRY GRID*/
+    .kalki-post {
+  opacity: 0;
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
     
-    
-    
+    /*END IMPORT FADE IN*//
+   
+ 
+  
   </style>
 </head>
 <body>
@@ -268,6 +281,8 @@
   <header>
     <h1 class="kalki-logo">KALKI</h1>
   </header>
+
+<br><br>
 
   <!-- Search Box -->
   <div class="search-container">
