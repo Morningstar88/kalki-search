@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Google Fonts Import -->
+  <!-- Google Fonts Import. -->
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&display=swap" rel="stylesheet">
   <title>Kalki Search Engine</title>
-<!-- COMMIT NOTES. 722PM. SUN 23RD MARCH. ADD MASONRY GRID.-->
+  <!-- COMIT NOTES: Last commit a mess? Recommit Masonry Pinterrest Grid. TODO: Add toggle button.-->
   <style>
     /* Global Styles */
     * {
@@ -15,7 +15,7 @@
 
     body {
       font-family: "Josefin Sans", sans-serif;
-      font-weight: 200; /* Base font weight */
+      font-weight: 200;
       background-color: #0a0a0a;
       color: #33ff99;
       margin: 0;
@@ -67,109 +67,78 @@
       background-color: #80ffbf;
     }
 
-    /* RAM Results */
+    /* RAM Results with Masonry Layout */
     .kalki-post-container {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-      justify-content: center;
+      column-count: 3; /* Number of columns */
+      column-gap: 20px;
+    }
+
+    .kalki-post {
+      display: inline-block;
+      width: 100%;
+      margin-bottom: 20px;
+      border: 1px solid #e1e8ed;
+      border-radius: 4px;
+      background-color: #222;
+      overflow: hidden;
     }
 
     .kalki-post img {
       width: 100%;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 6px;
+      aspect-ratio: 16 / 9;
+      object-fit: cover; /* Ensures images fit nicely */
     }
 
-    .kalki-post div {
-      text-align: center;
-      margin-top: 10px;
+    .post-content {
+      padding: 16px;
     }
 
-    /* DuckDuckGo and Wikipedia */
-    section {
-      margin: 20px;
-      padding: 15px;
-     /* border: 1px solid #222; */
-      border-radius: 8px;
-      background: #222;
-      font-size: 1.5em;
+    .post-title {
+      font: 700 18px/1.4em system-ui, Roboto, Arial, sans-serif;
+      color: #555;
+      margin-top: 0;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
 
-    section h2 {
-      font-size: 1.5em;
-      color: #33ff99;
-    }
-
-    .glyph-placeholder {
-      text-align: center;
-      font-size: 1.5em;
-      color: #80ffbf;
-      margin: 20px 0;
-    }
-    
-    .base-outro {
-      font-weigh: 100;
-      text-align: center;
-      margin-top: 20px;
-      margin-bottom: 50px; /* Extra space at the base of the app */
+    .post-tag {
+      display: inline-block;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      padding: 0 10px;
+      color: #717171;
+      border: 1px solid #9b9b9b;
+      border-radius: 25px 5px 25px 5px;
+      white-space: nowrap;
     }
   </style>
 </head>
 <body>
-  <!-- Header -->
   <header>
     <h1 class="kalki-logo">KALKI</h1>
   </header>
 
-  <!-- Search Box -->
   <div class="search-container">
     <input type="text" id="search-box" placeholder="Search Village...">
     <button id="search-button">Go</button>
   </div>
 
-  <!-- RAM Database Results -->
   <section id="ram-results">
-    
     <div class="kalki-post-container"></div>
-  </section>c
-
-  <!-- DuckDuckGo Results -->
-  <section id="duckduckgo-results">
-    <h2>𓅔</h2>
-    <div id="ddg-content" class="glyph-placeholder"></div>
-  </section>
-  
-   <!-- Rick and Morty Results -->
-  <section id="rick-and-morty-results">
-    <div class="glyph-placeholder">𓅭</div>
-    <div id="rick-and-morty-content"></div>
-  </section>
-
-  <!-- Wikipedia Results -->
-  <section id="wikipedia-results">
-    <h2>𓅔𓅔</h2>
-    <div id="wiki-content" class="glyph-placeholder"></div>
-    <h1 class="base-outro">
-    Move Slowly and Fix Things
-    </h1>
-    
   </section>
 
   <script>
-    /*****************
-     * RAM Database  *
-     *****************/
     let ramPostsData = [];
     const postContainer = document.querySelector(".kalki-post-container");
 
-    // Fetch RAM database and display all results on load
     fetch("https://raw.githubusercontent.com/Morningstar88/kalki-search/master/myla.txt")
       .then(response => response.json())
       .then(data => {
         ramPostsData = data;
-        displayPosts(ramPostsData); // Display all results initially
+        displayPosts(ramPostsData);
       })
       .catch(error => console.error("Error fetching RAM data:", error));
 
@@ -181,16 +150,19 @@
         postElement.classList.add("kalki-post");
         postElement.innerHTML = `
           <a href="${link}" target="_blank">
-            <img src="${image}" alt="${title}" />
+            <img src="${image}" alt="${title}" loading="lazy" />
           </a>
-          <div>${title}</div>
-          <div>${categories.map(cat => `<span>${cat}</span>`).join(", ")}</div>
+          <div class="post-content">
+            <div class="post-title">${title}</div>
+            <div>
+              ${categories.map(cat => `<span class="post-tag">${cat}</span>`).join("")}
+            </div>
+          </div>
         `;
         postContainer.appendChild(postElement);
       });
     };
 
-    // Autocomplete RAM search to reduce displayed results
     document.getElementById("search-box").addEventListener("input", () => {
       const query = document.getElementById("search-box").value.trim();
       if (query) {
@@ -200,129 +172,10 @@
         );
         displayPosts(filteredPosts);
       } else {
-        displayPosts(ramPostsData); // Restore all results if input is cleared
-      }
-    });
-
-    /*****************
-     * DuckDuckGo Search *
-     *****************/
-    function searchDuckDuckGo(query) {
-      const ddgUrl = `https://api.duckduckgo.com/?q=${encodeURIComponent(query)}&format=json&pretty=1`;
-      const ddgContent = document.getElementById("ddg-content");
-      ddgContent.innerHTML = "";
-
-      fetch(ddgUrl)
-        .then(response => response.json())
-        .then(data => {
-          if (data.AbstractText) {
-            const ddgAbstract = document.createElement("p");
-            ddgAbstract.textContent = `DuckDuckGo Summary: ${data.AbstractText}`;
-            ddgContent.appendChild(ddgAbstract);
-          }
-
-          if (data.RelatedTopics.length > 0) {
-            data.RelatedTopics.slice(0, 5).forEach(topic => {
-              if (topic.FirstURL && topic.Text) {
-                const ddgLink = document.createElement("a");
-                ddgLink.href = topic.FirstURL;
-                ddgLink.target = "_blank";
-                ddgLink.textContent = topic.Text;
-
-                const wrapper = document.createElement("p");
-                wrapper.appendChild(ddgLink);
-                ddgContent.appendChild(wrapper);
-              }
-            });
-          }
-        })
-        .catch(error => console.error("Error fetching DuckDuckGo data:", error));
-    }
-
-    /*****************
-     * Wikipedia Search *
-     *****************/
-    function searchWikipedia(query) {
-      const wikiUrl = `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(query)}&format=json&origin=*`;
-      const wikiContent = document.getElementById("wiki-content");
-      wikiContent.innerHTML = "";
-
-      fetch(wikiUrl)
-        .then(response => response.json())
-        .then(data => {
-          const searchResults = data.query.search.slice(0, 3);
-          searchResults.forEach(result => {
-            const wikiLink = document.createElement("a");
-            wikiLink.href = `https://en.wikipedia.org/wiki/${encodeURIComponent(result.title)}`;
-            wikiLink.target = "_blank";
-            wikiLink.textContent = result.title;
-
-            const wrapper = document.createElement("p");
-            wrapper.appendChild(wikiLink);
-            wikiContent.appendChild(wrapper);
-          });
-        })
-        .catch(error => console.error("Error fetching Wikipedia data:", error));
-    }
-
-    // Event listener for search box to trigger DuckDuckGo and Wikipedia queries
-    document.getElementById("search-button").addEventListener("click", () => {
-      const query = document.getElementById("search-box").value.trim();
-      if (query) {
-        searchDuckDuckGo(query);
-        searchWikipedia(query);
-      }
-    });
-    
-      /*****************
-     * Rick and Morty API Search *
-     *****************/
-    function searchRickAndMorty(query) {
-      const rickAndMortyUrl = `https://rickandmortyapi.com/api/character/?name=${encodeURIComponent(query)}`;
-      const rickAndMortyContent = document.getElementById("rick-and-morty-content");
-      rickAndMortyContent.innerHTML = ""; 
-
-      fetch(rickAndMortyUrl)
-        .then(response => {
-          if (!response.ok) {
-            throw new Error(`Character not found: ${response.statusText}`);
-          }
-          return response.json();
-        })
-        .then(data => {
-          if (data.results && data.results.length > 0) {
-            data.results.forEach(character => {
-              const characterCard = document.createElement("div");
-              characterCard.classList.add("rick-and-morty-character");
-
-              characterCard.innerHTML = `
-                <img src="${character.image}" alt="${character.name}" />
-                <h3>${character.name}</h3>
-                <p>Status: ${character.status}</p>
-                <p>Species: ${character.species}</p>
-                <p>Origin: ${character.origin.name}</p>
-              `;
-
-              rickAndMortyContent.appendChild(characterCard);
-            });
-          } else {
-            rickAndMortyContent.innerHTML = "<p>No characters found matching your query.</p>";
-          }
-        })
-        .catch(error => {
-          console.error("Error fetching Rick and Morty data:", error);
-          rickAndMortyContent.innerHTML = "<p>Oops! Something went wrong while fetching the data.</p>";
-        });
-    }
-
-    document.getElementById("search-button").addEventListener("click", () => {
-      const query = document.getElementById("search-box").value.trim();
-      if (query) {
-        searchRickAndMorty(query); 
+        displayPosts(ramPostsData);
       }
     });
   </script>
 </body>
 </html>
-
 
