@@ -3,10 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Google Fonts Import. -->
+  <!-- Google Fonts Import -->
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&display=swap" rel="stylesheet">
   <title>Kalki Search Engine</title>
-  <!-- COMIT NOTES: Last commit a mess? Recommit Masonry Pinterrest Grid. TODO: Add toggle button.-->
   <style>
     /* Global Styles */
     * {
@@ -15,7 +14,7 @@
 
     body {
       font-family: "Josefin Sans", sans-serif;
-      font-weight: 200;
+      font-weight: 200; /* Base font weight */
       background-color: #0a0a0a;
       color: #33ff99;
       margin: 0;
@@ -67,43 +66,36 @@
       background-color: #80ffbf;
     }
 
-    /* RAM Results with Masonry Layout */
+    /* RAM Results */
     .kalki-post-container {
-      column-count: 3; /* Number of columns */
-      column-gap: 20px;
-    }
-
-    .kalki-post {
-      display: inline-block;
-      width: 100%;
-      margin-bottom: 20px;
-      border: 1px solid #e1e8ed;
-      border-radius: 4px;
-      background-color: #222;
-      overflow: hidden;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
     }
 
     .kalki-post img {
       width: 100%;
-      aspect-ratio: 16 / 9;
-      object-fit: cover; /* Ensures images fit nicely */
+      height: 200px;
+      object-fit: cover;
+      border-radius: 6px;
     }
 
-    .post-content {
-      padding: 16px;
+    .kalki-post div {
+      text-align: center;
+      margin-top: 10px;
     }
 
-    .post-title {
-      font: 700 18px/1.4em system-ui, Roboto, Arial, sans-serif;
-      color: #555;
-      margin-top: 0;
-      display: -webkit-box;
-      -webkit-line-clamp: 3;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-      text-overflow: ellipsis;
+    /* DuckDuckGo and Wikipedia */
+    section {
+      margin: 20px;
+      padding: 15px;
+     /* border: 1px solid #222; */
+      border-radius: 8px;
+      background: #222;
+      font-size: 1.5em;
     }
-
+    
     .post-tag {
       display: inline-block;
       margin-right: 10px;
@@ -114,55 +106,241 @@
       border-radius: 25px 5px 25px 5px;
       white-space: nowrap;
     }
+
+    section h2 {
+      font-size: 1.5em;
+      color: #33ff99;
+    }
+
+    .glyph-placeholder {
+      text-align: center;
+      font-size: 1.5em;
+      color: #80ffbf;
+      margin: 20px 0;
+    }
+    
+    .base-outro {
+      font-weigh: 100;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 50px; /* Extra space at the base of the app */
+    }
+    
+    
+    /* TEST IMPORT DEEPSEEK */
+    
+    /* RAM Database Cards */
+.kalki-post {
+  background: #222;
+  border-radius: 8px;
+  padding: 15px;
+  width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kalki-post:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(51, 255, 153, 0.3);
+}
+
+.kalki-post img {
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.kalki-post div {
+  color: #80ffbf;
+  font-size: 1.1em;
+}
+
+.kalki-post span {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  background: #33ff99;
+  color: #0a0a0a;
+  border-radius: 15px;
+  font-size: 0.9em;
+}
+
+/* Rick and Morty Cards */
+.rick-and-morty-character {
+  background: #222;
+  border-radius: 8px;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rick-and-morty-character:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(51, 255, 153, 0.3);
+}
+
+.rick-and-morty-character img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.rick-and-morty-character h3 {
+  color: #33ff99;
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.rick-and-morty-character p {
+  color: #80ffbf;
+  font-size: 0.9em;
+  margin: 5px 0;
+}
+
+/* DuckDuckGo and Wikipedia Results */
+#ddg-content p,
+#wiki-content p {
+  margin: 10px 0;
+  padding: 10px;
+  background: #222;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+#ddg-content p:hover,
+#wiki-content p:hover {
+  background: #333;
+}
+
+#ddg-content a,
+#wiki-content a {
+  color: #33ff99;
+  text-decoration: none;
+}
+
+#ddg-content a:hover,
+#wiki-content a:hover {
+  text-decoration: underline;
+}
+    
+    /* END TEST IMPORT DEEPSEEK*/
+    /*IMPORT MASONRY GRID FROM DEEPSEEK*/
+    
+    /* Masonry Grid Layout */
+.kalki-post-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.kalki-post {
+  background: #222;
+  border-radius: 8px;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  break-inside: avoid; /* Prevent items from breaking across columns */
+}
+
+/* Slightly offset every other item */
+.kalki-post:nth-child(odd) {
+  transform: rotate(1deg);
+}
+
+.kalki-post:nth-child(even) {
+  transform: rotate(-1deg);
+}
+
+.kalki-post:hover {
+  transform: rotate(0deg) translateY(-5px);
+  box-shadow: 0 4px 15px rgba(51, 255, 153, 0.3);
+}
+    
+    /* END IMPORT MASONRY GRID*/
+    
+    
+    
   </style>
 </head>
 <body>
+  <!-- Header -->
   <header>
     <h1 class="kalki-logo">KALKI</h1>
   </header>
 
+  <!-- Search Box -->
   <div class="search-container">
     <input type="text" id="search-box" placeholder="Search Village...">
     <button id="search-button">Go</button>
   </div>
 
+  <!-- RAM Database Results -->
   <section id="ram-results">
+    
     <div class="kalki-post-container"></div>
+  </section>c
+
+  <!-- DuckDuckGo Results -->
+  <section id="duckduckgo-results">
+    <h2>𓅔</h2>
+    <div id="ddg-content" class="glyph-placeholder"></div>
+  </section>
+  
+   <!-- Rick and Morty Results -->
+  <section id="rick-and-morty-results">
+    <div class="glyph-placeholder">𓅭</div>
+    <div id="rick-and-morty-content"></div>
+  </section>
+
+  <!-- Wikipedia Results -->
+  <section id="wikipedia-results">
+    <h2>𓅔𓅔</h2>
+    <div id="wiki-content" class="glyph-placeholder"></div>
+    <h1 class="base-outro">
+    Move Slowly and Fix Things
+    </h1>
+    
   </section>
 
   <script>
+    /*****************
+     * RAM Database  *
+     *****************/
     let ramPostsData = [];
     const postContainer = document.querySelector(".kalki-post-container");
 
+    // Fetch RAM database and display all results on load
     fetch("https://raw.githubusercontent.com/Morningstar88/kalki-search/master/myla.txt")
       .then(response => response.json())
       .then(data => {
         ramPostsData = data;
-        displayPosts(ramPostsData);
+        displayPosts(ramPostsData); // Display all results initially
       })
       .catch(error => console.error("Error fetching RAM data:", error));
 
-    const displayPosts = (posts) => {
-      postContainer.innerHTML = "";
-      posts.forEach(post => {
-        const { title, link, image, categories } = post;
-        const postElement = document.createElement("div");
-        postElement.classList.add("kalki-post");
-        postElement.innerHTML = `
-          <a href="${link}" target="_blank">
-            <img src="${image}" alt="${title}" loading="lazy" />
-          </a>
-          <div class="post-content">
-            <div class="post-title">${title}</div>
-            <div>
-              ${categories.map(cat => `<span class="post-tag">${cat}</span>`).join("")}
-            </div>
-          </div>
-        `;
-        postContainer.appendChild(postElement);
-      });
-    };
+/* IMPORT DEEPSEEK DISPLAY POSTS CODE*/
 
+const displayPosts = (posts) => {
+  postContainer.innerHTML = "";
+  posts.forEach(post => {
+    const { title, link, image, categories } = post;
+    const postElement = document.createElement("div");
+    postElement.classList.add("kalki-post");
+    postElement.innerHTML = `
+      <a href="${link}" target="_blank">
+        <img src="${image}" alt="${title}" />
+      </a>
+      <div>${title}</div>
+      <div>${categories.map(cat => `<span class="post-tag">${cat}</span>`).join("")}</div>
+    `;
+    postContainer.appendChild(postElement);
+  });
+};
+
+/* END IMPORT DEEPSEEK DISPLAY POSTS CODE*/
+
+// Autocomplete RAM search to reduce displayed results
     document.getElementById("search-box").addEventListener("input", () => {
       const query = document.getElementById("search-box").value.trim();
       if (query) {
@@ -172,10 +350,127 @@
         );
         displayPosts(filteredPosts);
       } else {
-        displayPosts(ramPostsData);
+        displayPosts(ramPostsData); // Restore all results if input is cleared
+      }
+    });
+
+    /*****************
+     * DuckDuckGo Search *
+     *****************/
+    function searchDuckDuckGo(query) {
+      const ddgUrl = `https://api.duckduckgo.com/?q=${encodeURIComponent(query)}&format=json&pretty=1`;
+      const ddgContent = document.getElementById("ddg-content");
+      ddgContent.innerHTML = "";
+
+      fetch(ddgUrl)
+        .then(response => response.json())
+        .then(data => {
+          if (data.AbstractText) {
+            const ddgAbstract = document.createElement("p");
+            ddgAbstract.textContent = `DuckDuckGo Summary: ${data.AbstractText}`;
+            ddgContent.appendChild(ddgAbstract);
+          }
+
+          if (data.RelatedTopics.length > 0) {
+            data.RelatedTopics.slice(0, 5).forEach(topic => {
+              if (topic.FirstURL && topic.Text) {
+                const ddgLink = document.createElement("a");
+                ddgLink.href = topic.FirstURL;
+                ddgLink.target = "_blank";
+                ddgLink.textContent = topic.Text;
+
+                const wrapper = document.createElement("p");
+                wrapper.appendChild(ddgLink);
+                ddgContent.appendChild(wrapper);
+              }
+            });
+          }
+        })
+        .catch(error => console.error("Error fetching DuckDuckGo data:", error));
+    }
+
+    /*****************
+     * Wikipedia Search *
+     *****************/
+    function searchWikipedia(query) {
+      const wikiUrl = `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(query)}&format=json&origin=*`;
+      const wikiContent = document.getElementById("wiki-content");
+      wikiContent.innerHTML = "";
+
+      fetch(wikiUrl)
+        .then(response => response.json())
+        .then(data => {
+          const searchResults = data.query.search.slice(0, 3);
+          searchResults.forEach(result => {
+            const wikiLink = document.createElement("a");
+            wikiLink.href = `https://en.wikipedia.org/wiki/${encodeURIComponent(result.title)}`;
+            wikiLink.target = "_blank";
+            wikiLink.textContent = result.title;
+
+            const wrapper = document.createElement("p");
+            wrapper.appendChild(wikiLink);
+            wikiContent.appendChild(wrapper);
+          });
+        })
+        .catch(error => console.error("Error fetching Wikipedia data:", error));
+    }
+
+    // Event listener for search box to trigger DuckDuckGo and Wikipedia queries
+    document.getElementById("search-button").addEventListener("click", () => {
+      const query = document.getElementById("search-box").value.trim();
+      if (query) {
+        searchDuckDuckGo(query);
+        searchWikipedia(query);
+      }
+    });
+    
+      /*****************
+     * Rick and Morty API Search *
+     *****************/
+    function searchRickAndMorty(query) {
+      const rickAndMortyUrl = `https://rickandmortyapi.com/api/character/?name=${encodeURIComponent(query)}`;
+      const rickAndMortyContent = document.getElementById("rick-and-morty-content");
+      rickAndMortyContent.innerHTML = ""; 
+
+      fetch(rickAndMortyUrl)
+        .then(response => {
+          if (!response.ok) {
+            throw new Error(`Character not found: ${response.statusText}`);
+          }
+          return response.json();
+        })
+        .then(data => {
+          if (data.results && data.results.length > 0) {
+            data.results.forEach(character => {
+              const characterCard = document.createElement("div");
+              characterCard.classList.add("rick-and-morty-character");
+
+              characterCard.innerHTML = `
+                <img src="${character.image}" alt="${character.name}" />
+                <h3>${character.name}</h3>
+                <p>Status: ${character.status}</p>
+                <p>Species: ${character.species}</p>
+                <p>Origin: ${character.origin.name}</p>
+              `;
+
+              rickAndMortyContent.appendChild(characterCard);
+            });
+          } else {
+            rickAndMortyContent.innerHTML = "<p>No characters found matching your query.</p>";
+          }
+        })
+        .catch(error => {
+          console.error("Error fetching Rick and Morty data:", error);
+          rickAndMortyContent.innerHTML = "<p>Oops! Something went wrong while fetching the data.</p>";
+        });
+    }
+
+    document.getElementById("search-button").addEventListener("click", () => {
+      const query = document.getElementById("search-box").value.trim();
+      if (query) {
+        searchRickAndMorty(query); 
       }
     });
   </script>
 </body>
 </html>
-
