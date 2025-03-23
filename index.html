@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts Import -->
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&display=swap" rel="stylesheet">
   <title>Kalki Search Engine</title>
   <style>
     /* Global Styles */
@@ -12,6 +14,7 @@
 
     body {
       font-family: "Josefin Sans", sans-serif;
+      font-weight: 200; /* Base font weight */
       background-color: #0a0a0a;
       color: #33ff99;
       margin: 0;
@@ -104,6 +107,13 @@
       color: #80ffbf;
       margin: 20px 0;
     }
+    
+    .base-outro {
+      font-weigh: 100;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 50px; /* Extra space at the base of the app */
+    }
   </style>
 </head>
 <body>
@@ -129,11 +139,21 @@
     <h2>𓅔</h2>
     <div id="ddg-content" class="glyph-placeholder"></div>
   </section>
+  
+   <!-- Rick and Morty Results -->
+  <section id="rick-and-morty-results">
+    <div class="glyph-placeholder">𓅭</div>
+    <div id="rick-and-morty-content"></div>
+  </section>
 
   <!-- Wikipedia Results -->
   <section id="wikipedia-results">
     <h2>𓅔𓅔</h2>
-    <div id="wiki-content" class="glyph-placeholder">Move Slowly and Fix Things</div>
+    <div id="wiki-content" class="glyph-placeholder"></div>
+    <h1 class="base-outro">
+    Move Slowly and Fix Things
+    </h1>
+    
   </section>
 
   <script>
@@ -252,6 +272,56 @@
         searchWikipedia(query);
       }
     });
+    
+      /*****************
+     * Rick and Morty API Search *
+     *****************/
+    function searchRickAndMorty(query) {
+      const rickAndMortyUrl = `https://rickandmortyapi.com/api/character/?name=${encodeURIComponent(query)}`;
+      const rickAndMortyContent = document.getElementById("rick-and-morty-content");
+      rickAndMortyContent.innerHTML = ""; 
+
+      fetch(rickAndMortyUrl)
+        .then(response => {
+          if (!response.ok) {
+            throw new Error(`Character not found: ${response.statusText}`);
+          }
+          return response.json();
+        })
+        .then(data => {
+          if (data.results && data.results.length > 0) {
+            data.results.forEach(character => {
+              const characterCard = document.createElement("div");
+              characterCard.classList.add("rick-and-morty-character");
+
+              characterCard.innerHTML = `
+                <img src="${character.image}" alt="${character.name}" />
+                <h3>${character.name}</h3>
+                <p>Status: ${character.status}</p>
+                <p>Species: ${character.species}</p>
+                <p>Origin: ${character.origin.name}</p>
+              `;
+
+              rickAndMortyContent.appendChild(characterCard);
+            });
+          } else {
+            rickAndMortyContent.innerHTML = "<p>No characters found matching your query.</p>";
+          }
+        })
+        .catch(error => {
+          console.error("Error fetching Rick and Morty data:", error);
+          rickAndMortyContent.innerHTML = "<p>Oops! Something went wrong while fetching the data.</p>";
+        });
+    }
+
+    document.getElementById("search-button").addEventListener("click", () => {
+      const query = document.getElementById("search-box").value.trim();
+      if (query) {
+        searchRickAndMorty(query); 
+      }
+    });
   </script>
 </body>
 </html>
+
+
