@@ -198,6 +198,45 @@
   margin: 5px 0;
 }
 
+/* IMPORT RICK AND MORTY GLOW EFFECT*/
+
+.rick-and-morty-character {
+  background: #222;
+  border-radius: 8px;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.rick-and-morty-character:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(51, 255, 153, 0.8), 0 0 30px rgba(51, 255, 153, 0.6);
+  border-color: #33ff99;
+}
+
+/* END IMPORT GLOW EFFECT*/
+
+/* RICK AND MORTY STATUS INDICATOR*/
+
+.rick-and-morty-character p[data-status="Alive"]::before {
+  content: "🟢";
+  margin-right: 5px;
+}
+
+.rick-and-morty-character p[data-status="Dead"]::before {
+  content: "🔴";
+  margin-right: 5px;
+}
+
+.rick-and-morty-character p[data-status="unknown"]::before {
+  content: "⚪";
+  margin-right: 5px;
+}
+
+/* RICK AND MORTY STATUS INDICATOR*/
+
 /* DuckDuckGo and Wikipedia Results */
 #ddg-content p,
 #wiki-content p {
@@ -460,13 +499,13 @@ const displayPosts = (posts) => {
               const characterCard = document.createElement("div");
               characterCard.classList.add("rick-and-morty-character");
 
-              characterCard.innerHTML = `
-                <img src="${character.image}" alt="${character.name}" />
-                <h3>${character.name}</h3>
-                <p>Status: ${character.status}</p>
-                <p>Species: ${character.species}</p>
-                <p>Origin: ${character.origin.name}</p>
-              `;
+characterCard.innerHTML = `
+  <img src="${character.image}" alt="${character.name}" />
+  <h3>${character.name}</h3>
+  <p data-status="${character.status}">Status: ${character.status}</p>
+  <p>Species: ${character.species}</p>
+  <p>Origin: ${character.origin.name}</p>
+`;
 
               rickAndMortyContent.appendChild(characterCard);
             });
