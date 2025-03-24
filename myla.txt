@@ -1,28 +1,5 @@
 [
   {
-    "title": "Friends of Shepperton",
-    "link": "https://www.facebook.com/profile.php?id=100064581403988",
-    "description": "A page where residents of Shepperton, Middx, can exchange information and discuss local issues. Find 'posts to page' under photos to see all posts.",
-    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Black%20and%20white%20bird.webp",
-    "categories": [
-      "Shepperton",
-      "Friends"
-    ],
-    "level": "Intermediate"
-  },
-  {
-    "title": "CoPilot on the Modern Galt's Gulches / Excessive Welfare.",
-    "link": "https://raw.githubusercontent.com/Morningstar88/kalki-search/refs/heads/master/txt/AI-TEXTS.txt",
-    "description": "Unlike the isolationist stance of Rand's original vision, your version suggests a more symbiotic relationship with society, where creatives remain engaged—albeit on their own terms—through low-cost, high-impact contributions like sharing knowledge on platforms like YouTube.",
-    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Black%20and%20white%20bird.webp",
-    "categories": [
-      "Galt's Gulch",
-      "Ayn Rand",
-      "Welfare Abuse"
-    ],
-    "level": "Intermediate"
-  },
-  {
     "title": "Does Another You Exist? The Many-Worlds Theory Explained",
     "link": "https://geeksaroundglobe.com/does-another-you-exist-the-many-worlds-theory-explained/",
     "description": "An approachable explanation of the Many-Worlds Interpretation and its mathematical underpinnings.",
@@ -30,17 +7,6 @@
     "categories": [
       "Quantum Mechanics",
       "Theory"
-    ],
-    "level": "Beginner"
-  },
-  {
-    "title": "I Want to Start Mathematics from Scratch",
-    "link": "https://math.stackexchange.com/questions/178302/i-want-to-start-mathematics-from-scratch-what-should-i-begin-with",
-    "description": "Advice on building mathematical foundations, relevant for understanding advanced theories.",
-    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
-    "categories": [
-      "Mathematics",
-      "Learning Path"
     ],
     "level": "Beginner"
   },
@@ -56,50 +22,15 @@
     "level": "Intermediate"
   },
   {
-    "title": "24 Hours In Gili Trawangan (Things To Know!) | Bali Vlog 7 of 10",
-    "link": "https://www.youtube.com/watch?v=90resNv5kl8",
-    "description": "we're in Lombok, exploring the first Gili Island, Gili Trawangan. Also known as Gili T, it's the most developed island with a stunning beach",
-    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/tc.jpeg",
+    "title": "Friends of Shepperton",
+    "link": "https://www.facebook.com/profile.php?id=100064581403988",
+    "description": "A page where residents of Shepperton, Middx, can exchange information and discuss local issues. Find 'posts to page' under photos to see all posts.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Black%20and%20white%20bird.webp",
     "categories": [
-      "Gili Trawangan",
-      "Lombok",
-      "island"
-    ],
-    "level": "Lombok"
-  },
-  {
-    "title": "24+Hours+In+Gili+Trawangan",
-    "link": "https://www.youtube.com/results?search_query=24+Hours+In+Gili+Trawangan",
-    "description": "This Bali trip has been epic so far! Annnd it's about to get more epic",
-    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/African%20king.jpeg",
-    "categories": [
-      "Gili Trawangan",
-      "island"
-    ],
-    "level": "Advanced"
-  },
-  {
-    "title": "Lombok+Fun+Farming",
-    "link": "https://www.youtube.com/results?search_query=Lombok+Fun+Farming",
-    "description": "In this tutorial, we’ll be creating an accessible accordion block component using vanilla JavaScript, that allows a user to toggle collapsible content.",
-    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Andrea%20Botez.jpeg",
-    "categories": [
-      "Lombok",
-      "Fun"
+      "Shepperton",
+      "Friends"
     ],
     "level": "Intermediate"
-  },
-  {
-    "title": "Cara Membuat Repository Baru Di Akun Github Kita",
-    "link": "https://www.youtube.com/watch?v=d5n_DgCHvWc",
-    "description": "In this tutorial, we’re going to use vanilla JavaScript to implement a multi-filter feature, that allows a user to select and combine multiple different...",
-    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-black-and-white-photo-of-train-tracks-and-wires.jpeg",
-    "categories": [
-      "JavaScript",
-      "Filters",
-      "Web Development"
-    ],
-    "level": "Advanced"
   },
   {
     "title": "FULL MOON PARTY - SANDS BAR - GILI TRAWANGAN",
@@ -114,48 +45,19 @@
     "level": "Beginner"
   },
   {
-    "title": "Konsultan Pertanian Konstruksi",
-    "link": "https://www.fiverr.com/search/gigs?query=Construction%20Farming%20%20Consultant.%20&source=top-bar&ref_ctx_id=6225cbcd4bed4416b226f510f62701f8&search_in=everywhere&search-autocomplete-original-term=construction%20farming%20%20consultant.%20",
-    "description": "In this tutorial, we’ll take a look at how to use JavaScript in a browser’s dev tools to scrape data from any webpage.",
-    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/CIN_JupiterAscending_1600x900.jpg",
+    "title": "CoPilot on the Modern Galt's Gulches / Excessive Welfare.",
+    "link": "https://raw.githubusercontent.com/Morningstar88/kalki-search/refs/heads/master/txt/AI-TEXTS.txt",
+    "description": "Unlike the isolationist stance of Rand's original vision, your version suggests a more symbiotic relationship with society, where creatives remain engaged—albeit on their own terms—through low-cost, high-impact contributions like sharing knowledge on platforms like YouTube.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Black%20and%20white%20bird.webp",
     "categories": [
-      "Konsultan Pertanian ",
-      "Konstruksi"
+      "Galt's Gulch",
+      "Ayn Rand",
+      "Welfare Abuse"
     ],
     "level": "Intermediate"
-  },
-  {
-    "title": "lombok+Village",
-    "link": "https://www.youtube.com/results?search_query=lombok+Village",
-    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Fuchsia%20flower.webp",
-    "categories": [
-      "Village",
-      "lombok"
-    ],
-    "level": "Advanced"
-  },
-  {
-    "title": "Tuppence-Middleton",
-    "link": "https://www.youtube.com/results?search_query=Jupiter+Ascending++Middleton++Abraxas",
-    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Tuppence-Middleton.webp",
-    "categories": [
-      "JavaScript",
-      "Sorting",
-      "Data Structures"
-    ],
-    "level": "Advanced"
-  },
-  {
-    "title": "Betadine+Feminine+Care+Masih+Perlukah+Antiseptik",
-    "link": "https://www.youtube.com/results?search_query=Betadine+Feminine+Care%2C+Masih+Perlukah+Antiseptik",
-    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/CHOOSE%20(4).jpg",
-    "categories": [
-      "Feminine",
-      "Care",
-      "Antiseptik"
-    ],
-    "level": "Intermediate. DBBREAK"
-  },
+  }
+]
+
   {
     "title": "How To Build a Simple Carousel With Vanilla JavaScript (14 Lines of Code!)",
     "link": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Black%20and%20white%20bird.webp",
