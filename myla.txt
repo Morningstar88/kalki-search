@@ -154,7 +154,7 @@
       "Care",
       "Antiseptik"
     ],
-    "level": "Intermediate"
+    "level": "Intermediate. DBBREAK"
   },
   {
     "title": "How To Build a Simple Carousel With Vanilla JavaScript (14 Lines of Code!)",
@@ -299,7 +299,7 @@
       "#Soapmaking",
       "#5DollarIndustries"
     ],
-    "level": "Intermediate"
+    "level": "Intermediate. DBBREAK"
   },
   {
     "title": "how+to+turn+methanol+to+ethanol+diy+still",
@@ -453,7 +453,7 @@
       "Quantum Physics",
       "Nobel Laureates"
     ],
-    "level": "Beginner"
+    "level": "Beginner. DBBREAK."
   },
   {
     "title": "#AnhBushcraft: Good looking girl makes Country Whiskey",
@@ -596,7 +596,7 @@
       "BananaRepublic",
       "Fools"
     ],
-    "level": "Intermediate"
+    "level": "Intermediate. DBBREAK."
   },
   {
     "title": "search?q=dumbbell+deadlift",
