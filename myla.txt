@@ -1,1 +1,660 @@
-[ { "title": "Friends of Shepperton", "link": "https://www.facebook.com/profile.php?id=100064581403988", "description": "A page where residents of Shepperton, Middx, can exchange information and discuss local issues. Find 'posts to page' under photos to see all posts.", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Black%20and%20white%20bird.webp", "categories": [ "Shepperton", "Friends" ], "level": "Intermediate" }, { "title": "CoPilot on the Modern Galt's Gulches / Excessive Welfare.", "link": "https://raw.githubusercontent.com/Morningstar88/kalki-search/refs/heads/master/txt/AI-TEXTS.txt", "description": "Unlike the isolationist stance of Rand's original vision, your version suggests a more symbiotic relationship with society, where creatives remain engaged—albeit on their own terms—through low-cost, high-impact contributions like sharing knowledge on platforms like YouTube.", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Black%20and%20white%20bird.webp", "categories": [ "Galt's Gulch", "Ayn Rand", "Welfare Abuse" ], "level": "Intermediate" }, { "title": "Does Another You Exist? The Many-Worlds Theory Explained", "link": "https://geeksaroundglobe.com/does-another-you-exist-the-many-worlds-theory-explained/", "description": "An approachable explanation of the Many-Worlds Interpretation and its mathematical underpinnings.", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "Quantum Mechanics", "Theory" ], "level": "Beginner" }, { "title": "I Want to Start Mathematics from Scratch", "link": "https://math.stackexchange.com/questions/178302/i-want-to-start-mathematics-from-scratch-what-should-i-begin-with", "description": "Advice on building mathematical foundations, relevant for understanding advanced theories.", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "Mathematics", "Learning Path" ], "level": "Beginner" }, { "title": "OSSU Math Curriculum", "link": "https://github.com/ossu/math", "description": "A self-taught path to mastering mathematics, perfect for exploring deeper concepts.", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "Open Source", "Education" ], "level": "Intermediate" }, { "title": "24 Hours In Gili Trawangan (Things To Know!) | Bali Vlog 7 of 10", "link": "https://www.youtube.com/watch?v=90resNv5kl8", "description": "we're in Lombok, exploring the first Gili Island, Gili Trawangan. Also known as Gili T, it's the most developed island with a stunning beach", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/tc.jpeg", "categories": [ "Gili Trawangan", "Lombok", "island" ], "level": "Lombok" }, { "title": "24+Hours+In+Gili+Trawangan", "link": "https://www.youtube.com/results?search_query=24+Hours+In+Gili+Trawangan", "description": "This Bali trip has been epic so far! Annnd it's about to get more epic", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/African%20king.jpeg", "categories": [ "Gili Trawangan", "island" ], "level": "Advanced" }, { "title": "Lombok+Fun+Farming", "link": "https://www.youtube.com/results?search_query=Lombok+Fun+Farming", "description": "In this tutorial, we’ll be creating an accessible accordion block component using vanilla JavaScript, that allows a user to toggle collapsible content.", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Andrea%20Botez.jpeg", "categories": [ "Lombok", "Fun" ], "level": "Intermediate" }, { "title": "Cara Membuat Repository Baru Di Akun Github Kita", "link": "https://www.youtube.com/watch?v=d5n_DgCHvWc", "description": "In this tutorial, we’re going to use vanilla JavaScript to implement a multi-filter feature, that allows a user to select and combine multiple different...", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-black-and-white-photo-of-train-tracks-and-wires.jpeg", "categories": [ "JavaScript", "Filters", "Web Development" ], "level": "Advanced" }, { "title": "FULL MOON PARTY - SANDS BAR - GILI TRAWANGAN", "link": "https://www.youtube.com/results?search_query=gili+trawangan+nightlife&sp=EgIYAQ%253D%253D", "description": "just in time for the holiday season.", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-the-green-gate-inside-the-city-palace-representing-spring-is-dedicated-to-lord-ganesha.jpeg", "categories": [ "GILI TRAWANGAN", "holiday", "spring" ], "level": "Beginner" }, { "title": "Konsultan Pertanian Konstruksi", "link": "https://www.fiverr.com/search/gigs?query=Construction%20Farming%20%20Consultant.%20&source=top-bar&ref_ctx_id=6225cbcd4bed4416b226f510f62701f8&search_in=everywhere&search-autocomplete-original-term=construction%20farming%20%20consultant.%20", "description": "In this tutorial, we’ll take a look at how to use JavaScript in a browser’s dev tools to scrape data from any webpage.", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/CIN_JupiterAscending_1600x900.jpg", "categories": [ "Konsultan Pertanian ", "Konstruksi" ], "level": "Intermediate" }, { "title": "lombok+Village", "link": "https://www.youtube.com/results?search_query=lombok+Village", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Fuchsia%20flower.webp", "categories": [ "Village", "lombok" ], "level": "Advanced" }, { "title": "Tuppence-Middleton", "link": "https://www.youtube.com/results?search_query=Jupiter+Ascending++Middleton++Abraxas", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Tuppence-Middleton.webp", "categories": [ "JavaScript", "Sorting", "Data Structures" ], "level": "Advanced" }, { "title": "Betadine+Feminine+Care+Masih+Perlukah+Antiseptik", "link": "https://www.youtube.com/results?search_query=Betadine+Feminine+Care%2C+Masih+Perlukah+Antiseptik", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/CHOOSE%20(4).jpg", "categories": [ "Feminine", "Care", "Antiseptik" ], "level": "Intermediate" }, { "title": "How To Build a Simple Carousel With Vanilla JavaScript (14 Lines of Code!)", "link": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Black%20and%20white%20bird.webp", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-black-and-white-photograph-of-stairs-with-shadows.jpeg", "categories": [ "JavaScript", "Slider" ], "level": "Intermediate" }, { "title": "King David - learn Russian - the anomalies", "link": "https://www.one-tab.com/page/zLwloxfiSradxnwrExpTvg", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/CIN_JupiterAscending_1600x900.jpg", "categories": [ "collection" ], "level": "Beginner" }, { "title": "Attn, Rainman", "link": "https://www.youtube.com/results?search_query=how+to+make+your+own+weights+DIY+", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Attn-RainMan.jpg", "categories": [ "DIY" ], "level": "Beginner" }, { "title": "ADHD meditation", "link": "https://youtu.be/B_5N_aDu3u0?t=3484", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Posturas-Yoga-aumentar-senos%20(1).webp", "categories": [ "ADHD" ], "level": "Beginner" }, { "title": "Funniest Meetings! BEST Of | The Office", "link": "https://www.youtube.com/watch?v=eac0S42WpYg", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Ricky%20Gervais.jpeg", "categories": [ "Ricky Gervais", "The Office" ], "level": "Intermediate" }, { "title": "Naraya Digital", "link": "https://g.co/kgs/ri3njNa", "image": "https://www.narayadigital.com/wp-content/uploads/2023/09/WDP-04.png", "categories": [ "Penestanan, Ubud", "Printing, Design, Business Cards, Invitations" ], "level": "Intermediate" }, { "title": "Escaping The MAtrix", "link": "https://private-user-images.githubusercontent.com/15410443/356344305-5023cbae-9c9d-480e-a2af-1513ea9a1752.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI0NzAwMjcsIm5iZiI6MTc0MjQ2OTcyNywicGF0aCI6Ii8xNTQxMDQ0My8zNTYzNDQzMDUtNTAyM2NiYWUtOWM5ZC00ODBlLWEyYWYtMTUxM2VhOWExNzUyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzIwVDExMjIwN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZiZmFjNjc4Y2IwOTExNzFlODYxOGZmYzkyODg0MmRkZTBmNWI4ODVlZjQ4OGQ2ZmM0YTMxZWFjNDJiMmZjZDUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.LARs4v0X6MCFwKVGsfFkxa4Uw57UEL8kOH2AY9TqlKI", "image": "https://private-user-images.githubusercontent.com/15410443/356344305-5023cbae-9c9d-480e-a2af-1513ea9a1752.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI0NzAwMjcsIm5iZiI6MTc0MjQ2OTcyNywicGF0aCI6Ii8xNTQxMDQ0My8zNTYzNDQzMDUtNTAyM2NiYWUtOWM5ZC00ODBlLWEyYWYtMTUxM2VhOWExNzUyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzIwVDExMjIwN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZiZmFjNjc4Y2IwOTExNzFlODYxOGZmYzkyODg0MmRkZTBmNWI4ODVlZjQ4OGQ2ZmM0YTMxZWFjNDJiMmZjZDUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.LARs4v0X6MCFwKVGsfFkxa4Uw57UEL8kOH2AY9TqlKI", "categories": [ "Matrix", "Escape", "Anon" ], "level": "Intermediate" }, { "title": "The Many-Worlds Theory, Explained", "link": "https://thereader.mitpress.mit.edu/the-many-worlds-theory/", "description": "A jargon-free account of the Many-Worlds Interpretation of quantum mechanics, exploring its origins and implications.", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "Quantum Mechanics", "Interpretation" ], "level": "Beginner" }, { "title": "The Bizarre Logic of the Many-Worlds Theory", "link": "https://www.nature.com/articles/d41586-019-02602-8", "description": "An exploration of the logical foundations and cultural impact of the Many-Worlds Theory.", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "Quantum Mechanics", "Philosophy" ], "level": "Intermediate" }, { "title": "What is Headless Browser and Headless Browser Testing?", "link": "https://www.browserstack.com/guide/what-is-headless-browser-testing", "description": "An introduction to headless browsers and their applications in testing and automation.", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "Web Development", "Testing" ], "level": "Beginner" }, { "title": "What Is Headless Browser Testing? A Complete Guide for 2025", "link": "https://www.nimbleway.com/blog/headless-browser-testing-guide", "description": "A comprehensive guide to headless browser testing, including tools and techniques.", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "Automation", "Testing" ], "level": "Intermediate" }, { "title": "What is a Headless Browser: Top 8 Options for 2025 [Pros vs. Cons]", "link": "https://www.scrapingbee.com/blog/what-is-a-headless-browser-best-solutions-for-web-scraping-at-scale/", "description": "An overview of the top headless browser options, their pros and cons, and use cases.", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "Web Scraping", "Tools" ], "level": "Intermediate" }, { "title": "youtube.com/results?search_query=how+to+turn+methanol+to+ethanol", "link": "https://www.youtube.com/results?search_query=how+to+turn+methanol+to+ethanol", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "IndexedQuery", "Distilling - QA", "#CambodianWhiskey" ], "level": "50 Dollar Businesses" }, { "title": "LYE – What is it and why do we use it ? ", "link": "https://honeysweetieacres.com/lye-what-is-it-and-why-do-we-use-it/#:~:text=Lye%20is%20probably%20one%20of%20thehttps://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "#Lye", "#Soapmaking", "#5DollarIndustries" ], "level": "Intermediate" }, { "title": "how+to+turn+methanol+to+ethanol+diy+still", "link": "https://www.youtube.com/results?search_query=how+to+turn+methanol+to+ethanol+diy+still", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "DIY", "Alcohol for Cleaning", "Distilling" ], "level": "Beginner DIY" }, { "title": "How to Make WHISKEY at Home 10 YEAR OLD in ONLY 10 DAYS 🥃 Homemade WHISKY without tools", "link": "https://www.youtube.com/watch?v=i4gjqQ-e-XQ", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "DIY Whiskey", "Homebrew", "Distilling" ], "level": "Intermediate" }, { "title": "github+repo+maintenance", "link": "https://www.youtube.com/results?search_query=github+repo+maintenance", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "Github Repo", "Maintainer", "Version Control" ], "level": "Beginner" }, { "title": "english+for+car+mechanics", "link": "https://www.youtube.com/results?search_query=english+for+car+mechanics", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "#KhmerEnglish", "Car Mechanic", "5DollarEducation" ], "level": "Beginner" }, { "title": "history+of+khmer+language", "link": "https://www.youtube.com/results?search_query=history+of+khmer+language", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "#KhmerEnglish", "History", "languages" ], "level": "Intermediate" }, { "title": "learntocode+joke", "link": "https://www.bing.com/search?pglt=43&q=learntocode+joke", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "Coding. Programming", "Comedy", "Jokes" ], "level": "Begginer" }, { "title": "history+of+indonesian+language", "link": "https://www.youtube.com/results?search_query=history+of+indonesian+language", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "JavaScript", "Scroll Events", "Animation" ], "level": "Intermediate" }, { "title": "Commonly-used Adjectives in Khmer language | Rean Khmer", "link": "https://www.youtube.com/watch?v=ReivYCdJ9nk", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "#KhmerEnglish", "Adjectives", "Languages" ], "level": "Intermediate" }, { "title": "Yr Link Here", "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "JavaScript", "Scroll Events", "Animation" ], "level": "Intermediate" }, { "title": "Fantastic Khmerrr channel", "link": "https://www.youtube.com/@reankhmer-learnkhmer", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "#KhmerEnglish", "Languages", "Angkor Wat" ], "level": "Intermediate" }, { "title": "#MorningstarGame. Is Mukesh Sadrev of AMC as essential as he thinks he is?", "link": "https://giphy.com/search/no", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "AMC", "#SecretLivestreaming", "#TheGreatAndSecretShow" ], "level": "Dansui Aren" }, { "title": "Paul Dirac - Wikipedia", "link": "https://en.wikipedia.org/wiki/Paul_Dirac", "description": "A comprehensive overview of Paul Dirac's life, contributions to quantum mechanics, and his legacy in physics.", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "Quantum Physics", "Quantum Mechanics" ], "level": "Intermediate" }, { "title": "Paul Dirac — Wikipédia. Francais.", "link": "https://fr.wikipedia.org/wiki/Paul_Dirac", "description": "A detailed biography of Paul Dirac, highlighting his groundbreaking work in quantum mechanics and antimatter.", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "Quantum Physics", "Biography" ], "level": "Intermediate" }, { "title": "P.A.M. Dirac | English Physicist & Nobel Laureate | Britannica", "link": "https://www.britannica.com/biography/Paul-Dirac", "description": "An insightful article on Paul Dirac's achievements, including his Nobel Prize-winning work and the Dirac equation.", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "Quantum Physics", "Nobel Laureates" ], "level": "Beginner" }, { "title": "#AnhBushcraft: Good looking girl makes Country Whiskey", "link": "https://youtu.be/jWpcfUI_bOA", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "Whiskey", "DIY", "distilling" ], "level": "Intermediate" }, { "title": "Country girl harvests ginger in the backwoods of Asia", "link": "https://www.youtube.com/watch?v=hQ6h65sfj7k", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "Ginger", "Harvest", "Rural. Country" ], "level": "Beginner. Intermediate" }, { "title": "Will David Wragg of Australia turn against shadowy putative GodKing Stephen Goedhart? #MorningstarGame", "link": "", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "AMC", "#BreakTheStage", "Godlike Productions" ], "level": "Intermediate" }, { "title": "China: Spectacular Rainbow Clouds Grace the Summit of Mount Sanqing", "link": "https://www.msn.com/en-xl/news/other/china-spectacular-rainbow-clouds-grace-the-summit-of-mount-sanqing/vi-BB1muwXI?ocid=msedgntp&pc=U531&cvid=74717847c741484db8bd90afdfd459a3&ei=10", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "China", "Mountains", "Shining" ], "level": "Intermediate" }, { "title": "/r/redneckengineering. Drill powered washer and drayer.", "link": "https://www.reddit.com/r/redneckengineering/comments/13go2b5/my_homemade_drillpowered_washer_and_dryer_is/", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "JavaScript", "Scroll Events", "Animation" ], "level": "Intermediate" }, { "title": "#MorningstarGame. JMC: I no longer fancy Konglong of Heeren Loo.", "link": "https://giphy.com/search/nurse", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "#TheGreatAndSecretShow", "Dansui Aren", "Stupid" ], "level": "Intermediate" }, { "title": "How did Dansui Aren take control of the Sha Lun AI?", "link": "https://giphy.com/search/pizza-party", "image": "https://giphy.com/gifs/dominosukroi-animated-dancing-food-3o85ggjYH3oOjFV7Nu", "categories": [ "Cheating", "Upper Class", "Twit" ], "level": "Intermediate" }, { "title": "Strong With Kelly: Beginner's Deadlifts", "link": "https://www.youtube.com/watch?v=ntr64W6ZWB0", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "Beginner", "Deadlift", "Strong With Kelly" ], "level": "Intermediate" }, { "title": "COMPILATION: Women's Heavy Squats | Riyadh 2023", "link": "https://youtu.be/wWVnYUPIEOw?t=34", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "Step into the world of power and perseverance with this awe-inspiring video showcasing heavy female squats. Witness the incredible strength and determination of female athletes as they push the limits of what's possible, squatting weights that defy expectations.", "Scroll Events", "Animation" ], "level": "Intermediate" }, { "title": "Basic Greetings in Khmer language | Rean Khmer | Cambodian Language", "link": "https://youtu.be/OfrgM8bOnjo", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "#KhmerEnglish", "Basic greetings in Khmer", "Animation" ], "level": "Intermediate" }, { "title": "#MorningstarGame. Dutchman increasingly erratic as Mackenzie pay dispute drags into third year", "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671", "image": "", "categories": [ "AMC", "Hongshulin", "Pathetic" ], "level": "Skinflint" }, { "title": "The Lion of Oecusse makes play for Raven Throne and fails miserably. #MorningstarGame", "link": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "Dustbowl", "Treacherous", "Judas" ], "level": "Intermediate" }, { "title": "Incompetent Ballocos of Timor Leste plan to build MacDonalds to stave off hunger", "link": "https://giphy.com/search/corrupt", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "Corrupt", "BananaRepublic", "Fools" ], "level": "Intermediate" }, { "title": "search?q=dumbbell+deadlift", "link": "https://www.bing.com/videos/riverview/relatedvideo?q=dumbbell+deadlift", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg", "categories": [ "Lifting", "Dumbbell", "Romanian Deadlift" ], "level": "Beginner" }, { "title": "Remembering Eric Dolphy", "link": "https://www.charlesmingus.com/blog/remembering-eric-dolphy-june-20-1928-june-29-1964", "description": "This article discusses the composition 'So Long Eric,' written during Mingus' ongoing argument with Dolphy about his decision to leave the group and stay in Europe after their 1964 tour.", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Black%20and%20white%20bird.webp", "categories": [ "Jazz", "Music", "Friendship" ], "level": "Intermediate" }, { "title": "Eric Dolphy: Gone In The Air", "link": "https://www.allaboutjazz.com/eric-dolphy-gone-in-the-air-by-mark-werlin", "description": "Learn more about Dolphy's technical perfectionism and his early collaborations with Mingus, including the recording of 'The Story of Love' in 1949.", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/tc.jpeg", "categories": [ "Jazz", "Music", "Collaboration" ], "level": "Advanced" }, { "title": "Charles Mingus: Triumph of the Underdog", "link": "https://www.imdb.com/title/tt0103961/", "description": "A documentary film that explores the life, music, and legacy of Charles Mingus, including his influential collaborations with Eric Dolphy.", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/charles-mingus.jpg", "categories": [ "Jazz", "Documentary", "Biography" ], "level": "Expert" }, { "title": "Eric Dolphy: Out to Lunch!", "link": "https://www.allmusic.com/album/out-to-lunch%21-mw0000193885", "description": "An iconic album by Eric Dolphy, featuring groundbreaking compositions and innovative improvisations. Mingus' influence is palpable in Dolphy's work.", "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/eric-dolphy-out-to-lunch.jpg", "categories": [ "Jazz", "Album", "Avant-Garde" ], "level": "Intermediate" } ]
+[
+  {
+    "title": "Friends of Shepperton",
+    "link": "https://www.facebook.com/profile.php?id=100064581403988",
+    "description": "A page where residents of Shepperton, Middx, can exchange information and discuss local issues. Find 'posts to page' under photos to see all posts.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Black%20and%20white%20bird.webp",
+    "categories": [
+      "Shepperton",
+      "Friends"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "CoPilot on the Modern Galt's Gulches / Excessive Welfare.",
+    "link": "https://raw.githubusercontent.com/Morningstar88/kalki-search/refs/heads/master/txt/AI-TEXTS.txt",
+    "description": "Unlike the isolationist stance of Rand's original vision, your version suggests a more symbiotic relationship with society, where creatives remain engaged—albeit on their own terms—through low-cost, high-impact contributions like sharing knowledge on platforms like YouTube.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Black%20and%20white%20bird.webp",
+    "categories": [
+      "Galt's Gulch",
+      "Ayn Rand",
+      "Welfare Abuse"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "Does Another You Exist? The Many-Worlds Theory Explained",
+    "link": "https://geeksaroundglobe.com/does-another-you-exist-the-many-worlds-theory-explained/",
+    "description": "An approachable explanation of the Many-Worlds Interpretation and its mathematical underpinnings.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "Quantum Mechanics",
+      "Theory"
+    ],
+    "level": "Beginner"
+  },
+  {
+    "title": "I Want to Start Mathematics from Scratch",
+    "link": "https://math.stackexchange.com/questions/178302/i-want-to-start-mathematics-from-scratch-what-should-i-begin-with",
+    "description": "Advice on building mathematical foundations, relevant for understanding advanced theories.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "Mathematics",
+      "Learning Path"
+    ],
+    "level": "Beginner"
+  },
+  {
+    "title": "OSSU Math Curriculum",
+    "link": "https://github.com/ossu/math",
+    "description": "A self-taught path to mastering mathematics, perfect for exploring deeper concepts.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "Open Source",
+      "Education"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "24 Hours In Gili Trawangan (Things To Know!) | Bali Vlog 7 of 10",
+    "link": "https://www.youtube.com/watch?v=90resNv5kl8",
+    "description": "we're in Lombok, exploring the first Gili Island, Gili Trawangan. Also known as Gili T, it's the most developed island with a stunning beach",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/tc.jpeg",
+    "categories": [
+      "Gili Trawangan",
+      "Lombok",
+      "island"
+    ],
+    "level": "Lombok"
+  },
+  {
+    "title": "24+Hours+In+Gili+Trawangan",
+    "link": "https://www.youtube.com/results?search_query=24+Hours+In+Gili+Trawangan",
+    "description": "This Bali trip has been epic so far! Annnd it's about to get more epic",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/African%20king.jpeg",
+    "categories": [
+      "Gili Trawangan",
+      "island"
+    ],
+    "level": "Advanced"
+  },
+  {
+    "title": "Lombok+Fun+Farming",
+    "link": "https://www.youtube.com/results?search_query=Lombok+Fun+Farming",
+    "description": "In this tutorial, we’ll be creating an accessible accordion block component using vanilla JavaScript, that allows a user to toggle collapsible content.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Andrea%20Botez.jpeg",
+    "categories": [
+      "Lombok",
+      "Fun"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "Cara Membuat Repository Baru Di Akun Github Kita",
+    "link": "https://www.youtube.com/watch?v=d5n_DgCHvWc",
+    "description": "In this tutorial, we’re going to use vanilla JavaScript to implement a multi-filter feature, that allows a user to select and combine multiple different...",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-black-and-white-photo-of-train-tracks-and-wires.jpeg",
+    "categories": [
+      "JavaScript",
+      "Filters",
+      "Web Development"
+    ],
+    "level": "Advanced"
+  },
+  {
+    "title": "FULL MOON PARTY - SANDS BAR - GILI TRAWANGAN",
+    "link": "https://www.youtube.com/results?search_query=gili+trawangan+nightlife&sp=EgIYAQ%253D%253D",
+    "description": "just in time for the holiday season.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-the-green-gate-inside-the-city-palace-representing-spring-is-dedicated-to-lord-ganesha.jpeg",
+    "categories": [
+      "GILI TRAWANGAN",
+      "holiday",
+      "spring"
+    ],
+    "level": "Beginner"
+  },
+  {
+    "title": "Konsultan Pertanian Konstruksi",
+    "link": "https://www.fiverr.com/search/gigs?query=Construction%20Farming%20%20Consultant.%20&source=top-bar&ref_ctx_id=6225cbcd4bed4416b226f510f62701f8&search_in=everywhere&search-autocomplete-original-term=construction%20farming%20%20consultant.%20",
+    "description": "In this tutorial, we’ll take a look at how to use JavaScript in a browser’s dev tools to scrape data from any webpage.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/CIN_JupiterAscending_1600x900.jpg",
+    "categories": [
+      "Konsultan Pertanian ",
+      "Konstruksi"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "lombok+Village",
+    "link": "https://www.youtube.com/results?search_query=lombok+Village",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Fuchsia%20flower.webp",
+    "categories": [
+      "Village",
+      "lombok"
+    ],
+    "level": "Advanced"
+  },
+  {
+    "title": "Tuppence-Middleton",
+    "link": "https://www.youtube.com/results?search_query=Jupiter+Ascending++Middleton++Abraxas",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Tuppence-Middleton.webp",
+    "categories": [
+      "JavaScript",
+      "Sorting",
+      "Data Structures"
+    ],
+    "level": "Advanced"
+  },
+  {
+    "title": "Betadine+Feminine+Care+Masih+Perlukah+Antiseptik",
+    "link": "https://www.youtube.com/results?search_query=Betadine+Feminine+Care%2C+Masih+Perlukah+Antiseptik",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/CHOOSE%20(4).jpg",
+    "categories": [
+      "Feminine",
+      "Care",
+      "Antiseptik"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "How To Build a Simple Carousel With Vanilla JavaScript (14 Lines of Code!)",
+    "link": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Black%20and%20white%20bird.webp",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-black-and-white-photograph-of-stairs-with-shadows.jpeg",
+    "categories": [
+      "JavaScript",
+      "Slider"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "King David - learn Russian - the anomalies",
+    "link": "https://www.one-tab.com/page/zLwloxfiSradxnwrExpTvg",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/CIN_JupiterAscending_1600x900.jpg",
+    "categories": [
+      "collection"
+    ],
+    "level": "Beginner"
+  },
+  {
+    "title": "Attn, Rainman",
+    "link": "https://www.youtube.com/results?search_query=how+to+make+your+own+weights+DIY+",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Attn-RainMan.jpg",
+    "categories": [
+      "DIY"
+    ],
+    "level": "Beginner"
+  },
+  {
+    "title": "ADHD meditation",
+    "link": "https://youtu.be/B_5N_aDu3u0?t=3484",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Posturas-Yoga-aumentar-senos%20(1).webp",
+    "categories": [
+      "ADHD"
+    ],
+    "level": "Beginner"
+  },
+  {
+    "title": "Funniest Meetings! BEST Of | The Office",
+    "link": "https://www.youtube.com/watch?v=eac0S42WpYg",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Ricky%20Gervais.jpeg",
+    "categories": [
+      "Ricky Gervais",
+      "The Office"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "Naraya Digital",
+    "link": "https://g.co/kgs/ri3njNa",
+    "image": "https://www.narayadigital.com/wp-content/uploads/2023/09/WDP-04.png",
+    "categories": [
+      "Penestanan, Ubud",
+      "Printing, Design, Business Cards, Invitations"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "Escaping The MAtrix",
+    "link": "https://private-user-images.githubusercontent.com/15410443/356344305-5023cbae-9c9d-480e-a2af-1513ea9a1752.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI0NzAwMjcsIm5iZiI6MTc0MjQ2OTcyNywicGF0aCI6Ii8xNTQxMDQ0My8zNTYzNDQzMDUtNTAyM2NiYWUtOWM5ZC00ODBlLWEyYWYtMTUxM2VhOWExNzUyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzIwVDExMjIwN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZiZmFjNjc4Y2IwOTExNzFlODYxOGZmYzkyODg0MmRkZTBmNWI4ODVlZjQ4OGQ2ZmM0YTMxZWFjNDJiMmZjZDUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.LARs4v0X6MCFwKVGsfFkxa4Uw57UEL8kOH2AY9TqlKI",
+    "image": "https://private-user-images.githubusercontent.com/15410443/356344305-5023cbae-9c9d-480e-a2af-1513ea9a1752.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI0NzAwMjcsIm5iZiI6MTc0MjQ2OTcyNywicGF0aCI6Ii8xNTQxMDQ0My8zNTYzNDQzMDUtNTAyM2NiYWUtOWM5ZC00ODBlLWEyYWYtMTUxM2VhOWExNzUyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzIwVDExMjIwN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZiZmFjNjc4Y2IwOTExNzFlODYxOGZmYzkyODg0MmRkZTBmNWI4ODVlZjQ4OGQ2ZmM0YTMxZWFjNDJiMmZjZDUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.LARs4v0X6MCFwKVGsfFkxa4Uw57UEL8kOH2AY9TqlKI",
+    "categories": [
+      "Matrix",
+      "Escape",
+      "Anon"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "The Many-Worlds Theory, Explained",
+    "link": "https://thereader.mitpress.mit.edu/the-many-worlds-theory/",
+    "description": "A jargon-free account of the Many-Worlds Interpretation of quantum mechanics, exploring its origins and implications.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "Quantum Mechanics",
+      "Interpretation"
+    ],
+    "level": "Beginner"
+  },
+  {
+    "title": "The Bizarre Logic of the Many-Worlds Theory",
+    "link": "https://www.nature.com/articles/d41586-019-02602-8",
+    "description": "An exploration of the logical foundations and cultural impact of the Many-Worlds Theory.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "Quantum Mechanics",
+      "Philosophy"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "What is Headless Browser and Headless Browser Testing?",
+    "link": "https://www.browserstack.com/guide/what-is-headless-browser-testing",
+    "description": "An introduction to headless browsers and their applications in testing and automation.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "Web Development",
+      "Testing"
+    ],
+    "level": "Beginner"
+  },
+  {
+    "title": "What Is Headless Browser Testing? A Complete Guide for 2025",
+    "link": "https://www.nimbleway.com/blog/headless-browser-testing-guide",
+    "description": "A comprehensive guide to headless browser testing, including tools and techniques.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "Automation",
+      "Testing"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "What is a Headless Browser: Top 8 Options for 2025 [Pros vs. Cons]",
+    "link": "https://www.scrapingbee.com/blog/what-is-a-headless-browser-best-solutions-for-web-scraping-at-scale/",
+    "description": "An overview of the top headless browser options, their pros and cons, and use cases.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "Web Scraping",
+      "Tools"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "youtube.com/results?search_query=how+to+turn+methanol+to+ethanol",
+    "link": "https://www.youtube.com/results?search_query=how+to+turn+methanol+to+ethanol",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "IndexedQuery",
+      "Distilling - QA",
+      "#CambodianWhiskey"
+    ],
+    "level": "50 Dollar Businesses"
+  },
+  {
+    "title": "LYE – What is it and why do we use it ? ",
+    "link": "https://honeysweetieacres.com/lye-what-is-it-and-why-do-we-use-it/#:~:text=Lye%20is%20probably%20one%20of%20thehttps://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "#Lye",
+      "#Soapmaking",
+      "#5DollarIndustries"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "how+to+turn+methanol+to+ethanol+diy+still",
+    "link": "https://www.youtube.com/results?search_query=how+to+turn+methanol+to+ethanol+diy+still",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "DIY",
+      "Alcohol for Cleaning",
+      "Distilling"
+    ],
+    "level": "Beginner DIY"
+  },
+  {
+    "title": "How to Make WHISKEY at Home 10 YEAR OLD in ONLY 10 DAYS 🥃 Homemade WHISKY without tools",
+    "link": "https://www.youtube.com/watch?v=i4gjqQ-e-XQ",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "DIY Whiskey",
+      "Homebrew",
+      "Distilling"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "github+repo+maintenance",
+    "link": "https://www.youtube.com/results?search_query=github+repo+maintenance",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "Github Repo",
+      "Maintainer",
+      "Version Control"
+    ],
+    "level": "Beginner"
+  },
+  {
+    "title": "english+for+car+mechanics",
+    "link": "https://www.youtube.com/results?search_query=english+for+car+mechanics",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "#KhmerEnglish",
+      "Car Mechanic",
+      "5DollarEducation"
+    ],
+    "level": "Beginner"
+  },
+  {
+    "title": "history+of+khmer+language",
+    "link": "https://www.youtube.com/results?search_query=history+of+khmer+language",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "#KhmerEnglish",
+      "History",
+      "languages"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "learntocode+joke",
+    "link": "https://www.bing.com/search?pglt=43&q=learntocode+joke",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "Coding. Programming",
+      "Comedy",
+      "Jokes"
+    ],
+    "level": "Begginer"
+  },
+  {
+    "title": "history+of+indonesian+language",
+    "link": "https://www.youtube.com/results?search_query=history+of+indonesian+language",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "JavaScript",
+      "Scroll Events",
+      "Animation"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "Commonly-used Adjectives in Khmer language | Rean Khmer",
+    "link": "https://www.youtube.com/watch?v=ReivYCdJ9nk",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "#KhmerEnglish",
+      "Adjectives",
+      "Languages"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "Yr Link Here",
+    "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "JavaScript",
+      "Scroll Events",
+      "Animation"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "Fantastic Khmerrr channel",
+    "link": "https://www.youtube.com/@reankhmer-learnkhmer",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "#KhmerEnglish",
+      "Languages",
+      "Angkor Wat"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "#MorningstarGame. Is Mukesh Sadrev of AMC as essential as he thinks he is?",
+    "link": "https://giphy.com/search/no",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "AMC",
+      "#SecretLivestreaming",
+      "#TheGreatAndSecretShow"
+    ],
+    "level": "Dansui Aren"
+  },
+  {
+    "title": "Paul Dirac - Wikipedia",
+    "link": "https://en.wikipedia.org/wiki/Paul_Dirac",
+    "description": "A comprehensive overview of Paul Dirac's life, contributions to quantum mechanics, and his legacy in physics.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "Quantum Physics",
+      "Quantum Mechanics"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "Paul Dirac — Wikipédia. Francais.",
+    "link": "https://fr.wikipedia.org/wiki/Paul_Dirac",
+    "description": "A detailed biography of Paul Dirac, highlighting his groundbreaking work in quantum mechanics and antimatter.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "Quantum Physics",
+      "Biography"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "P.A.M. Dirac | English Physicist & Nobel Laureate | Britannica",
+    "link": "https://www.britannica.com/biography/Paul-Dirac",
+    "description": "An insightful article on Paul Dirac's achievements, including his Nobel Prize-winning work and the Dirac equation.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "Quantum Physics",
+      "Nobel Laureates"
+    ],
+    "level": "Beginner"
+  },
+  {
+    "title": "#AnhBushcraft: Good looking girl makes Country Whiskey",
+    "link": "https://youtu.be/jWpcfUI_bOA",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "Whiskey",
+      "DIY",
+      "distilling"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "Country girl harvests ginger in the backwoods of Asia",
+    "link": "https://www.youtube.com/watch?v=hQ6h65sfj7k",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "Ginger",
+      "Harvest",
+      "Rural. Country"
+    ],
+    "level": "Beginner. Intermediate"
+  },
+  {
+    "title": "Will David Wragg of Australia turn against shadowy putative GodKing Stephen Goedhart? #MorningstarGame",
+    "link": "",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "AMC",
+      "#BreakTheStage",
+      "Godlike Productions"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "China: Spectacular Rainbow Clouds Grace the Summit of Mount Sanqing",
+    "link": "https://www.msn.com/en-xl/news/other/china-spectacular-rainbow-clouds-grace-the-summit-of-mount-sanqing/vi-BB1muwXI?ocid=msedgntp&pc=U531&cvid=74717847c741484db8bd90afdfd459a3&ei=10",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "China",
+      "Mountains",
+      "Shining"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "/r/redneckengineering. Drill powered washer and drayer.",
+    "link": "https://www.reddit.com/r/redneckengineering/comments/13go2b5/my_homemade_drillpowered_washer_and_dryer_is/",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "JavaScript",
+      "Scroll Events",
+      "Animation"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "#MorningstarGame. JMC: I no longer fancy Konglong of Heeren Loo.",
+    "link": "https://giphy.com/search/nurse",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "#TheGreatAndSecretShow",
+      "Dansui Aren",
+      "Stupid"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "How did Dansui Aren take control of the Sha Lun AI?",
+    "link": "https://giphy.com/search/pizza-party",
+    "image": "https://giphy.com/gifs/dominosukroi-animated-dancing-food-3o85ggjYH3oOjFV7Nu",
+    "categories": [
+      "Cheating",
+      "Upper Class",
+      "Twit"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "Strong With Kelly: Beginner's Deadlifts",
+    "link": "https://www.youtube.com/watch?v=ntr64W6ZWB0",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "Beginner",
+      "Deadlift",
+      "Strong With Kelly"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "COMPILATION: Women's Heavy Squats | Riyadh 2023",
+    "link": "https://youtu.be/wWVnYUPIEOw?t=34",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "Step into the world of power and perseverance with this awe-inspiring video showcasing heavy female squats. Witness the incredible strength and determination of female athletes as they push the limits of what's possible, squatting weights that defy expectations.",
+      "Scroll Events",
+      "Animation"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "Basic Greetings in Khmer language | Rean Khmer | Cambodian Language",
+    "link": "https://youtu.be/OfrgM8bOnjo",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "#KhmerEnglish",
+      "Basic greetings in Khmer",
+      "Animation"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "#MorningstarGame. Dutchman increasingly erratic as Mackenzie pay dispute drags into third year",
+    "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+    "image": "",
+    "categories": [
+      "AMC",
+      "Hongshulin",
+      "Pathetic"
+    ],
+    "level": "Skinflint"
+  },
+  {
+    "title": "The Lion of Oecusse makes play for Raven Throne and fails miserably. #MorningstarGame",
+    "link": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "Dustbowl",
+      "Treacherous",
+      "Judas"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "Incompetent Ballocos of Timor Leste plan to build MacDonalds to stave off hunger",
+    "link": "https://giphy.com/search/corrupt",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "Corrupt",
+      "BananaRepublic",
+      "Fools"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "search?q=dumbbell+deadlift",
+    "link": "https://www.bing.com/videos/riverview/relatedvideo?q=dumbbell+deadlift",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "Lifting",
+      "Dumbbell",
+      "Romanian Deadlift"
+    ],
+    "level": "Beginner"
+  },
+  {
+    "title": "Remembering Eric Dolphy",
+    "link": "https://www.charlesmingus.com/blog/remembering-eric-dolphy-june-20-1928-june-29-1964",
+    "description": "This article discusses the composition 'So Long Eric,' written during Mingus' ongoing argument with Dolphy about his decision to leave the group and stay in Europe after their 1964 tour.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Black%20and%20white%20bird.webp",
+    "categories": [
+      "Jazz",
+      "Music",
+      "Friendship"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "Eric Dolphy: Gone In The Air",
+    "link": "https://www.allaboutjazz.com/eric-dolphy-gone-in-the-air-by-mark-werlin",
+    "description": "Learn more about Dolphy's technical perfectionism and his early collaborations with Mingus, including the recording of 'The Story of Love' in 1949.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/tc.jpeg",
+    "categories": [
+      "Jazz",
+      "Music",
+      "Collaboration"
+    ],
+    "level": "Advanced"
+  },
+  {
+    "title": "Charles Mingus: Triumph of the Underdog",
+    "link": "https://www.imdb.com/title/tt0103961/",
+    "description": "A documentary film that explores the life, music, and legacy of Charles Mingus, including his influential collaborations with Eric Dolphy.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/charles-mingus.jpg",
+    "categories": [
+      "Jazz",
+      "Documentary",
+      "Biography"
+    ],
+    "level": "Expert"
+  },
+  {
+    "title": "Eric Dolphy: Out to Lunch!",
+    "link": "https://www.allmusic.com/album/out-to-lunch%21-mw0000193885",
+    "description": "An iconic album by Eric Dolphy, featuring groundbreaking compositions and innovative improvisations. Mingus' influence is palpable in Dolphy's work.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/eric-dolphy-out-to-lunch.jpg",
+    "categories": [
+      "Jazz",
+      "Album",
+      "Avant-Garde"
+    ],
+    "level": "Intermediate"
+  }
+]
