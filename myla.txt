@@ -56,7 +56,7 @@
     ],
     "level": "Intermediate"
   }
-]
+],
 
   {
     "title": "How To Build a Simple Carousel With Vanilla JavaScript (14 Lines of Code!)",
