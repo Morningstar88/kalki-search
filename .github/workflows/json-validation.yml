@@ -1,0 +1,17 @@
+name: JSON Validation
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Validate JSON
+        run: |
+          for file in $(find . -name "*.json"); do
+            python -m json.tool $file > /dev/null || exit 1
+          done
