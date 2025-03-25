@@ -55,10 +55,8 @@
       "Welfare Abuse"
     ],
     "level": "Intermediate"
-  }
-],
-
-  {
+  }.
+{
     "title": "How To Build a Simple Carousel With Vanilla JavaScript (14 Lines of Code!)",
     "link": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Black%20and%20white%20bird.webp",
     "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-black-and-white-photograph-of-stairs-with-shadows.jpeg",
