@@ -523,7 +523,7 @@
   {
     "title": "#MorningstarGame. Dutchman increasingly erratic as Mackenzie pay dispute drags into third year",
     "link": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
     "categories": [
       "AMC",
       "Hongshulin",
@@ -592,7 +592,7 @@
     "title": "Charles Mingus: Triumph of the Underdog",
     "link": "https://www.imdb.com/title/tt0103961/",
     "description": "A documentary film that explores the life, music, and legacy of Charles Mingus, including his influential collaborations with Eric Dolphy.",
-    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/charles-mingus.jpg",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
     "categories": [
       "Jazz",
       "Documentary",
