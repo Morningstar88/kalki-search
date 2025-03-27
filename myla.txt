@@ -116,7 +116,7 @@
   {
     "title": "Escaping The MAtrix",
     "link": "https://private-user-images.githubusercontent.com/15410443/356344305-5023cbae-9c9d-480e-a2af-1513ea9a1752.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI0NzAwMjcsIm5iZiI6MTc0MjQ2OTcyNywicGF0aCI6Ii8xNTQxMDQ0My8zNTYzNDQzMDUtNTAyM2NiYWUtOWM5ZC00ODBlLWEyYWYtMTUxM2VhOWExNzUyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzIwVDExMjIwN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZiZmFjNjc4Y2IwOTExNzFlODYxOGZmYzkyODg0MmRkZTBmNWI4ODVlZjQ4OGQ2ZmM0YTMxZWFjNDJiMmZjZDUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.LARs4v0X6MCFwKVGsfFkxa4Uw57UEL8kOH2AY9TqlKI",
-    "image": "https://private-user-images.githubusercontent.com/15410443/356344305-5023cbae-9c9d-480e-a2af-1513ea9a1752.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI0NzAwMjcsIm5iZiI6MTc0MjQ2OTcyNywicGF0aCI6Ii8xNTQxMDQ0My8zNTYzNDQzMDUtNTAyM2NiYWUtOWM5ZC00ODBlLWEyYWYtMTUxM2VhOWExNzUyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAzMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMzIwVDExMjIwN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZiZmFjNjc4Y2IwOTExNzFlODYxOGZmYzkyODg0MmRkZTBmNWI4ODVlZjQ4OGQ2ZmM0YTMxZWFjNDJiMmZjZDUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.LARs4v0X6MCFwKVGsfFkxa4Uw57UEL8kOH2AY9TqlKI",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
     "categories": [
       "Matrix",
       "Escape",
@@ -479,7 +479,7 @@
   {
     "title": "How did Dansui Aren take control of the Sha Lun AI?",
     "link": "https://giphy.com/search/pizza-party",
-    "image": "https://giphy.com/gifs/dominosukroi-animated-dancing-food-3o85ggjYH3oOjFV7Nu",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
     "categories": [
       "Cheating",
       "Upper Class",
@@ -522,7 +522,7 @@
   },
   {
     "title": "#MorningstarGame. Dutchman increasingly erratic as Mackenzie pay dispute drags into third year",
-    "link": "https://webdesign.tutsplus.com/tutorials/animate-on-scroll-with-javascript--cms-36671",
+    "link": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
     "image": "",
     "categories": [
       "AMC",
@@ -568,7 +568,7 @@
     "title": "Remembering Eric Dolphy",
     "link": "https://www.charlesmingus.com/blog/remembering-eric-dolphy-june-20-1928-june-29-1964",
     "description": "This article discusses the composition 'So Long Eric,' written during Mingus' ongoing argument with Dolphy about his decision to leave the group and stay in Europe after their 1964 tour.",
-    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/Black%20and%20white%20bird.webp",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
     "categories": [
       "Jazz",
       "Music",
@@ -580,7 +580,7 @@
     "title": "Eric Dolphy: Gone In The Air",
     "link": "https://www.allaboutjazz.com/eric-dolphy-gone-in-the-air-by-mark-werlin",
     "description": "Learn more about Dolphy's technical perfectionism and his early collaborations with Mingus, including the recording of 'The Story of Love' in 1949.",
-    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/tc.jpeg",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
     "categories": [
       "Jazz",
       "Music",
@@ -604,7 +604,7 @@
     "title": "Eric Dolphy: Out to Lunch!",
     "link": "https://www.allmusic.com/album/out-to-lunch%21-mw0000193885",
     "description": "An iconic album by Eric Dolphy, featuring groundbreaking compositions and innovative improvisations. Mingus' influence is palpable in Dolphy's work.",
-    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/eric-dolphy-out-to-lunch.jpg",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
     "categories": [
       "Jazz",
       "Album",
