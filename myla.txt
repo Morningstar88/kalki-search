@@ -179,7 +179,62 @@
     ],
     "level": "Intermediate"
   },
+{
+    "title": "The Many-Worlds Interpretation: Exploring Infinite Realities",
+    "link": "https://en.wikipedia.org/wiki/Many-worlds_interpretation",
+    "description": "A deep dive into the Many-Worlds Interpretation, where quantum mechanics splits reality into countless parallel universes.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "Quantum Mechanics",
+      "Theory"
+    ],
+    "level": "Intermediate"
+  },
   {
+    "title": "The Many-Minds Interpretation: Consciousness in Infinite Dimensions",
+    "link": "https://en.wikipedia.org/wiki/Many-minds_interpretation",
+    "description": "An intriguing twist on the Many-Worlds Theory, where consciousness plays a pivotal role in quantum branching.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "Quantum Mechanics",
+      "Consciousness"
+    ],
+    "level": "Advanced"
+  },
+  {
+    "title": "Universal Wavefunction: The Mathematical Fabric of Multiverses",
+    "link": "https://en.wikipedia.org/wiki/Universal_wavefunction",
+    "description": "Delve into the Universal Wavefunction—a mathematical entity that encodes all quantum states of existence.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "Quantum Mechanics",
+      "Mathematics"
+    ],
+    "level": "Advanced"
+  },
+  {
+    "title": "Wave Function Collapse: The Quantum Curtain Falls",
+    "link": "https://en.wikipedia.org/wiki/Wave_function_collapse",
+    "description": "Explore the mysterious phenomenon of wave function collapse and its implications for quantum measurement.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "Quantum Mechanics",
+      "Observation"
+    ],
+    "level": "Intermediate"
+  },
+  {
+    "title": "The Self in Many-Worlds: Philosophical Explorations",
+    "link": "https://philosophy.stackexchange.com/questions/121050/many-worlds-interpretation-and-the-self/121063#121063",
+    "description": "A philosophical take on the Many-Worlds Theory, examining the self and its identity across multiple realities.",
+    "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
+    "categories": [
+      "Philosophy",
+      "Quantum Mechanics"
+    ],
+    "level": "Intermediate"
+  },
+{
     "title": "youtube.com/results?search_query=how+to+turn+methanol+to+ethanol",
     "link": "https://www.youtube.com/results?search_query=how+to+turn+methanol+to+ethanol",
     "image": "https://raw.githubusercontent.com/Morningstar88/kalki-search/master/pics/free-photo-of-a-black-and-white-photo-of-two-people-standing-on-the-beach-with-birds-flying-around-them.jpeg",
