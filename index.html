@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
   <title>Kalki Search Engine</title>
   <style>
     /* CSS Variables for Theme Switching */
@@ -323,42 +323,56 @@
   </style>
 </head>
 <body>
+  <!-- Theme Toggle Button -->
+  <button class="theme-toggle" id="theme-toggle">Emerald Theme</button>
+
   <!-- Header -->
   <header>
     <h1 class="kalki-logo">KALKI</h1>
   </header>
 
   <!-- Search Box -->
-  <div class="search-container">
-    <input type="text" id="search-box" placeholder="Search Village...">
-    <button id="search-button">Go</button>
+  <div class="main-container">
+    <div class="search-container">
+      <input type="text" id="search-box" placeholder="Search Village...">
+      <button id="search-button">Go</button>
+    </div>
+
+    <!-- RAM Database Results -->
+    <section id="ram-results">
+      <h2>RAM Database</h2>
+      <div class="kalki-post-container"></div>
+    </section>
+
+    <!-- DuckDuckGo Results -->
+    <section id="duckduckgo-results">
+      <h2>Web Results <span class="glyph-placeholder">𓅔</span></h2>
+      <div id="ddg-content"></div>
+    </section>
+    
+    <!-- Rick and Morty Results -->
+    <section id="rick-and-morty-results">
+      <h2>Characters <span class="glyph-placeholder">𓅭</span></h2>
+      <div id="rick-and-morty-content"></div>
+    </section>
+
+    <!-- Wikipedia Results -->
+    <section id="wikipedia-results">
+      <h2>Knowledge <span class="glyph-placeholder">𓅔𓅔</span></h2>
+      <div id="wiki-content"></div>
+      <p class="base-outro">Move Slowly and Fix Things</p>
+    </section>
   </div>
 
-  <!-- RAM Database Results -->
-  <section id="ram-results">
-    <div class="kalki-post-container"></div>
-  </section>
-
-  <!-- DuckDuckGo Results -->
-  <section id="duckduckgo-results">
-    <h2>𓅔</h2>
-    <div id="ddg-content" class="glyph-placeholder"></div>
-  </section>
-  
-  <!-- Rick and Morty Results -->
-  <section id="rick-and-morty-results">
-    <div class="glyph-placeholder">𓅭</div>
-    <div id="rick-and-morty-content"></div>
-  </section>
-
-  <!-- Wikipedia Results -->
-  <section id="wikipedia-results">
-    <h2>𓅔𓅔</h2>
-    <div id="wiki-content" class="glyph-placeholder"></div>
-    <h1 class="base-outro">Move Slowly and Fix Things</h1>
-  </section>
-
   <script>
+    // MODIFIED: Theme Toggle Functionality
+    document.getElementById('theme-toggle').addEventListener('click', function() {
+      document.body.classList.toggle('kalki-theme');
+      this.textContent = document.body.classList.contains('kalki-theme') 
+        ? 'Original Theme' 
+        : 'Emerald Theme';
+    });
+
     /*****************
      * RAM Database  *
      *****************/
@@ -370,7 +384,8 @@
       .then(response => response.json())
       .then(data => {
         ramPostsData = data;
-        displayPosts(ramPostsData);
+        // MODIFIED: Show only first 9 results
+        displayPosts(ramPostsData.slice(0, 9));
       })
       .catch(error => console.error("Error fetching RAM data:", error));
 
@@ -396,13 +411,15 @@
     document.getElementById("search-box").addEventListener("input", () => {
       const query = document.getElementById("search-box").value.trim();
       if (query) {
+        // MODIFIED: Show max 9 filtered results
         const filteredPosts = ramPostsData.filter(post =>
           post.title.toLowerCase().includes(query.toLowerCase()) ||
           post.categories.some(cat => cat.toLowerCase().includes(query.toLowerCase()))
-        );
+          .slice(0, 9);
         displayPosts(filteredPosts);
       } else {
-        displayPosts(ramPostsData);
+        // MODIFIED: Show first 9 when empty
+        displayPosts(ramPostsData.slice(0, 9));
       }
     });
 
@@ -418,20 +435,23 @@
         .then(response => response.json())
         .then(data => {
           if (data.AbstractText) {
-            const ddgAbstract = document.createElement("p");
-            ddgAbstract.textContent = `DuckDuckGo Summary: ${data.AbstractText}`;
+            const ddgAbstract = document.createElement("div");
+            ddgAbstract.classList.add("api-result-card");
+            ddgAbstract.innerHTML = `
+              <a href="${data.AbstractURL}" target="_blank">${data.Heading || "DuckDuckGo Result"}</a>
+              <p>${data.AbstractText}</p>
+            `;
             ddgContent.appendChild(ddgAbstract);
           }
           if (data.RelatedTopics.length > 0) {
             data.RelatedTopics.slice(0, 5).forEach(topic => {
               if (topic.FirstURL && topic.Text) {
-                const ddgLink = document.createElement("a");
-                ddgLink.href = topic.FirstURL;
-                ddgLink.target = "_blank";
-                ddgLink.textContent = topic.Text;
-                const wrapper = document.createElement("p");
-                wrapper.appendChild(ddgLink);
-                ddgContent.appendChild(wrapper);
+                const ddgLink = document.createElement("div");
+                ddgLink.classList.add("api-result-card");
+                ddgLink.innerHTML = `
+                  <a href="${topic.FirstURL}" target="_blank">${topic.Text}</a>
+                `;
+                ddgContent.appendChild(ddgLink);
               }
             });
           }
@@ -449,13 +469,15 @@
         .then(data => {
           const searchResults = data.query.search.slice(0, 3);
           searchResults.forEach(result => {
-            const wikiLink = document.createElement("a");
-            wikiLink.href = `https://en.wikipedia.org/wiki/${encodeURIComponent(result.title)}`;
-            wikiLink.target = "_blank";
-            wikiLink.textContent = result.title;
-            const wrapper = document.createElement("p");
-            wrapper.appendChild(wikiLink);
-            wikiContent.appendChild(wrapper);
+            const wikiLink = document.createElement("div");
+            wikiLink.classList.add("api-result-card");
+            wikiLink.innerHTML = `
+              <a href="https://en.wikipedia.org/wiki/${encodeURIComponent(result.title)}" target="_blank">
+                ${result.title}
+              </a>
+              <p>${result.snippet}</p>
+            `;
+            wikiContent.appendChild(wikiLink);
           });
         })
         .catch(error => console.error("Error fetching Wikipedia data:", error));
@@ -501,16 +523,41 @@
           rickAndMortyContent.innerHTML = "<p>Oops! Something went wrong while fetching the data.</p>";
         });
     }
-
     // Trigger all searches on button click
     document.getElementById("search-button").addEventListener("click", () => {
       const query = document.getElementById("search-box").value.trim();
       if (query) {
-        searchDuckDuckGo(query);
-        searchWikipedia(query);
-        searchRickAndMorty(query);
+        try {
+          searchDuckDuckGo(query);
+          searchWikipedia(query);
+          searchRickAndMorty(query);
+          
+          // Error guards for each API call
+          Promise.allSettled([
+            searchDuckDuckGo(query).catch(e => console.error("DDG failed:", e)),
+            searchWikipedia(query).catch(e => console.error("Wiki failed:", e)),
+            searchRickAndMorty(query).catch(e => console.error("R&M failed:", e))
+          ]).then(results => {
+            // Log any failures
+            results.forEach((result, i) => {
+              if (result.status === "rejected") {
+                console.error(`API ${['DDG','Wiki','R&M'][i]} error:`, result.reason);
+              }
+            });
+          });
+        } catch (err) {
+          console.error("Search error:", err);
+        }
+      } else {
+        // Reset to default 9 RAM posts when empty
+        displayPosts(ramPostsData.slice(0, 9));
       }
     });
+
+    // Initialize with first 9 RAM posts
+    if (ramPostsData.length > 0) {
+      displayPosts(ramPostsData.slice(0, 9));
+    }
   </script>
 </body>
 </html>
