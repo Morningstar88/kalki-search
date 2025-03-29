@@ -7,12 +7,12 @@
   <title>Kalki Search</title>
   <style>
     :root {
-      /* Emerald-Google Hybrid */
+      /* Color Scheme */
       --title-color: #1a0dab;       /* Google blue */
       --text-color: #4d5156;        /* Google gray */
       --url-color: #005B4A;         /* Irish emerald */
       --accent-color: #C5E17A;      /* Irish light green */
-      --bg-color: #f8f9fa;          /* Google white */
+      --bg-color: #f8f9fa;
       --card-bg: #ffffff;
       --border: #e0e0e0;
     }
@@ -21,12 +21,12 @@
       font-family: "Josefin Sans", sans-serif;
       background: var(--bg-color);
       color: var(--text-color);
-      line-height: 1.58;           /* Google's line-height */
+      line-height: 1.58;
       margin: 0;
       padding: 20px;
     }
 
-    /* Google-like Search Box */
+    /* Search Box */
     .search-container {
       max-width: 584px;
       margin: 20px auto 40px;
@@ -40,58 +40,67 @@
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
 
-    /* Unified Results */
+    /* Results Grid */
     #results-container {
-      max-width: 650px;
+      max-width: 1200px;
       margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      gap: 20px;
+      padding: 10px;
     }
+
+    /* Card Styles */
     .result-card {
-      margin-bottom: 26px;          /* Google's spacing */
-      padding: 4px 16px;
+      background: var(--card-bg);
+      border-radius: 8px;
+      padding: 16px;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.1);
     }
     .result-title {
       color: var(--title-color);
       font-size: 20px;
-      font-weight: 400;             /* Not bold */
-      margin-bottom: 4px;
+      font-weight: 400;
+      margin-bottom: 8px;
     }
     .result-content {
       color: var(--text-color);
       font-size: 14px;
-      margin: 4px 0;
+      margin: 8px 0;
     }
     .result-url {
       color: var(--url-color);
       font-size: 12px;
-      margin-top: 2px;
+      margin-top: 8px;
     }
 
-    /* Source Indicators (Subtle) */
+    /* API-Specific Styling */
     .result-card[data-source="ram"] {
       border-left: 3px solid var(--accent-color);
     }
-    .result-card[data-source="rick"] .result-url::after {
-      content: " • 🛸";
-      opacity: 0.5;
+    .result-card[data-source="rick"] {
+      text-align: center;
     }
-    .result-card[data-source="wiki"] .result-url::before {
-      content: "📚 ";
+    .result-card[data-source="rick"] img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto 10px;
     }
 
-    /* Responsive */
-    @media (max-width: 600px) {
-      body { padding: 10px; }
-      .result-card { padding: 4px 8px; }
+    @media (max-width: 768px) {
+      #results-container {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 </head>
 <body>
-  <!-- Search Box -->
   <div class="search-container">
     <input type="text" id="search-box" placeholder="Search with Kalki..." autofocus>
   </div>
 
-  <!-- Unified Results Container -->
   <div id="results-container"></div>
 
   <script>
@@ -99,13 +108,13 @@
     const searchBox = document.getElementById('search-box');
     const resultsContainer = document.getElementById('results-container');
 
-    // RAM Database (Modified for text-only)
+    // RAM Database - Load 30 initially
     let ramPostsData = [];
     fetch("https://raw.githubusercontent.com/Morningstar88/kalki-search/master/myla.txt")
       .then(r => r.json())
       .then(data => {
-        ramPostsData = data.slice(0, 9); // Limit to 9 initially
-        displayRAMResults(ramPostsData);
+        ramPostsData = data;
+        displayRAMResults(ramPostsData.slice(0, 30)); // Show 30 on load
       });
 
     function displayRAMResults(posts) {
@@ -122,75 +131,91 @@
       });
     }
 
-    // DuckDuckGo API
+    // DuckDuckGo - Return all available results
     function searchDuckDuckGo(query) {
       fetch(`https://api.duckduckgo.com/?q=${encodeURIComponent(query)}&format=json`)
         .then(r => r.json())
         .then(data => {
+          // Abstract result
           if (data.AbstractText) {
-            const card = document.createElement('div');
-            card.className = 'result-card';
-            card.dataset.source = 'ddg';
-            card.innerHTML = `
-              <a href="${data.AbstractURL}" class="result-title">${data.Heading || query}</a>
-              <div class="result-content">${data.AbstractText}</div>
-              <div class="result-url">${data.AbstractURL}</div>
-            `;
-            resultsContainer.appendChild(card);
+            addResultCard({
+              source: 'ddg',
+              title: data.Heading || query,
+              content: data.AbstractText,
+              url: data.AbstractURL
+            });
           }
+          // Related topics
+          data.RelatedTopics?.forEach(topic => {
+            if (topic.Text) {
+              addResultCard({
+                source: 'ddg',
+                title: topic.Text,
+                url: topic.FirstURL || `https://duckduckgo.com/?q=${encodeURIComponent(query)}`
+              });
+            }
+          });
         });
     }
 
-    // Wikipedia API
+    // Wikipedia - Return first 10 results
     function searchWikipedia(query) {
-      fetch(`https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(query)}&format=json&origin=*`)
+      fetch(`https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(query)}&format=json&origin=*&srlimit=10`)
         .then(r => r.json())
         .then(data => {
-          data.query.search.slice(0, 3).forEach(result => {
+          data.query.search.forEach(result => {
+            addResultCard({
+              source: 'wiki',
+              title: result.title,
+              content: result.snippet.replace(/<[^>]+>/g, ''),
+              url: `https://en.wikipedia.org/wiki/${encodeURIComponent(result.title)}`
+            });
+          });
+        });
+    }
+
+    // Rick and Morty - Return 3 character cards with images
+    function searchRickAndMorty(query) {
+      fetch(`https://rickandmortyapi.com/api/character/?name=${encodeURIComponent(query)}`)
+        .then(r => r.json())
+        .then(data => {
+          data.results?.slice(0, 3).forEach(char => {
             const card = document.createElement('div');
             card.className = 'result-card';
-            card.dataset.source = 'wiki';
+            card.dataset.source = 'rick';
             card.innerHTML = `
-              <a href="https://en.wikipedia.org/wiki/${encodeURIComponent(result.title)}" class="result-title">${result.title}</a>
-              <div class="result-content">${result.snippet.replace(/<[^>]+>/g, '')}</div>
-              <div class="result-url">wikipedia.org</div>
+              <img src="${char.image}" alt="${char.name}">
+              <div class="result-title">${char.name}</div>
+              <div class="result-content">
+                <span data-status="${char.status}">${char.status}</span> • 
+                ${char.species}
+              </div>
+              <div class="result-url">${char.origin.name}</div>
             `;
             resultsContainer.appendChild(card);
           });
         });
     }
 
-    // Rick and Morty API
-    function searchRickAndMorty(query) {
-      fetch(`https://rickandmortyapi.com/api/character/?name=${encodeURIComponent(query)}`)
-        .then(r => r.json())
-        .then(data => {
-          if (data.results) {
-            data.results.slice(0, 3).forEach(char => {
-              const card = document.createElement('div');
-              card.className = 'result-card';
-              card.dataset.source = 'rick';
-              card.innerHTML = `
-                <div class="result-title">${char.name}</div>
-                <div class="result-content">
-                  <span data-status="${char.status}">${char.status}</span> • 
-                  ${char.species} • 
-                  ${char.origin.name}
-                </div>
-                <div class="result-url">rickandmortyapi.com</div>
-              `;
-              resultsContainer.appendChild(card);
-            });
-          }
-        });
+    // Helper function for consistent cards
+    function addResultCard({source, title, content = '', url}) {
+      const card = document.createElement('div');
+      card.className = 'result-card';
+      card.dataset.source = source;
+      card.innerHTML = `
+        <a href="${url}" class="result-title" target="_blank">${title}</a>
+        ${content ? `<div class="result-content">${content}</div>` : ''}
+        <div class="result-url">${new URL(url).hostname}</div>
+      `;
+      resultsContainer.appendChild(card);
     }
 
-    // Unified Search Handler
+    // Search Handler
     searchBox.addEventListener('keypress', (e) => {
       if (e.key === 'Enter') {
         const query = searchBox.value.trim();
         if (query) {
-          resultsContainer.innerHTML = ''; // Clear previous
+          resultsContainer.innerHTML = '';
           searchDuckDuckGo(query);
           searchWikipedia(query);
           searchRickAndMorty(query);
