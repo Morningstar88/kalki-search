@@ -1,563 +1,202 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-  <title>Kalki Search Engine</title>
+  <title>Kalki Search</title>
   <style>
-    /* CSS Variables for Theme Switching */
     :root {
-      /* Emerald Theme */
-      --primary: #005B4A;
-      --secondary: #007D67;
-      --accent: #C5E17A;
-      --text: #333333;
-      --bg: #f8f9fa;
+      /* Emerald-Google Hybrid */
+      --title-color: #1a0dab;       /* Google blue */
+      --text-color: #4d5156;        /* Google gray */
+      --url-color: #005B4A;         /* Irish emerald */
+      --accent-color: #C5E17A;      /* Irish light green */
+      --bg-color: #f8f9fa;          /* Google white */
       --card-bg: #ffffff;
       --border: #e0e0e0;
-      --logo-color: #005B4A;
-      --logo-shadow: none;
-      --input-border: #007D67;
-      --button-bg: #007D67;
-      --button-hover: #005B4A;
-      --section-title: #005B4A;
-    }
-
-    .kalki-theme {
-      /* Original Dark Theme */
-      --primary: #33ff99;
-      --secondary: #80ffbf;
-      --accent: #33ff99;
-      --text: #33ff99;
-      --bg: #0a0a0a;
-      --card-bg: #222;
-      --border: #33ff99;
-      --logo-color: #33ff99;
-      --logo-shadow: 0 0 10px #33ff99, 0 0 20px #33ff99, 0 0 30px #33ff99;
-      --input-border: #33ff99;
-      --button-bg: #33ff99;
-      --button-hover: #80ffbf;
-      --section-title: #33ff99;
-    }
-
-    /* Global Styles */
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
     }
 
     body {
       font-family: "Josefin Sans", sans-serif;
-      font-weight: 300;
-      background-color: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-      transition: all 0.3s ease;
+      background: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.58;           /* Google's line-height */
+      margin: 0;
+      padding: 20px;
     }
 
-    /* Header */
-    header {
-      text-align: center;
-      padding: 20px 0;
-    }
-
-    /* KALKI Title */
-    .kalki-logo {
-      font-size: 4em;
-      color: var(--logo-color);
-      text-shadow: var(--logo-shadow);
-      margin: 10px 0;
-      font-weight: 600;
-      letter-spacing: -2px;
-    }
-
-    /* Search Box - Google-like */
+    /* Google-like Search Box */
     .search-container {
       max-width: 584px;
-      margin: 0 auto 30px;
-      position: relative;
+      margin: 20px auto 40px;
     }
-
     #search-box {
       width: 100%;
-      padding: 12px 20px;
-      font-size: 1em;
+      padding: 12px 24px;
       border: 1px solid var(--border);
       border-radius: 24px;
-      background-color: var(--card-bg);
-      color: var(--text);
-      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
-      font-family: "Josefin Sans", sans-serif;
+      font-size: 16px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
 
-    #search-box:focus {
-      outline: none;
-      box-shadow: 0 1px 6px rgba(0, 91, 74, 0.3);
-    }
-
-    #search-button {
-      position: absolute;
-      right: 5px;
-      top: 5px;
-      padding: 7px 15px;
-      background-color: var(--button-bg);
-      color: white;
-      border: none;
-      border-radius: 20px;
-      cursor: pointer;
-      font-family: "Josefin Sans", sans-serif;
-      font-weight: 400;
-      transition: background-color 0.3s ease;
-    }
-
-    #search-button:hover {
-      background-color: var(--button-hover);
-    }
-
-    /* Theme Toggle */
-    .theme-toggle {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      background: var(--primary);
-      color: white;
-      border: none;
-      padding: 8px 15px;
-      border-radius: 20px;
-      cursor: pointer;
-      font-family: "Josefin Sans", sans-serif;
-      z-index: 100;
-    }
-
-    /* Main Content Container */
-    .main-container {
-      max-width: 1200px;
+    /* Unified Results */
+    #results-container {
+      max-width: 650px;
       margin: 0 auto;
-      padding: 0 20px;
+    }
+    .result-card {
+      margin-bottom: 26px;          /* Google's spacing */
+      padding: 4px 16px;
+    }
+    .result-title {
+      color: var(--title-color);
+      font-size: 20px;
+      font-weight: 400;             /* Not bold */
+      margin-bottom: 4px;
+    }
+    .result-content {
+      color: var(--text-color);
+      font-size: 14px;
+      margin: 4px 0;
+    }
+    .result-url {
+      color: var(--url-color);
+      font-size: 12px;
+      margin-top: 2px;
     }
 
-    /* Sections */
-    section {
-      margin-bottom: 30px;
-      padding: 0;
+    /* Source Indicators (Subtle) */
+    .result-card[data-source="ram"] {
+      border-left: 3px solid var(--accent-color);
+    }
+    .result-card[data-source="rick"] .result-url::after {
+      content: " • 🛸";
+      opacity: 0.5;
+    }
+    .result-card[data-source="wiki"] .result-url::before {
+      content: "📚 ";
     }
 
-    section h2 {
-      font-size: 1.2em;
-      color: var(--section-title);
-      margin-bottom: 15px;
-      padding-bottom: 8px;
-      border-bottom: 1px solid var(--border);
-      font-weight: 400;
-    }
-
-    /* Fixed Egyptian Glyphs */
-    .glyph-placeholder {
-      font-size: 2em;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 60px;
-    }
-
-    /* RAM Database Cards - Google-like */
-    .kalki-post-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 20px;
-    }
-
-    .kalki-post {
-      background: var(--card-bg);
-      border-radius: 8px;
-      padding: 15px;
-      transition: transform 0.3s ease;
-      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
-      border-left: 4px solid var(--primary);
-    }
-
-    .kalki-post:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    }
-
-    .kalki-post img {
-      width: 100%;
-      height: 180px;
-      object-fit: cover;
-      border-radius: 4px;
-      margin-bottom: 12px;
-    }
-
-    .kalki-post div {
-      color: var(--text);
-      font-size: 1em;
-      text-align: left;
-      margin-bottom: 10px;
-    }
-
-    .post-tag {
-      display: inline-block;
-      margin: 3px;
-      padding: 3px 8px;
-      background: var(--accent);
-      color: var(--primary);
-      border-radius: 12px;
-      font-size: 0.8em;
-      font-weight: 400;
-    }
-
-    /* DuckDuckGo & Wikipedia Results - Google-like */
-    .api-result-card {
-      background: var(--card-bg);
-      border-radius: 8px;
-      padding: 16px;
-      margin-bottom: 12px;
-      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
-      border-left: 4px solid var(--secondary);
-    }
-
-    .api-result-card:hover {
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-    }
-
-    .api-result-card a {
-      color: var(--primary);
-      text-decoration: none;
-      font-weight: 400;
-    }
-
-    .api-result-card a:hover {
-      text-decoration: underline;
-    }
-
-    .api-result-card p {
-      color: var(--text);
-      margin-top: 8px;
-      font-size: 0.95em;
-    }
-
-    /* Rick and Morty Cards - Harmonized */
-    .rick-and-morty-character {
-      width: 180px;
-      height: 260px;
-      margin: 0 10px 20px 0;
-      display: inline-block;
-    }
-
-    .rick-and-morty-character-inner {
-      background: var(--card-bg);
-      border-radius: 8px;
-      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
-      border-left: 4px solid var(--accent);
-    }
-
-    .rick-and-morty-character-front,
-    .rick-and-morty-character-back {
-      padding: 15px;
-    }
-
-    .rick-and-morty-character img {
-      border-radius: 50%;
-      width: 80px;
-      height: 80px;
-      object-fit: cover;
-      margin: 0 auto 10px;
-      display: block;
-    }
-
-    .rick-and-morty-character h3 {
-      color: var(--primary);
-      font-size: 1em;
-      margin: 10px 0;
-      text-align: center;
-    }
-
-    .rick-and-morty-character p {
-      color: var(--text);
-      font-size: 0.85em;
-      margin: 5px 0;
-      text-align: center;
-    }
-
-    /* Status Indicators */
-    .rick-and-morty-character p[data-status="Alive"]::before {
-      content: "🟢";
-      margin-right: 5px;
-    }
-
-    .rick-and-morty-character p[data-status="Dead"]::before {
-      content: "🔴";
-      margin-right: 5px;
-    }
-
-    .rick-and-morty-character p[data-status="unknown"]::before {
-      content: "⚪";
-      margin-right: 5px;
-    }
-
-    /* Footer */
-    .base-outro {
-      font-weight: 300;
-      text-align: center;
-      margin: 40px 0;
-      color: var(--text);
-      font-size: 1em;
-    }
-
-    /* Responsive Adjustments */
-    @media (max-width: 768px) {
-      .kalki-post-container {
-        grid-template-columns: 1fr;
-      }
-      
-      .rick-and-morty-character {
-        width: 100%;
-        height: auto;
-        margin: 0 0 20px 0;
-        display: block;
-      }
+    /* Responsive */
+    @media (max-width: 600px) {
+      body { padding: 10px; }
+      .result-card { padding: 4px 8px; }
     }
   </style>
 </head>
 <body>
-  <!-- Theme Toggle Button -->
-  <button class="theme-toggle" id="theme-toggle">Emerald Theme</button>
-
-  <!-- Header -->
-  <header>
-    <h1 class="kalki-logo">KALKI</h1>
-  </header>
-
   <!-- Search Box -->
-  <div class="main-container">
-    <div class="search-container">
-      <input type="text" id="search-box" placeholder="Search Village...">
-      <button id="search-button">Go</button>
-    </div>
-
-    <!-- RAM Database Results -->
-    <section id="ram-results">
-      <h2>RAM Database</h2>
-      <div class="kalki-post-container"></div>
-    </section>
-
-    <!-- DuckDuckGo Results -->
-    <section id="duckduckgo-results">
-      <h2>Web Results <span class="glyph-placeholder">𓅔</span></h2>
-      <div id="ddg-content"></div>
-    </section>
-    
-    <!-- Rick and Morty Results -->
-    <section id="rick-and-morty-results">
-      <h2>Characters <span class="glyph-placeholder">𓅭</span></h2>
-      <div id="rick-and-morty-content"></div>
-    </section>
-
-    <!-- Wikipedia Results -->
-    <section id="wikipedia-results">
-      <h2>Knowledge <span class="glyph-placeholder">𓅔𓅔</span></h2>
-      <div id="wiki-content"></div>
-      <p class="base-outro">Move Slowly and Fix Things</p>
-    </section>
+  <div class="search-container">
+    <input type="text" id="search-box" placeholder="Search with Kalki..." autofocus>
   </div>
 
+  <!-- Unified Results Container -->
+  <div id="results-container"></div>
+
   <script>
-    // MODIFIED: Theme Toggle Functionality
-    document.getElementById('theme-toggle').addEventListener('click', function() {
-      document.body.classList.toggle('kalki-theme');
-      this.textContent = document.body.classList.contains('kalki-theme') 
-        ? 'Original Theme' 
-        : 'Emerald Theme';
-    });
+    // DOM Elements
+    const searchBox = document.getElementById('search-box');
+    const resultsContainer = document.getElementById('results-container');
 
-    /*****************
-     * RAM Database  *
-     *****************/
+    // RAM Database (Modified for text-only)
     let ramPostsData = [];
-    const postContainer = document.querySelector(".kalki-post-container");
-
-    // Fetch RAM database
     fetch("https://raw.githubusercontent.com/Morningstar88/kalki-search/master/myla.txt")
-      .then(response => response.json())
+      .then(r => r.json())
       .then(data => {
-        ramPostsData = data;
-        // MODIFIED: Show only first 9 results
-        displayPosts(ramPostsData.slice(0, 9));
-      })
-      .catch(error => console.error("Error fetching RAM data:", error));
-
-    // Display RAM posts
-    const displayPosts = (posts) => {
-      postContainer.innerHTML = "";
-      posts.forEach(post => {
-        const { title, link, image, categories } = post;
-        const postElement = document.createElement("div");
-        postElement.classList.add("kalki-post");
-        postElement.innerHTML = `
-          <a href="${link}" target="_blank">
-            <img src="${image}" alt="${title}" />
-          </a>
-          <div>${title}</div>
-          <div>${categories.map(cat => `<span class="post-tag">${cat}</span>`).join("")}</div>
-        `;
-        postContainer.appendChild(postElement);
+        ramPostsData = data.slice(0, 9); // Limit to 9 initially
+        displayRAMResults(ramPostsData);
       });
-    };
 
-    // RAM search filter
-    document.getElementById("search-box").addEventListener("input", () => {
-      const query = document.getElementById("search-box").value.trim();
-      if (query) {
-        // MODIFIED: Show max 9 filtered results
-        const filteredPosts = ramPostsData.filter(post =>
-          post.title.toLowerCase().includes(query.toLowerCase()) ||
-          post.categories.some(cat => cat.toLowerCase().includes(query.toLowerCase()))
-          .slice(0, 9);
-        displayPosts(filteredPosts);
-      } else {
-        // MODIFIED: Show first 9 when empty
-        displayPosts(ramPostsData.slice(0, 9));
-      }
-    });
+    function displayRAMResults(posts) {
+      posts.forEach(post => {
+        const card = document.createElement('div');
+        card.className = 'result-card';
+        card.dataset.source = 'ram';
+        card.innerHTML = `
+          <a href="${post.link}" class="result-title">${post.title}</a>
+          <div class="result-content">${post.categories.join(' • ')}</div>
+          <div class="result-url">${new URL(post.link).hostname}</div>
+        `;
+        resultsContainer.appendChild(card);
+      });
+    }
 
-    /*****************
-     * API Searches  *
-     *****************/
+    // DuckDuckGo API
     function searchDuckDuckGo(query) {
-      const ddgUrl = `https://api.duckduckgo.com/?q=${encodeURIComponent(query)}&format=json&pretty=1`;
-      const ddgContent = document.getElementById("ddg-content");
-      ddgContent.innerHTML = "";
-
-      fetch(ddgUrl)
-        .then(response => response.json())
+      fetch(`https://api.duckduckgo.com/?q=${encodeURIComponent(query)}&format=json`)
+        .then(r => r.json())
         .then(data => {
           if (data.AbstractText) {
-            const ddgAbstract = document.createElement("div");
-            ddgAbstract.classList.add("api-result-card");
-            ddgAbstract.innerHTML = `
-              <a href="${data.AbstractURL}" target="_blank">${data.Heading || "DuckDuckGo Result"}</a>
-              <p>${data.AbstractText}</p>
+            const card = document.createElement('div');
+            card.className = 'result-card';
+            card.dataset.source = 'ddg';
+            card.innerHTML = `
+              <a href="${data.AbstractURL}" class="result-title">${data.Heading || query}</a>
+              <div class="result-content">${data.AbstractText}</div>
+              <div class="result-url">${data.AbstractURL}</div>
             `;
-            ddgContent.appendChild(ddgAbstract);
+            resultsContainer.appendChild(card);
           }
-          if (data.RelatedTopics.length > 0) {
-            data.RelatedTopics.slice(0, 5).forEach(topic => {
-              if (topic.FirstURL && topic.Text) {
-                const ddgLink = document.createElement("div");
-                ddgLink.classList.add("api-result-card");
-                ddgLink.innerHTML = `
-                  <a href="${topic.FirstURL}" target="_blank">${topic.Text}</a>
-                `;
-                ddgContent.appendChild(ddgLink);
-              }
-            });
-          }
-        })
-        .catch(error => console.error("Error fetching DuckDuckGo data:", error));
-    }
-
-    function searchWikipedia(query) {
-      const wikiUrl = `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(query)}&format=json&origin=*`;
-      const wikiContent = document.getElementById("wiki-content");
-      wikiContent.innerHTML = "";
-
-      fetch(wikiUrl)
-        .then(response => response.json())
-        .then(data => {
-          const searchResults = data.query.search.slice(0, 3);
-          searchResults.forEach(result => {
-            const wikiLink = document.createElement("div");
-            wikiLink.classList.add("api-result-card");
-            wikiLink.innerHTML = `
-              <a href="https://en.wikipedia.org/wiki/${encodeURIComponent(result.title)}" target="_blank">
-                ${result.title}
-              </a>
-              <p>${result.snippet}</p>
-            `;
-            wikiContent.appendChild(wikiLink);
-          });
-        })
-        .catch(error => console.error("Error fetching Wikipedia data:", error));
-    }
-
-    function searchRickAndMorty(query) {
-      const rickAndMortyContent = document.getElementById("rick-and-morty-content");
-      rickAndMortyContent.innerHTML = `<div class="loading-spinner"></div>`;
-
-      fetch(`https://rickandmortyapi.com/api/character/?name=${encodeURIComponent(query)}`)
-        .then(response => {
-          if (!response.ok) throw new Error(`Character not found: ${response.statusText}`);
-          return response.json();
-        })
-        .then(data => {
-          rickAndMortyContent.innerHTML = "";
-          if (data.results && data.results.length > 0) {
-            data.results.forEach(character => {
-              const characterCard = document.createElement("div");
-              characterCard.classList.add("rick-and-morty-character");
-              characterCard.innerHTML = `
-                <div class="rick-and-morty-character-inner">
-                  <div class="rick-and-morty-character-front">
-                    <img src="${character.image}" alt="${character.name}" />
-                    <h3>${character.name}</h3>
-                    <p data-status="${character.status}">Status: ${character.status}</p>
-                  </div>
-                  <div class="rick-and-morty-character-back">
-                    <p><strong>Species:</strong> ${character.species}</p>
-                    <p><strong>Origin:</strong> ${character.origin.name}</p>
-                    <p><strong>Episodes:</strong> ${character.episode.length}</p>
-                  </div>
-                </div>
-              `;
-              rickAndMortyContent.appendChild(characterCard);
-            });
-          } else {
-            rickAndMortyContent.innerHTML = "<p>No characters found matching your query.</p>";
-          }
-        })
-        .catch(error => {
-          console.error("Error fetching Rick and Morty data:", error);
-          rickAndMortyContent.innerHTML = "<p>Oops! Something went wrong while fetching the data.</p>";
         });
     }
-    // Trigger all searches on button click
-    document.getElementById("search-button").addEventListener("click", () => {
-      const query = document.getElementById("search-box").value.trim();
-      if (query) {
-        try {
+
+    // Wikipedia API
+    function searchWikipedia(query) {
+      fetch(`https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(query)}&format=json&origin=*`)
+        .then(r => r.json())
+        .then(data => {
+          data.query.search.slice(0, 3).forEach(result => {
+            const card = document.createElement('div');
+            card.className = 'result-card';
+            card.dataset.source = 'wiki';
+            card.innerHTML = `
+              <a href="https://en.wikipedia.org/wiki/${encodeURIComponent(result.title)}" class="result-title">${result.title}</a>
+              <div class="result-content">${result.snippet.replace(/<[^>]+>/g, '')}</div>
+              <div class="result-url">wikipedia.org</div>
+            `;
+            resultsContainer.appendChild(card);
+          });
+        });
+    }
+
+    // Rick and Morty API
+    function searchRickAndMorty(query) {
+      fetch(`https://rickandmortyapi.com/api/character/?name=${encodeURIComponent(query)}`)
+        .then(r => r.json())
+        .then(data => {
+          if (data.results) {
+            data.results.slice(0, 3).forEach(char => {
+              const card = document.createElement('div');
+              card.className = 'result-card';
+              card.dataset.source = 'rick';
+              card.innerHTML = `
+                <div class="result-title">${char.name}</div>
+                <div class="result-content">
+                  <span data-status="${char.status}">${char.status}</span> • 
+                  ${char.species} • 
+                  ${char.origin.name}
+                </div>
+                <div class="result-url">rickandmortyapi.com</div>
+              `;
+              resultsContainer.appendChild(card);
+            });
+          }
+        });
+    }
+
+    // Unified Search Handler
+    searchBox.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') {
+        const query = searchBox.value.trim();
+        if (query) {
+          resultsContainer.innerHTML = ''; // Clear previous
           searchDuckDuckGo(query);
           searchWikipedia(query);
           searchRickAndMorty(query);
-          
-          // Error guards for each API call
-          Promise.allSettled([
-            searchDuckDuckGo(query).catch(e => console.error("DDG failed:", e)),
-            searchWikipedia(query).catch(e => console.error("Wiki failed:", e)),
-            searchRickAndMorty(query).catch(e => console.error("R&M failed:", e))
-          ]).then(results => {
-            // Log any failures
-            results.forEach((result, i) => {
-              if (result.status === "rejected") {
-                console.error(`API ${['DDG','Wiki','R&M'][i]} error:`, result.reason);
-              }
-            });
-          });
-        } catch (err) {
-          console.error("Search error:", err);
         }
-      } else {
-        // Reset to default 9 RAM posts when empty
-        displayPosts(ramPostsData.slice(0, 9));
       }
     });
-
-    // Initialize with first 9 RAM posts
-    if (ramPostsData.length > 0) {
-      displayPosts(ramPostsData.slice(0, 9));
-    }
   </script>
 </body>
 </html>
