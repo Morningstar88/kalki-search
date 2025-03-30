@@ -7,16 +7,17 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <title>Kalki Search</title>
   <style>
-    /* MARCH 30TH 1121AM // TAYLOR AFTER NICE MARKET // COMMIT NOTES: ALl singing, All dancing new version with loading indicators, 3 RAM pics on load, Toggle colour scheme and more... Previous commits flawed. Hope this works  */
+    /*1141AM. Add Favicons, Responsive layout, and bring back Kalki Logo. */
     :root {
       /* Light Theme */
       --title-color: #1a0dab;
       --text-color: #4d5156;
-      --url-color: #005B4A;
+      --url-color: #006621;
       --accent-color: #C5E17A;
       --bg-color: #f8f9fa;
       --card-bg: #ffffff;
-      --border: #e0e0e0;
+      --border: #dfe1e5;
+      --logo-color: #005B4A;
     }
 
     .irish-theme {
@@ -28,16 +29,30 @@
       --bg-color: #0a1f1a;
       --card-bg: #0d2b24;
       --border: #005B4A;
+      --logo-color: #33ff99;
     }
 
     body {
       font-family: "Josefin Sans", sans-serif;
       background: var(--bg-color);
       color: var(--text-color);
-      line-height: 1.58;
       margin: 0;
-      padding: 20px;
+      padding: 0;
       transition: all 0.3s ease;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      padding: 20px 0;
+    }
+    .kalki-logo {
+      font-size: 4.5em;
+      color: var(--logo-color);
+      font-weight: 600;
+      letter-spacing: -1px;
+      margin: 10px 0;
+      text-shadow: 0 2px 3px rgba(0,0,0,0.1);
     }
 
     /* Theme Toggle */
@@ -55,11 +70,11 @@
       z-index: 100;
     }
 
-    /* Search Box */
+    /* Google-like Search */
     .search-container {
       max-width: 584px;
-      margin: 40px auto 30px;
-      position: relative;
+      margin: 0 auto 30px;
+      padding: 0 20px;
     }
     #search-box {
       width: 100%;
@@ -72,64 +87,55 @@
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
 
-    /* Results Grid */
+    /* Google-style Results */
     #results-container {
-      max-width: 1200px;
+      max-width: 650px;
       margin: 0 auto;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-      gap: 20px;
-      padding: 10px;
+      padding: 0 20px;
     }
-
-    /* Card Styles */
     .result-card {
-      background: var(--card-bg);
-      border-radius: 8px;
-      padding: 16px;
-      box-shadow: 0 1px 6px rgba(0,0,0,0.1);
-      transition: transform 0.2s;
-    }
-    .result-card:hover {
-      transform: translateY(-3px);
+      margin-bottom: 26px; /* Google's spacing */
     }
     .result-title {
       color: var(--title-color);
       font-size: 20px;
-      font-weight: 400;
-      margin-bottom: 8px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
+      font-weight: 400; /* Google doesn't use bold */
+      line-height: 1.3;
+      margin-bottom: 4px;
     }
     .result-content {
       color: var(--text-color);
       font-size: 14px;
-      margin: 8px 0;
+      line-height: 1.58; /* Google's precise line-height */
     }
     .result-url {
       color: var(--url-color);
       font-size: 12px;
-      margin-top: 8px;
+      margin-top: 2px;
       display: flex;
       align-items: center;
-      gap: 5px;
     }
     .favicon {
       width: 16px;
       height: 16px;
+      margin-right: 6px;
     }
 
-    /* RAM Specific */
+    /* RAM Images Grid */
+    .ram-images {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      margin-bottom: 30px;
+    }
     .ram-image {
       width: 100%;
-      height: 180px;
+      height: 120px;
       object-fit: cover;
-      border-radius: 4px;
-      margin-bottom: 12px;
+      border-radius: 8px;
     }
 
-    /* Loading Indicators */
+    /* Loading */
     .loading {
       display: inline-block;
       width: 20px;
@@ -143,8 +149,17 @@
       to { transform: rotate(360deg); }
     }
 
+    /* Mobile Responsiveness */
     @media (max-width: 768px) {
-      #results-container {
+      .kalki-logo {
+        font-size: 3em;
+      }
+      .ram-images {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 480px) {
+      .ram-images {
         grid-template-columns: 1fr;
       }
     }
@@ -155,6 +170,11 @@
   <button class="theme-toggle" id="theme-toggle">
     <i class="fas fa-leaf"></i> Irish Mode
   </button>
+
+  <!-- Header -->
+  <header>
+    <h1 class="kalki-logo">KALKI</h1>
+  </header>
 
   <!-- Search Box -->
   <div class="search-container">
@@ -178,51 +198,50 @@
         : '<i class="fas fa-leaf"></i> Irish Mode';
     });
 
-    // Loading State
-    function showLoading() {
-      const loader = document.createElement('div');
-      loader.className = 'loading';
-      return loader;
-    }
-
     // Get Favicon
     function getFavicon(url) {
       const domain = new URL(url).hostname;
       return `https://www.google.com/s2/favicons?domain=${domain}`;
     }
 
-    // RAM Database - Load 30 results (3 with images)
+    // RAM Database - Load with 3 images on top
     let ramPostsData = [];
     fetch("https://raw.githubusercontent.com/Morningstar88/kalki-search/master/myla.txt")
       .then(r => r.json())
       .then(data => {
         ramPostsData = data;
-        // First 3 with images, rest without
-        displayRAMResults([
-          ...data.slice(0, 3), // First 3 with images
-          ...data.slice(3, 30) // Next 27 text-only
-        ]);
+        
+        // Create images grid
+        const imagesGrid = document.createElement('div');
+        imagesGrid.className = 'ram-images';
+        data.slice(0, 3).forEach(post => {
+          const img = document.createElement('img');
+          img.src = post.image;
+          img.className = 'ram-image';
+          img.alt = post.title;
+          img.loading = 'lazy';
+          imagesGrid.appendChild(img);
+        });
+        resultsContainer.appendChild(imagesGrid);
+        
+        // Add text results
+        displayRAMResults(data.slice(0, 30));
       });
 
     function displayRAMResults(posts) {
-      posts.forEach((post, index) => {
+      posts.forEach(post => {
         const card = document.createElement('div');
         card.className = 'result-card';
-        card.dataset.source = 'ram';
-        
-        // Only show images for first 3 items
-        const imageHtml = index < 3 
-          ? `<img src="${post.image}" class="ram-image" alt="${post.title}">` 
-          : '';
-        
         card.innerHTML = `
-          ${imageHtml}
           <a href="${post.link}" class="result-title">
             <img src="${getFavicon(post.link)}" class="favicon">
             ${post.title}
           </a>
           <div class="result-content">${post.categories.join(' • ')}</div>
-          <div class="result-url">${new URL(post.link).hostname}</div>
+          <div class="result-url">
+            <img src="${getFavicon(post.link)}" class="favicon">
+            ${new URL(post.link).hostname}
+          </div>
         `;
         resultsContainer.appendChild(card);
       });
@@ -230,34 +249,20 @@
 
     // Search APIs
     async function performSearch(query) {
-      resultsContainer.innerHTML = '';
+      resultsContainer.innerHTML = '<div style="text-align:center;padding:20px;"><div class="loading"></div></div>';
       
-      // Add loading indicators
-      const loaders = ['DuckDuckGo', 'Wikipedia', 'Rick&Morty'].map(source => {
-        const loader = document.createElement('div');
-        loader.innerHTML = `<div style="padding: 20px; text-align: center;">
-          <div class="loading"></div> Loading ${source} results...
-        </div>`;
-        resultsContainer.appendChild(loader);
-        return loader;
-      });
-
       try {
-        const [ddgData, wikiData, rickData] = await Promise.all([
+        const [ddgData, wikiData] = await Promise.all([
           fetchDDG(query),
-          fetchWiki(query),
-          fetchRick(query)
+          fetchWiki(query)
         ]);
         
-        // Remove loaders
-        loaders.forEach(loader => loader.remove());
-        
-        // Display results
+        resultsContainer.innerHTML = '';
         displayDDGResults(ddgData);
         displayWikiResults(wikiData);
-        displayRickResults(rickData);
       } catch (error) {
         console.error("Search error:", error);
+        resultsContainer.innerHTML = '<div class="result-card">Error loading results. Please try again.</div>';
       }
     }
 
@@ -268,12 +273,7 @@
     }
 
     async function fetchWiki(query) {
-      const response = await fetch(`https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(query)}&format=json&origin=*&srlimit=10`);
-      return response.json();
-    }
-
-    async function fetchRick(query) {
-      const response = await fetch(`https://rickandmortyapi.com/api/character/?name=${encodeURIComponent(query)}`);
+      const response = await fetch(`https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(query)}&format=json&origin=*&srlimit=5`);
       return response.json();
     }
 
@@ -281,7 +281,6 @@
     function displayDDGResults(data) {
       if (data.AbstractText) {
         addResultCard({
-          source: 'ddg',
           title: data.Heading || searchBox.value,
           content: data.AbstractText,
           url: data.AbstractURL
@@ -290,7 +289,6 @@
       data.RelatedTopics?.forEach(topic => {
         if (topic.Text) {
           addResultCard({
-            source: 'ddg',
             title: topic.Text,
             url: topic.FirstURL || `https://duckduckgo.com/?q=${encodeURIComponent(searchBox.value)}`
           });
@@ -301,7 +299,6 @@
     function displayWikiResults(data) {
       data.query?.search.forEach(result => {
         addResultCard({
-          source: 'wiki',
           title: result.title,
           content: result.snippet.replace(/<[^>]+>/g, ''),
           url: `https://en.wikipedia.org/wiki/${encodeURIComponent(result.title)}`
@@ -309,35 +306,10 @@
       });
     }
 
-    function displayRickResults(data) {
-      data.results?.slice(0, 3).forEach(char => {
-        const card = document.createElement('div');
-        card.className = 'result-card';
-        card.dataset.source = 'rick';
-        card.innerHTML = `
-          <img src="${char.image}" style="width:100px;height:100px;border-radius:50%;margin:0 auto 10px;display:block;">
-          <div class="result-title">
-            <i class="fas fa-user-astronaut"></i>
-            ${char.name}
-          </div>
-          <div class="result-content">
-            <span data-status="${char.status}">${char.status}</span> • 
-            ${char.species}
-          </div>
-          <div class="result-url">
-            <i class="fas fa-globe"></i>
-            ${char.origin.name}
-          </div>
-        `;
-        resultsContainer.appendChild(card);
-      });
-    }
-
     // Helper function
-    function addResultCard({source, title, content = '', url}) {
+    function addResultCard({title, content = '', url}) {
       const card = document.createElement('div');
       card.className = 'result-card';
-      card.dataset.source = source;
       card.innerHTML = `
         <a href="${url}" class="result-title" target="_blank">
           <img src="${getFavicon(url)}" class="favicon">
