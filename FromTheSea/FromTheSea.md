@@ -1,4 +1,6 @@
-## From The Sea. Factsheet of Civilization Basics.
+## From The Sea. Civilization Basics. 
+
+### Vinegar, Sourdough from Zero, Yeast Propogation, Hammocks, Low-Aluminium, Farming By The Sea, Yard Beans, Seawater Agriculture, and more..
 
 Here’s your final, all-in-one cheat sheet for Koh Rong:
 
