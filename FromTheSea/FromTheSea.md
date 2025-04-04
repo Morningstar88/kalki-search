@@ -2,6 +2,57 @@
 
 ### Vinegar, Sourdough from Zero, Yeast Propogation, Hammocks, Low-Aluminium, Farming By The Sea, Yard Beans, Seawater Agriculture, and more..
 
+Here’s a list of low-budget hammock-friendly spots across Koh Rong, Koh Rong Samloem, and Koh Ta Kiev, based on available information:
+
+---
+
+### **Koh Rong**
+1. **Mad Monkey Hostel (Long Set Beach)**:
+   - Known for its social vibe and budget-friendly accommodations.
+   - Offers hammocks and dorms for backpackers](https://www.thebrokebackpacker.com/where-to-stay-in-koh-rong-cambodia/).
+
+2. **Happy Elephant (Koh Touch)**:
+   - A simple and affordable guesthouse with hammock-friendly spaces.
+   - Located in the bustling Koh Touch area](https://www.thebrokebackpacker.com/where-to-stay-in-koh-rong-cambodia/).
+
+3. **White Beach Bungalows**:
+   - Offers beachfront bungalows with hammock setups.
+   - Located on the quieter end of Koh Touch Beach.
+
+---
+
+### **Koh Rong Samloem**
+1. **Robinson Bungalows (Sunset Beach)**:
+   - Offers budget-friendly accommodations with hammocks.
+   - Located on a serene private beach.
+
+2. **Bong’s Guesthouse (M’Pai Bay)**:
+   - A cozy spot with hammock areas and affordable rooms.
+   - Perfect for budget travelers.
+
+3. **Sleeping Trees (Saracen Bay)**:
+   - Features hammock-friendly spaces and eco-friendly accommodations.
+   - Known for its peaceful vibe.
+
+---
+
+### **Koh Ta Kiev**
+1. **The Last Point**:
+   - Offers hammock rentals for as low as $2 per night.
+   - A laid-back spot with a communal vibe and beachfront access.
+
+2. **Kactus Eco-Resort**:
+   - Provides hammock areas and eco-friendly accommodations.
+   - Located on a secluded beach.
+
+3. **Coral Beach**:
+   - A budget-friendly option with hammocks and basic facilities.
+   - Ideal for nature lovers.
+
+---
+
+These islands are perfect for budget travelers seeking a relaxed, hammock-swaying experience. Let me know if you’d like more details about any of these places!
+
 Here’s your final, all-in-one cheat sheet for Koh Rong:
 
 **Vinegar Making**: Ferment **500mL tamarind/dragon fruit juice** with acetic acid bacteria. Warm, oxygen-rich area (**25°C–30°C**). Ensure **5–8% alcohol content**; convert to acetic acid in **2 weeks**. Filter, sterilize for storage. Yield: **80–90% usable vinegar**. **Cleanliness essential**.
