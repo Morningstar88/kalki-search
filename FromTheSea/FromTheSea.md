@@ -1,6 +1,6 @@
 ## From The Sea. Civilization Basics. 
 
-### Vinegar, Sourdough from Zero, Yeast Propogation, Hammocks, Low-Aluminium, Farming By The Sea, Yard Beans, Seawater Agriculture, and more..
+### Vinegar, Sourdough from Zero, Yeast Propogation, Hammocks, Low-Aluminium, Farming By The Sea, Yard Beans, Seawater Agriculture, Duckweed, and more..
 
 Here’s a list of low-budget hammock-friendly spots across Koh Rong, Koh Rong Samloem, and Koh Ta Kiev, based on available information:
 
