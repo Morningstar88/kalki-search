@@ -894,3 +894,71 @@ Mud binders, often referred to as mud bricks or mud cement, are created by mixin
 - **Local Soil**: Koh Rong's soil may vary in composition. Test and adjust the mix by adding straw or lime if needed.
 - **Humidity**: High humidity can slow drying. Use covered drying racks or shelters to protect the binders.
 - **Sustainability**: Incorporate natural materials like coconut husks or palm fronds as additional binders.
+- 
+Great question! Yeast propagation—whether for baking, brewing, or biofuel—is all about creating the ideal conditions for yeast to multiply. Here’s how it’s done **industrially**, how you can do it **minimally at home**, and the role of **H₂O₂ (hydrogen peroxide)**.  
+
+---
+
+### **1. Industrial-Scale Yeast Propagation**  
+Large-scale yeast production (like for breweries or bakeries) involves **sterile, controlled fermentation** in **bioreactors**.  
+
+#### **Key Steps:**  
+1. **Starter Culture** – A pure lab strain (e.g., *Saccharomyces cerevisiae*) is grown in small batches.  
+2. **Scaled-Up Fermentation** – Transferred to larger vessels with:  
+   - **Nutrients** (molasses, malt extract, nitrogen, minerals)  
+   - **Oxygen** (for aerobic growth, since yeast multiplies faster with O₂)  
+   - **pH & temp control** (~30°C for baker’s yeast)  
+3. **Harvesting** – Yeast is separated (centrifuged), washed, and packed as wet cake or dried.  
+
+#### **Why Industrial Scale Works:**  
+✔ **Sterility** – Prevents bacterial contamination.  
+✔ **Precision** – Optimizes growth rates with sensors and automation.  
+
+---
+
+### **2. Minimalist Home Yeast Propagation**  
+You can maintain a **near-infinite yeast supply** with basic tools:  
+
+#### **Setup Needed:**  
+- **Yeast starter** (commercial yeast or wild capture)  
+- **Sugar source** (honey, fruit juice, malt extract)  
+- **Nutrients** (boiled bread yeast, eggshells for minerals)  
+- **Clean containers** (mason jars, Erlenmeyer flasks)  
+- **Airlock or loose lid** (allows CO₂ out but keeps contaminants low)  
+
+#### **Process:**  
+1. **Day 1:** Mix 100ml warm (~30°C) sugar water + pinch of nutrients + yeast.  
+2. **Days 2–4:** Feed daily with more sugar/nutrients (stir for O₂).  
+3. **Harvest:** Once bubbly/foamy, split the culture:  
+   - Use **½ for baking/brewing**,  
+   - Refrigerate **½ as backup** (slows growth; lasts weeks).  
+4. **Repeat:** Refresh stored yeast with fresh food weekly.  
+
+**Pro Tip:** For **wild yeast** (e.g., from fruit skins), skip commercial yeast and ferment naturally (like sourdough).  
+
+---
+
+### **3. Role of H₂O₂ (Hydrogen Peroxide)**  
+H₂O₂ is a **sterilizing agent** and **oxygen source**, but it’s tricky with yeast:  
+
+#### **Possible Uses:**  
+✔ **Sterilizing Equipment** – Dilute H₂O₂ (3%) can sanitize jars/tools (rinse well!).  
+✔ **Oxygen Boost** – *Very dilute* H₂O₂ breaks down into **H₂O + O₂**, which yeast can use.  
+   → Some brewers add **tiny amounts** (<0.1%) to wort for O₂ (but risky—can kill yeast if overdone).  
+
+#### **Dangers:**  
+❌ **Yeast Damage** – H₂O₂ is antimicrobial; too much kills yeast.  
+❌ **Off-Flavors** – Can stress yeast, producing bad tastes in beer/bread.  
+
+**Better Alternatives for O₂:**  
+- **Shaking/stirring** the starter (free and safe).  
+- **Aquarium air pump** with sterile filter (for larger batches).  
+
+---
+
+### **Key Takeaways:**  
+- **Industrial yeast farming** uses sterile bioreactors + nutrients.  
+- **At home**, you can keep yeast alive indefinitely with **regular feeding** and **clean practices**.  
+- **H₂O₂ is risky**—better for sterilizing than oxygenating.  
+
+Want to dive deeper into **wild yeast strains** or **large-scale nutrient recipes**? Let me know!
