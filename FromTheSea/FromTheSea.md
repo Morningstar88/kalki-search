@@ -384,7 +384,7 @@ Hydrogen peroxide plays a vital role in mushroom cultivation:
 
 ---
 
-# MUSHRROMS
+# MUSHROOMS
 
 Certainly! Here's a detailed document on mushroom farming by the sea, with a focus on using market-bought or driftwood mushrooms, tailored to the unique environment of Koh Rong and other Cambodian islands.
 
