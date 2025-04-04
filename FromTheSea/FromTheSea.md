@@ -36,6 +36,23 @@ Here’s a list of low-budget hammock-friendly spots across Koh Rong, Koh Rong S
 
 ---
 
+The ferry port near Happy Elephant Bungalows is located in **Koh Touch**, the main village on Koh Rong Island. Here’s what you can expect:
+
+1. **Accessibility**:
+   - Happy Elephant Bungalows are just a **short walk** from the ferry port, making it convenient for travelers arriving by boat.
+   - Koh Touch ferry port is the primary entry point for visitors to Koh Rong, with regular ferries arriving from Sihanoukville.
+
+2. **Facilities**:
+   - The port area has basic amenities, including small shops, restaurants, and bars. It’s a lively spot where you can grab a quick bite or stock up on essentials.
+   - You’ll find tuk-tuks and motorbike rentals nearby if you want to explore further.
+
+3. **Atmosphere**:
+   - Koh Touch is bustling and vibrant, with a mix of backpackers, locals, and vendors. The port area reflects this energy, offering a warm welcome to visitors.
+
+Happy Elephant Bungalows are tucked away from the main street, providing a quieter retreat while still being close to the action. Let me know if you’d like more details about Koh Touch or the surrounding area!
+
+---
+
 ### **Koh Ta Kiev**
 1. **The Last Point**:
    - Offers hammock rentals for as low as $2 per night.
@@ -48,6 +65,51 @@ Here’s a list of low-budget hammock-friendly spots across Koh Rong, Koh Rong S
 3. **Coral Beach**:
    - A budget-friendly option with hammocks and basic facilities.
    - Ideal for nature lovers.
+
+---
+
+### **Hammock Spots and Their Proximity to Ferry Ports**
+
+Here’s a rough guide to the hammock-friendly spots and their relation to the ferry ports:
+
+#### **Koh Rong**
+1. **Mad Monkey Hostel (Long Set Beach)**:
+   - About a **30-minute walk** or a **10-minute boat ride** from Koh Touch ferry port.
+2. **Happy Elephant (Koh Touch)**:
+   - Located **right near the Koh Touch ferry port**, making it very accessible.
+3. **White Beach Bungalows**:
+   - A **5–10 minute walk** along the beach from Koh Touch ferry port.
+
+#### **Koh Rong Samloem**
+1. **Robinson Bungalows (Sunset Beach)**:
+   - A **30–40 minute jungle trek** from Saracen Bay ferry port.
+2. **Bong’s Guesthouse (M’Pai Bay)**:
+   - Located **right near the M’Pai Bay ferry port**, very convenient.
+3. **Sleeping Trees (Saracen Bay)**:
+   - A **10–15 minute walk** along Saracen Bay from the ferry port.
+
+#### **Koh Ta Kiev**
+1. **The Last Point**:
+   - A **short walk** from the main drop-off point on Koh Ta Kiev.
+2. **Kactus Eco-Resort**:
+   - About a **15–20 minute walk** from the ferry drop-off.
+3. **Coral Beach**:
+   - A **10–15 minute walk** from the ferry landing area.
+
+---
+
+### **Walking Around Koh Rong**
+
+Koh Rong is a large island with a total area of about **78 square kilometers**. Walking around or through the island depends on your route and fitness level:
+
+1. **Walking Through the Island**:
+   - A trek from Koh Touch (the main tourist area) to Long Set Beach or Sok San Beach can take **2–4 hours**, depending on the path and conditions.
+   - Jungle trails are available but can be challenging due to uneven terrain and heat.
+
+2. **Walking Around the Island**:
+   - Circumnavigating the entire island on foot is not practical due to dense jungle and undeveloped areas. However, exploring specific beaches and trails is a rewarding experience.
+
+If you’re planning to explore on foot, bring plenty of water, sunscreen, and sturdy shoes. Let me know if you’d like tips on specific trails or activities!
 
 ---
 
