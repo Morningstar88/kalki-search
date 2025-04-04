@@ -66,7 +66,50 @@ Happy Elephant Bungalows are tucked away from the main street, providing a quiet
    - A budget-friendly option with hammocks and basic facilities.
    - Ideal for nature lovers.
 
+--- 
+
+Yoga on Koh Rong, Koh Rong Samloem, and Koh Ta Kiev offers serene and rejuvenating experiences, blending the natural beauty of these islands with the practice of mindfulness and movement. Here's a breakdown of yoga opportunities on each island:
+
 ---
+
+### **Koh Rong**
+1. **The Royal Sands Yoga Sala**:
+   - Located at The Royal Sands Resort, this outdoor yoga sala overlooks the mountains of Koh Rong, offering a tranquil setting for yoga and meditation.
+   - Classes are available for guests, and the serene environment enhances the experience.
+
+2. **Independent Practice**:
+   - Koh Rong's quieter beaches, like Long Set Beach, provide perfect spots for self-guided yoga sessions. Bring your mat and enjoy the sound of the waves.
+
+---
+
+### **Koh Rong Samloem**
+1. **Laguna Yoga (Saracen Bay)**:
+   - Offers yoga holidays and drop-in classes at Laguna Resort. The yoga platform at sea provides a unique experience, combining the sound of the ocean with guided sequences.
+   - Resident teacher Maija leads classes that cater to all levels.
+
+2. **Sunset Beach Yoga**:
+   - Located on Sunset Beach, this spot combines yoga with other wellness practices like Reiki and acupuncture.
+   - The peaceful beach setting is ideal for relaxation and mindfulness.
+
+3. **Beach House Cambodia (M’Pai Bay)**:
+   - Some accommodations, like Beach House Cambodia, offer yoga classes as part of their retreat packages.
+
+---
+
+### **Koh Ta Kiev**
+1. **Kactus Eco-Resort**:
+   - This off-grid resort offers yoga sessions in a serene, natural setting. The yoga space is surrounded by lush greenery and overlooks the beach.
+   - Classes are tailored to guests, focusing on relaxation and connection with nature.
+
+2. **Independent Practice**:
+   - Koh Ta Kiev’s secluded beaches and tranquil atmosphere make it perfect for self-guided yoga. The lack of distractions allows for deep focus and meditation.
+
+---
+
+### **Why Yoga on These Islands?**
+The islands' natural beauty, with their pristine beaches, lush jungles, and calming ocean sounds, creates an ideal environment for yoga. Whether you're a beginner or an experienced practitioner, the combination of yoga and the islands' tranquility offers a unique opportunity to recharge and reconnect.
+
+Let me know if you'd like more details about any of these yoga spots or tips for practicing yoga in tropical environments!
 
 ### **Hammock Spots and Their Proximity to Ferry Ports**
 
