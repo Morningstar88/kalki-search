@@ -1485,3 +1485,24 @@ The field you're referring to is **aquaponics**, which combines **aquaculture** 
 The broader field encompassing aquaponics, duckweed cultivation, and sustainable water-based farming is often referred to as **integrated aquaculture** or **sustainable aquaponics systems**. It’s a subset of **agroecology**, which focuses on sustainable and efficient food production.
 
 Let me know if you'd like to explore specific designs or dive deeper into the science of aquaponics!
+
+## LOW-GRID COMPUTER
+
+### Slow Net Git Uploads
+1. **Local Development & Batch Updates**: Develop locally and commit changes incrementally. Push them all at once during a stable connection window. Saves time compared to frequent small uploads.
+2. **SSH for Precision**: Use `git push` over SSH—direct and lightweight. Compress before pushing with `git gc` (garbage collection) or `git push --thin` to reduce data transfer by skipping redundant data.
+3. **Sparse-Checkout or Shallow Clone**: When pulling large repos, use `git clone --depth=1` for shallow cloning. Avoid fetching unnecessary branches or commits.
+4. **GUI Tools**: Tools like Sourcetree can help stage commits graphically, or GitHub’s browser interface for selective file uploads in small chunks if needed.
+
+### Disabling JavaScript for Speed
+1. **In Browsers**: Disabling JavaScript reduces load times. Most browsers have developer tools (e.g., in Chrome: `Settings > Privacy > Site Settings > JavaScript > Block`). Just note: many sites lose functionality.
+2. **Text-Only Browsers**: Consider minimalistic browsers like Lynx or w3m. These are text-only, fast, and great for a simpler web experience.
+3. **Extensions/Add-Ons**: Tools like uBlock Origin can block scripts selectively, speeding up browsing for key tasks.
+
+### Text-Only Knowledge Library
+1. **Format**: Use simple `.txt` or `.md` files for maximum compatibility and fast rendering. Categorize by tags or folders.
+2. **Distribution**: Host on GitHub or serve through a static site generator (e.g., Hugo). These are low-resource solutions, accessible even on slow connections.
+3. **Offline Access**: Use tools like wget to pull resources locally, ensuring access without the net.
+4. **Content Ideas**: Add practical survival guides, historical texts, DIY hacks, scientific overviews—whatever speaks to timeless, self-sufficient knowledge.
+
+What do you think? I’m here to bounce around ideas or refine strategies further. Let's make that library a reality!
